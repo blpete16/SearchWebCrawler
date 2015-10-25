@@ -3,33 +3,41 @@
 #http://h3manth.com/new/blog/2013/web-crawler-with-python-twisted/
 
 import os
+from Utilities import *
 from bs4 import BeautifulSoup
 from twisted.web.client import getPage
+from twisted.internet import reactor
 import sqlite3
+import time
+import thread
+from threading import Thread
 
+SLEEPTIME = 10
 STARTNEW = True
 url_buffer = []
 BASEFILE = "baseurls.dat"
 DATABASEFILE = "index.db"
+terminate = False
 
 def makeconn():
     return sqlite3.connect(DATABASEFILE)
 
-def extractPageInfo(html):
+def extractPageInfo(html, hop=0):
+    dbgprint("First line extract")
     soup = BeautifulSoup(html)
     soup.prettify()
     for atag in soup.findAll('a'):
-        print alink
+        dbgprint(alink)
     for titletag in soup.findAll('Title'):
-        print titletag
+        dbgprint(titletag)
     
-def CrawlPage(url, masterindex):
+def CrawlPage(url, hop=0):
     deferred = getPage(url)
-    deferred.addCallback(extractPageInfo)
-    #deferred.addCallback(unionWithMaster, masterindex)
+    dbgprint("before deferred add")
+    deferred.addCallback(extractPageInfo, hop=hop)
         
     
-def CrawlPages():
+def Setup():
     if(not os.path.isfile(DATABASEFILE)):
         conn = makeconn()
         c = conn.cursor()
@@ -38,9 +46,25 @@ def CrawlPages():
         filebase = open(BASEFILE, 'r')
         for line in filebase:
             val = sql_safe_text(line)
-            c.execute('INSERT INTO urls (url) VALUES ("' + val + '")')
+            c.execute('INSERT INTO urls (url, visited) VALUES ("' + val + '", 0)')
         filebase.close()
         conn.commit()
         conn.close()
-    while(True):
-        
+
+def PrimeDeferreds():
+    conn = makeconn()
+    c = conn.cursor()
+    dbgprint("Before query")
+    c.execute('SELECT * FROM urls WHERE visited=0')
+    rows = c.fetchall()
+    for row in rows:
+        idval = row[0]
+        urlval = row[1]
+        urlvalascii = urlval.encode('ascii','ignore')
+        dbgprint("Before crawlpage: " + urlvalascii)
+        CrawlPage(urlvalascii, hop=5)
+
+if __name__ == "__main__":
+    Setup()
+    PrimeDeferreds()
+    reactor.run()
