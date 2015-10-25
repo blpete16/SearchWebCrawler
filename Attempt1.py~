@@ -1,0 +1,46 @@
+#references for writing this included
+#beautiful soup homepage 
+#http://h3manth.com/new/blog/2013/web-crawler-with-python-twisted/
+
+import os
+from bs4 import BeautifulSoup
+from twisted.web.client import getPage
+import sqlite3
+
+STARTNEW = True
+url_buffer = []
+BASEFILE = "baseurls.dat"
+DATABASEFILE = "index.db"
+
+def makeconn():
+    return sqlite3.connect(DATABASEFILE)
+
+def extractPageInfo(html):
+    soup = BeautifulSoup(html)
+    soup.prettify()
+    for atag in soup.findAll('a'):
+        print alink
+    for titletag in soup.findAll('Title'):
+        print titletag
+    
+def CrawlPage(url, masterindex):
+    deferred = getPage(url)
+    deferred.addCallback(extractPageInfo)
+    #deferred.addCallback(unionWithMaster, masterindex)
+
+def Buffer100():
+    unreadfile = open(URLLISTFILE, 'r')
+    seenfile = open(SEENURLS, 'r')
+    while(len(url_buffer) < 100):
+        
+    
+def CrawlPages():
+    if(not os.path.isfile(URLLISTFILE)):
+        filebase = open(BASEFILE, 'r')
+        midfile = open(URLLISTFILE, 'w')
+        for line in filebase:
+            midfile.write(line)
+        filebase.close()
+        midfile.close()
+    while(True):
+        Buffer100()

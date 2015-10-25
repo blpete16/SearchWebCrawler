@@ -1,0 +1,5 @@
+http://h3manth.com/new/blog/2013/web-crawler-with-python-twisted/
+http://www.crummy.com/software/BeautifulSoup/
+
+In looking through webpages of professors
+each of them placed their own name in a "title" html tag
