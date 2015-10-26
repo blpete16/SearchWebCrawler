@@ -24,11 +24,14 @@ def makeconn():
 
 def extractPageInfo(html, hop=0):
     dbgprint("First line extract")
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'html.parser')
     soup.prettify()
-    for atag in soup.findAll('a'):
-        dbgprint(alink)
-    for titletag in soup.findAll('Title'):
+    atags = soup.findAll('a')
+    for atag in atags:
+        pass
+        #dbgprint(atag)
+    titles = soup.findAll('title')
+    for titletag in titles:
         dbgprint(titletag)
     
 def CrawlPage(url, hop=0):
@@ -67,4 +70,6 @@ def PrimeDeferreds():
 if __name__ == "__main__":
     Setup()
     PrimeDeferreds()
+    reactor.callLater(5, reactor.stop)
     reactor.run()
+    print "Got here"
