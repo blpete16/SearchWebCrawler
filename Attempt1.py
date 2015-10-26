@@ -22,13 +22,18 @@ terminate = False
 def makeconn():
     return sqlite3.connect(DATABASEFILE)
 
-def extractPageInfo(html, hop=0):
+def GrabLink(url, atag):
+    val = atag.attrs["href"]
+    dbgprint(val)
+    return val
+
+def extractPageInfo(html, url, hop=0):
     dbgprint("First line extract")
     soup = BeautifulSoup(html, 'html.parser')
     soup.prettify()
     atags = soup.findAll('a')
     for atag in atags:
-        pass
+        linktext = GrabLink(url, atag)
         #dbgprint(atag)
     titles = soup.findAll('title')
     for titletag in titles:
@@ -37,7 +42,7 @@ def extractPageInfo(html, hop=0):
 def CrawlPage(url, hop=0):
     deferred = getPage(url)
     dbgprint("before deferred add")
-    deferred.addCallback(extractPageInfo, hop=hop)
+    deferred.addCallback(extractPageInfo, url, hop=hop)
         
     
 def Setup():
