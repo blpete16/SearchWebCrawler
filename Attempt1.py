@@ -24,6 +24,10 @@ def makeconn():
 
 def GrabLink(url, atag):
     val = atag.attrs["href"]
+    if(".edu" in val) or(".com" in val) or (".org" in val):
+        pass
+    else:
+        val = url + val
     dbgprint(val)
     return val
 
@@ -34,12 +38,13 @@ def extractPageInfo(html, url, hop=0):
     atags = soup.findAll('a')
     for atag in atags:
         linktext = GrabLink(url, atag)
-        #dbgprint(atag)
+        #CrawlPage(linktext, hop - 1)
     titles = soup.findAll('title')
     for titletag in titles:
         dbgprint(titletag)
     
 def CrawlPage(url, hop=0):
+    if(hop < 0):return
     deferred = getPage(url)
     dbgprint("before deferred add")
     deferred.addCallback(extractPageInfo, url, hop=hop)
