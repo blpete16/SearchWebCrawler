@@ -1,0 +1,12 @@
+
+class BaseFileContainer():
+    def __init__(self, filename):
+        self.filename = filename
+        self.filestrm = open(self.filename, 'r')
+
+    def read(self):
+        aline = self.filestrm.readline()
+        if(aline == ""):
+            return None
+        vals = aline.split(',')
+        
