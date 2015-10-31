@@ -1,7 +1,9 @@
 
+BASEFILE = 'BaseWebpages.csv'
+
 class BaseFileContainer():
-    def __init__(self, filename):
-        self.filename = filename
+    def __init__(self):
+        self.filename = BASEFILE
         self.filestrm = open(self.filename, 'r')
 
     def read(self):
@@ -10,7 +12,10 @@ class BaseFileContainer():
             self.filestrm.close()
             return None
         vals = aline.split(',')
-        return vals
+        if(len(vals < 6)):
+            return self.read()
+        twovals = vals[4:6]
+        return twovals
 
     def close(self):
         self.filestrm.close()

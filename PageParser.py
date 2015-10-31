@@ -18,7 +18,6 @@ from BaseFileContainer import BaseFileContainer
 SLEEPTIME = 10
 STARTNEW = True
 url_buffer = []
-BASEFILE = "baseurls.dat"
 DATABASEFILE = "index.db"
 terminate = False
 
@@ -61,6 +60,8 @@ def pullTerms(soup, url_id):
     textlist = list(set(textlist))
     for term in textlist:
         addterm(term, c, url_id)
+
+    c.execute("UPDATE urls SET visited = 1 WHERE url_id = " + str(url_id))
     conn.commit()
     conn.close()
     
@@ -91,7 +92,7 @@ def Setup():
                       (term text primary key)''')
         c.execute('''CREATE TABLE term_index
                       (term text, url_id integer, FOREIGN KEY(term) REFERENCES terms(term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
-        filebase = BaseFileContainer(BASEFILE)
+        filebase = BaseFileContainer()
         while True:
             tup = filebase.read()
             if(tup is None):
