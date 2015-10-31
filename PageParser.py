@@ -61,7 +61,7 @@ def pullTerms(soup, url_id):
     for term in textlist:
         addterm(term, c, url_id)
 
-    c.execute("UPDATE urls SET visited = 1 WHERE url_id = " + str(url_id))
+    c.execute("UPDATE urls SET visited = 1 WHERE id = " + str(url_id))
     conn.commit()
     conn.close()
     
@@ -120,6 +120,6 @@ def PrimeDeferreds():
 if __name__ == "__main__":
     Setup()
     PrimeDeferreds()
-    reactor.callLater(5, reactor.stop)
+    reactor.callLater(5*60, reactor.stop)
     reactor.run()
     print "Got here"

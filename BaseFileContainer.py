@@ -12,9 +12,14 @@ class BaseFileContainer():
             self.filestrm.close()
             return None
         vals = aline.split(',')
-        if(len(vals < 6)):
+        if(len(vals) < 6):
             return self.read()
         twovals = vals[4:6]
+        if(len(twovals[0]) == 0 or len(twovals[1]) == 0):
+            return self.read()
+        swap = twovals[1]
+        twovals[1] = twovals[0]
+        twovals[0] = swap
         return twovals
 
     def close(self):
