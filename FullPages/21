@@ -1,0 +1,612 @@
+
+
+
+David Picha - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fDPicha%2ehtm&NRNODEGUID=%7bD13C8317-11D0-456C-AE3F-2DAF7DEE4B27%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Vice President and Dean's Office
+
+Extension
+
+Research
+
+College of Agriculture
+Professional Organizations
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+College of Agriculture
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: David PichaTitle: ProfessorSpecialization: Postharvest Physiology of Horticultural CropsE-mail: Department: School of Plant, Environmental and Soil SciencesOrganization: LSU AgCenterAddress 1: 125A J. C. Miller HallAddress 2: Baton Rouge, LA 70803 - 2120Phone Number: (225) 578-2158Fax Number: 
+
+
+
+
+
+Education/TrainingB.S. University of MinnesotaM.S. Cornell UniversityPh.D. University of Florida
+
+Areas of Specialization/ResearchPostharvest Physiology of Horticultural Crops Tropical and Sub-Tropical HorticultureInternational Trade and Market Development
+Dr. Picha’s research involves the postharvest physiology and technology of fruit and vegetable crops. Areas of interest include sweetpotato carbohydrate metabolism, product nutritional and compositional analysis, modified atmosphere packaging, controlled atmosphere storage, value-added product development, and export market development of horticultural crops. 
+Dr. Picha is on the editorial board of the International Journal of Vegetable Science and regularly reviews manuscripts for the Journal of American Society for Horticulture Science, HortScience, HortTechnology, Journal of Food Quality, Postharvest Biology and Biotechnology, and the Journal of Food Science. He serves on multiple committees in the American Society of Horticulture Science and Institute of Food Technologists. 
+Dr. Picha has conducted numerous USDA Cochran Fellow training programs and international training workshops on production, postharvest care, and marketing of horticulture crops throughout the world.
+
+Professional ExperienceHORT 4010 Tropical/Sub-Tropical Horticulture HORT 4030 Plantation, Beverage and Tropical Nut Crops HORT 4040 International Horticulture HORT 4096 Postharvest Physiology of Horticultural Crops 
+
+Publications/Presentations/PatentsPicha, D.H. and M.S. Bowen. 2012. Carbohydrate changes in sweetpotato roots during curing. HortScience 47(9): S33. 
+Picha, D.H. and M.S. Bowen. 2012. Controlled atmosphere regulation of sweetpotato composition. HortScience 47(9): S33-34.
+Sweany, R.R, D.H. Picha, and C.A. Clark. 2012. Atmospheric conditions effect the growth and development of Rhizopus stolonifer and Penicillium. HortScience 47(9): S45-46.
+Sweany, R.R, D.H. Picha, and C.A. Clark. 2012. Evaluation of postharvest hot water treatments and bio-control agents for suppression of Rhizopus soft rot on sweetpotatoes. HortScience 47(9): S48.
+Sheibani, E., R.A. Arancibia, T. Kim, J.L. Main, D.H. Picha, F.B. Matta, and J.L. Silva. 2012. Baked Sweetpotato (Ipomoea batatas L. Lam) Quality is Affected by Preharvest Ethylene and Postharvest Curing. HortScience 47(9): S49.
+Sheibani, E., Kim, T., Wang, D. S., Silva, J. L., Arancibia, R., Matta, F. B. and Picha, D. 2012. Optimization of Hot Water Treatment for Sprout and Spoilage Inhibition of Cured Sweet Potato. Journal of Food Processing and Preservation. DOI: 10.1111/j.1745-4549.2012.00799.x
+Picha, D.H. and M. S. Bowen. 2011. Quality and market life of individually shrink-wrapped satsuma mandarins. HortScience 46(9):231.
+Picha, D. H. 2009. Nutrient Content of Commercial Sweetpotato Cultivars. HortScience 44(4): 1096-1097.
+Picha, D. 2009. Individual Shrink-wrapping of Sweet Potatoes: An Emerging Value-added Marketing Technique. Louisiana Agriculture. Vol. 52(2): 26-27.
+Picha, D. and M. Padda. 2009. Nutraceutical Compounds and Antioxidant Content of Sweet Potatoes. Louisiana Agriculture. Vol. 52(2): 24-25.
+Clark, C., D. Ferrin, D. LaBonte, D. Picha, T. Smith and A. Villordon. 2009. Managing Rhizopus Soft Rot on Sweet Potatoes. Louisiana Agriculture. Vol. 52(2): 14-15.
+Padda, M.S. and Picha, D.H. 2008. Phenolic composition and antioxidant capacity of different heat-processed forms of sweetpotato cv. ‘Beauregard’. Intl. J. Food Sci. Tech. 43(8): 1404-1409.
+Erturk, E. and Picha, D.H. 2008. The effects of packaging film and storage temperature on the internal package atmosphere and fermentation enzyme activity of sweetpotato slices. J. Food Processing and Preservation. 32(5): 817-838.
+Padda, M.S. and Picha, D.H. 2008. Effect of low temperature storage on phenolic composition and antioxidant activity of sweetpotatoes. Postharvest Biol. Technol. 47(2): 176-180.
+Erturk, E. and Picha, D.H. 2007. Effect of temperature and packaging film on nutritional quality of fresh-cut sweetpotatoes. J. Food Quality 30: 30: 450-465. 
+Padda, M.S. and Picha, D.H. 2007. Antioxidant activity and phenolic composition in ‘Beauregard’ sweetpotato are affected by root size and leaf age. J. Amer. Soc. Hort. Sci. 132(4):1-5. 
+Padda, M.S. and Picha, D.H. 2007. Methodology optimization for quantification of total phenolics and individual phenolic acids in sweetpotato (Ipomoea batatas L.) roots. J. Food Sci. 72(7):C412-C416.
+Picha, D.H. 2006. Individual shrink wrapping of sweetpotatoes: A value-added marketing trend. HortScience 40 (3): 517-518. 
+Erturk, E. and Picha, D.H. 2006. Microbiological quality of fresh-cut sweetpotatoes. Intl. Jour. of Food Science and Technology 41:366-374
+Padda, M.S. and Picha, D.H. 2006. Phenolic composition and antioxidant activity of sweetpotato cultivars marketed in the European Union. HortScience 41(4): 1017-1018.
+Picha, D.H. and Hinson, R.A. 2005. Export opportunity: More Louisiana sweetpotatoes to the U.K. Louisiana Agriculture, vol. 48, No. 3: 12-13.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{D13C8317-11D0-456C-AE3F-2DAF7DEE4B27}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					LSU AgCenter
+					101 J. Norman Efferson Hall
+					110 LSU Union Square
+					Baton Rouge, Louisiana 70803-0106225-578-4161
+				
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

@@ -1,0 +1,335 @@
+
+
+
+Welcome to Qingyang Wang's Homepage
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+Qingyang Wang
+
+
+  
+
+
+Assistant Professor
+
+
+Computer Science and Engineering Division
+
+
+LSU, School of Electrical Engineering and Computer Science
+
+
+
+
+
+
+Address:
+325 Electrical Engineering Building
+									LSU, Baton Rouge, LA 70803
+
+
+
+Phone:
+(225) 578-0959 (office)
+
+
+E-Mail:
+qywang@csc
+
+
+
+
+
+
+
+
+
+[Home]
+[Research]
+[Publications]
+[Activities]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Me
+
+
+
+
+
+
+
+
+						I am an assistant professor in the Department of Computer Science and Engineering at Louisiana State University. I earned my Ph.D. degree in Computer Science from Georgia Tech in 2014.
+						
+
+To prospective students:
+							I'm always looking for students who share my research interests and have a solid background in computer systems. If you are interested, please e-mail me with your CV and transcripts. 
+						
+
+
+
+
+
+
+Teaching
+
+
+
+
+
+ CS4610 Virtualization and Cloud Systems (Fall 2015)
+
+ CS4740 Big Data Technologies (Spring 2015)
+
+ CS2610 Cloud Fundamentals and Web Programming (Spring 2015, Fall 2014)
+
+
+
+
+
+
+Research
+
+
+
+
+
+
+
+
+							My research is in distributed systems and cloud computing with a current focus on  performance and scalability analysis of large-scale web applications (e.g., Amazon)
+							
+
+							My research is motivated by the essential requirement of simultaneously achieving good performance and high utilization for cost efficiency in cloud computing environments.  Good performance (e.g., fast response time) is critical for the business of e-commerce web applications like Amazon. High utilization through virtualization and hardware resource sharing is essential for cloud venders for high return on investment. However, both practitioners and researchers have experienced large response time fluctuations or unpredictable performance in cloud, especially when the utilization becomes high. To solve this problem, my research has been focusing on two aspects: first, investigate various system-level factors that cause the performance unpredictability of web applications running at high resource utilization; second, design, implement, and evaluate practical solutions to mitigate the negative impact of those factors and achieve the performance predictability at high resource utilization.
+							
+
+
+
+ 
+
+
+
+
+
+
+Publications
+
+
+
+
+2015
+
+ Qi Fan, Qingyang Wang, “Performance Comparison of Web Servers with Different Architectures: A Case Study using High Concurrency Workload”, In Proc. of the 3rd IEEE Workshop on Hot Topics in Web Systems and Technologies (HotWeb'15), Washington, D.C., USA, November 2015. 
+
+
+
+ Brian Peterson, Gerald Baumgartner, Qingyang Wang, “A Hybrid Cloud Framework for Scientific Computing”, In Proc. of the 8th International Conference On Cloud Computing (Cloud'15), New York City, USA, July 2015.(Acceptance rate: 15%) 
+
+
+2014
+
+  Qingyang Wang, Yasuhiko Kanemasa, Jack Li,Chien-An Lai, Chien-An Cho, Yuji Nomura, Calton Pu, “Lightning in the Cloud: A Study of Very Short Bottlenecks on n-Tier Web Application Performance”, In Proc. of USENIX Conference on Timely Results in Operating Systems (TRIOS'14), Broomfield, Colorado, Oct 2014. [presentation]
+
+
+
+ Jack Li, Qingyang Wang, Chien-An Lai, Junhee Park, Daisaku Yokoyama, Calton Pu, “The Impact of Software Resource Allocation on Consolidated n-Tier Applications”, In Proc. of the 7th International Conference On Cloud Computing (Cloud'14), Alaska, USA, June 2014.(Acceptance rate: 20%) 
+
+
+
+ Chien-An Lai, Qingyang Wang, Josh Kimball,Jack Li, Junhee Park, Calton Pu, “IO Performance Interference among Consolidated n-Tier Applications: Sharing is Better than Isolation for Disks”, In Proc. of the 7th International Conference On Cloud Computing (Cloud'14), Alaska, USA June 2014.(Acceptance rate: 20%) 
+
+
+2013
+
+ Qingyang Wang, Yasuhiko Kanemasa, Jack Li, Chien An Lai, Masazumi Matsubara, Calton Pu, “Impact of DVFS on n-Tier Application Performance”, In Proc. of ACM Conference on Timely Results in Operating Systems (TRIOS'13), Nemacolin Woodlands Resort, Farmington, Pennsylvania, November 2013. [ppt]
+
+
+
+  Qingyang Wang, Yasuhiko Kanemasa, Jack Li, Deepal Jayasinghe, Toshihiro Shimizu, Masazumi Matsubara, Motoyuki Kawaba, Calton Pu, “Detecting Transient Bottlenecks in n-Tier Applications through Fine-Grained Analysis”, In Proc. of the 33rd International Conference on Distributed Computing Systems (ICDCS'13), Philadelphia, Pennsylvania, July 2013.(Acceptance rate: 61/464=13.1%). [ppt]
+
+
+
+  Qingyang Wang, Yasuhiko Kanemasa, Jack Li, Toshihiro Shimizu, Masazumi Matsubara, Motoyuki Kawaba, Calton Pu, “Rapidly Alternating Bottlenecks: A Study of Two Cases in n-Tier Applications”, International Journal of Cloud Computing (IJCC), 1(1), pp. 13-25. 2013. (Extension of the Cloud'13 paper)
+
+
+
+  Qingyang Wang, Yasuhiko Kanemasa, Jack Li, Deepal Jayasinghe, Toshihiro Shimizu, Masazumi Matsubara, Motoyuki Kawaba, Calton Pu, “An Experimental Study of Rapidly Alternating Bottlenecks in n-Tier Applications”, In Proc. of the 6th International Conference On Cloud Computing (Cloud'13), Santa Clara, CA, July 2013. (Acceptance rate: 19%) (Runner-Up for Best Student Paper Award)[ppt]
+
+
+
+  Yasuhiko Kanemasa, Qingyang Wang, Jack Li, Masazumi Matsubara, Calton Pu, “Revisiting Performance Interference among Consolidated n-Tier Applications: Sharing is Better than Isolation”, In Proc. of the 10th International Conference on Services Computing (SCC'13), Santa Clara, CA, July 2013. 
+
+
+
+  Junhee Park, Qingyang Wang, Deepal Jayasinghe, Jack Li, Yasuhiko Kanemasa, Masazumi Matsubara, Calton Pu, “Variations in Performance Measurements of Multi-Core Processors: A Study of n-Tier Applications”, In Proc. of the 10th International Conference on Services Computing (SCC'13), Santa Clara, CA, July 2013. 
+
+
+
+  Jack Li, Qingyang Wang, Deepal Jayasinghe, Junhee Park, Tao Zhu, Calton Pu, “Performance Overhead Among Three Hypervisors: An Experimental Study using Hadoop Benchmarks”, In Proc. of the 2nd International Congress on Big Data (BigData Congress'13), Santa Clara, CA, July 2013. 
+
+
+
+ Deepal Jayasinghe, Simon Malkowski, Jack Li, Qingyang Wang, Zhikui Wang, Calton Pu, “Variations in Performance and Scalability: An Experimental Study in IaaS Clouds using Multi-Tier Workloads”, IEEE Transactions on Services Computing (TSC), 2013. 
+
+
+2012
+
+  Qingyang Wang, Yasuhiko Kanemasa, Motoyuki Kawaba, Calton Pu, “When Average is Not Average: Large Response Time Fluctuations in n-Tier Systems”, In Proc. of the 9th IEEE/ACM International Conference on Autonomic Computing 2012 (ICAC'12), San Jose, California, Sept. 2012.(Acceptance rate: 15/62= 24.1%)[ppt]
+
+
+
+  Qingyang Wang, Yasuhiko Kanemasa, Jack Li, Deepal Jayasinghe, Motoyuki Kawaba, Calton Pu, “Response Time Reliability in Cloud Environments: An Empirical Study of n-Tier Applications at High Resource Utilization”, In Proc. of the 31st International Symposium on Reliable Distributed Systems (SRDS'12), Short paper, Irvine, California, Oct. 2012.(Acceptance rate: 28/140= 20%)
+
+
+
+  Jack Li, Qingyang Wang, Yasuhiko Kanemasa, Deepal Jayasinghe, Simon Malkowski, Pengcheng Xiong, Motoyuki Kawaba, Calton Pu, “Profit-Based Experimental Analysis of IaaS Cloud Performance: Impact of Software Resource Allocation”, In Proc. of International Conference on Services Computing (SCC'12), Honolulu, Hawaii, USA, June. 2012.
+
+
+
+  Pengcheng Xiong, Jialie Shen, Qingyang Wang, Deepal Jayasinghe, Jack Li and Calton Pu, “NBS: A Network-Bandwidth-Aware Streaming Version Switcher for Mobile Streaming Applications under Fuzzy Logic Control”, In Proc. of IEEE International Conference On Mobile Services (MS'12), Honolulu, Hawaii, USA, June. 2012.
+
+
+
+  Deepal Jayasinghe, Galen Swint, Simon Malkowski, Jack Li, Qingyang Wang, Junhee Park, Calton Pu, “Expertus: A Generator Approach to Automate Performance Testing in IaaS Clouds”, In Proc. of IEEE International Conference On Cloud Computing (Cloud'12), Honolulu, Hawaii, USA, June. 2012.
+
+
+
+  Simon Malkowski, Yasuhiko Kanemasa, Hanwei Chen, Masao Yamamoto, Qingyang Wang, Deepal Jayasinghe, Masao Yamamoto, Motoyuki Kawaba, Calton Pu, “Challenges and Opportunities in Consolidation at High Resource Utilization: Non-monotonic Response Time Variations in n-Tier Applications”, In Proc. of IEEE International Conference On Cloud Computing (Cloud'12), Honolulu, Hawaii, USA, June. 2012.
+
+
+2011
+
+  Qingyang Wang, Simon Malkowski, Yasuhiko Kanemasa, Deepal Jayasinghe, Pengcheng Xiong, Calton Pu, Motoyuki Kawaba,Lilian Harada, “The Impact of Soft Resource Allocation on n-Tier Application Scalability”, In Proc. of the 25th IEEE International Symposium on Parallel and Distributed Processing (IPDPS'11), May 2011.(Acceptance rate: 112/571=19.6%)[ppt]
+
+
+
+ Deepal Jayasinghe, Simon Malkowski, Qingyang Wang, Jack Li, Pengcheng Xiong, Calton Pu, “Variations in Performance and Scalability When Migrating N-tier Applications to Different Clouds”, In Proc. of IEEE International Conference On Cloud Computing (Cloud'11), Jun 21-24. (Best Student Paper Award)
+
+
+
+ Pengcheng Xiong, Zhikui Wang, Simon Malkowski, Qingyang Wang, Deepal Jayasinghe, Calton Pu, “Economical and Robust Provisioning of N-Tier Cloud Workloads: A Multi-level Control Approach”, In Proc. of IEEE International Conference On Distributed Computing Systems(ICDCS'11), Jun 21-24.(Acceptance rate: 87/565= 15.4%)
+
+
+Before 2011
+
+  Qingyang Wang, Jingshu Chen, Xibin Gao, Wei Zhou, Baoping Yan, “A New Architecture of Data Access Middleware under Grid Environment”, In Proc. of 1st Asia-Pacific Services Computing Conference (APSCC'06), September 2006. 
+
+
+
+  Qingyang Wang, Deting Yang, Jingshu Chen, Xibing Gao, Baoping Yan, “Application of Universal Relation in the Data Access Middleware under Grid Environment”, In Proc. of the 20th CODATA international conference (CODATA’06), June 2006. 
+
+
+
+  Jingshu Chen, Hong Wu, Qingyang Wang, “A reflective framework for authentication in Grid Computing Environments”, In Proc. of the 5th international conference on Grid and Cooperative Computing (GCC'06), October 2006.
+
+
+
+
+
+
+Patents
+
+
+
+
+
+  Yasuhiko Kanemasa, Calton Pu, Qingyang Wang, “Computer Program, Method, and Information Processing Apparatus for Analyzing Performance of Computer System”, Appl. No. US 13/587,544, 2012. 
+
+
+
+  Yasuhiko Kanemasa, Motoyuki Kawaba, Calton Pu, Qingyang Wang, “Information Processing Apparatus, Computer Program, and Method for Controlling Execution of Jobs”, Appl. No. US 13/597,507, 2012. 
+
+
+
+  Yasuhiko Kanemasa, Motoyuki Kawaba, Calton Pu, Qingyang Wang, “Method, Computer Program, and Information Processing Apparatus for Analyzing Performance of Computer System”, Appl. No. US 13/373,047, 2011. 
+
+
+
+
+
+
+Recent Professional Activities 
+
+
+
+
+
+ ICPP'16, PC member, track on Data Centers and Cloud Computing
+
+ IEEE Cloud'15, Area Chair in Performance, scalability, and reliability
+
+ HotWeb'15, PC member
+
+ CollabCloud'14, PC member
+
+ Journal reviews: IEEE Transactions on Services Computing (TSC), IEEE Transactions on Computers (TC), IEEE Transactions on Parallel and Distributed Systems (TPDS), Journal of Parallel and Distributed Computing (JPDC)
+
+
+
+
+
+
+Experiences
+
+
+
+
+
+Short Bio
+
+ 05/2009-08/2009 Summer Research Intern at IntercontinentalExchange, Inc
+
+ 05/2008-08/2008 Summer Research Intern at IBM T.J.Watson Research Lab
+
+ 07/2006-10/2006 Summer Intern student at IBM China Research Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+Last Updated: Feb. 8, 2015
+
+
+
+

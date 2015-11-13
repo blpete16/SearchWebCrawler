@@ -12,13 +12,14 @@ from stemming.porter2 import stem
 import sqlite3
 import time
 import thread
+import math
 from threading import Thread
 from BaseFileContainer import BaseFileContainer
+from Utilities import PGFOLDER, DATABASEFILE
 
 SLEEPTIME = 10
 STARTNEW = True
 url_buffer = []
-DATABASEFILE = "index.db"
 terminate = False
 
 def makeconn():
@@ -46,20 +47,41 @@ def sanitize(text):
             output = output + letter
     return output
 
-def addterm(aterm, c, url_id):
-    c.execute('INSERT OR IGNORE INTO terms(term) VALUES("'+aterm+'")')
-    c.execute('INSERT INTO term_index(term, url_id) VALUES("'+aterm+'",'+str(url_id)+')') 
+def addterm(aterm, c, url_id, freq):
+    c.execute('INSERT OR IGNORE INTO terms(_term, docs) VALUES("'+aterm+'",0)')
+    c.execute('INSERT INTO term_index(_term, url_id, freq) VALUES("'+aterm+'",'+str(url_id)+ ',' + str(freq) + ')') 
+    c.execute('SELECT docs FROM terms WHERE _term = "' + aterm + '"')
+    fetched = c.fetchone()
+    val = int(fetched[0])
+    val = val + 1
+    dbgprint (aterm + " SET TO " + str(val))
+    c.execute('UPDATE terms SET docs=' + str(val) + ' WHERE _term = "' + aterm + '"')
+    
+    if(DEBUG):
+        c.execute('SELECT docs FROM terms WHERE _term = "peterson"')
+        rows = c.fetchall()
+        if(len(rows) > 0):
+            val = int(rows[0][0])
+            if(val == 4):
+                dbgprint("IT WAS THIS ONE!!!")
+                dbgprint("ID  " + str(url_id))
+                dbgprint("TERM  "+aterm)
 
-def pullTerms(soup, url_id):
+def dropToFile(url_id, text):
+    with open(PGFOLDER + str(url_id), 'w') as outfile:
+        outfile.write(text.encode('utf8'))
+
+def pullTerms(textvals, url_id):
     conn = makeconn()
     c = conn.cursor()
-    textvals = soup.get_text()
     textlist = textvals.split()
     textlist = map(sanitize, textlist)
     textlist = map(stem, textlist)
-    textlist = list(set(textlist))
-    for term in textlist:
-        addterm(term, c, url_id)
+    singletextlist = list(set(textlist))
+    singletextlist = filter(len, singletextlist)
+    for term in singletextlist:
+        freq = textlist.count(term)
+        addterm(term, c, url_id, freq)
 
     c.execute("UPDATE urls SET visited = 1 WHERE id = " + str(url_id))
     conn.commit()
@@ -71,7 +93,23 @@ def extractPageInfo(html, url_id):
     soup.prettify()
 
     dbgprint("Before ModDB")
-    pullTerms(soup, url_id)
+    textvals = soup.get_text()
+    dropToFile(url_id, textvals)
+    pullTerms(textvals, url_id)
+
+def Clean():
+    conn = makeconn()
+    c = conn.cursor()
+    c.execute("DROP TABLE term_index")
+    c.execute("DROP TABLE terms")
+    conn.commit()
+    c = conn.cursor()
+    c.execute('''CREATE TABLE terms
+                      (_term text primary key, docs integer, idf float)''')
+    c.execute('''CREATE TABLE term_index
+                      (_term text, url_id integer, freq integer, FOREIGN KEY(_term) REFERENCES terms(_term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+    conn.commit()
+    conn.close()
     
 def CrawlPage(url, url_id):
     if(url is None):return
@@ -89,9 +127,9 @@ def Setup():
         c.execute('''CREATE TABLE urls 
                       (id integer primary key, url text not null, author text, visited bit )''')
         c.execute('''CREATE TABLE terms
-                      (term text primary key)''')
+                      (_term text primary key, docs integer, idf float)''')
         c.execute('''CREATE TABLE term_index
-                      (term text, url_id integer, FOREIGN KEY(term) REFERENCES terms(term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+                      (_term text, url_id integer, freq integer, FOREIGN KEY(_term) REFERENCES terms(_term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
         filebase = BaseFileContainer()
         while True:
             tup = filebase.read()
@@ -106,7 +144,7 @@ def PrimeDeferreds():
     conn = makeconn()
     c = conn.cursor()
     dbgprint("Before query")
-    c.execute('SELECT * FROM urls WHERE visited=0')
+    c.execute('SELECT * FROM urls')
     rows = c.fetchall()
     conn.close()
     for row in rows:
@@ -114,12 +152,37 @@ def PrimeDeferreds():
         urlval = row[1]
         urlvalascii = urlval.encode('ascii','ignore')
         dbgprint("Before crawlpage: " + urlvalascii)
-        CrawlPage(urlvalascii, idval)
+        if(not os.path.isfile(PGFOLDER+str(idval))):
+            CrawlPage(urlvalascii, idval)
+            dbgprint("SHOULD NOT BE HERE!")
+        else:
+            wholefile = ""
+            with open(PGFOLDER+str(idval), 'r') as afile:
+                wholefile = afile.read()
+            pullTerms(wholefile, idval)
+
+def calcIDF():
+    
+    conn = makeconn()
+    c = conn.cursor()
+    c.execute('SELECT COUNT(id) FROM urls')
+    numpages = float(int(c.fetchone()[0]))
+    c.execute('SELECT _term, docs from terms')
+    rows = c.fetchall()
+    for row in rows:
+        term = str(row[0])
+        docs = int(row[1])
+        idf = math.log(numpages / docs)
+        c.execute('UPDATE terms SET idf='+str(idf)+' WHERE _term ="' + term + '"')
+    conn.commit()
+    conn.close()
 
 
 if __name__ == "__main__":
     Setup()
+    Clean()
     PrimeDeferreds()
     reactor.callLater(5*60, reactor.stop)
     reactor.run()
+    calcIDF()
     print "Got here"

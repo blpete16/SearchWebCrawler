@@ -1,0 +1,499 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	function moreNewsActive() {
+		$('img.moreNewsActive').css('visibility','visible');
+		$('img.moreNewsInactive').css('visibility','hidden');
+	}
+	function moreNewsInactive() {
+		$('img.moreNewsActive').css('visibility','hidden');
+		$('img.moreNewsInactive').css('visibility','visible');
+	}
+
+
+
+	$(function() {
+		$('.lightbox a').lightBox();
+	});
+
+
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25412218-12']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+
+EECS Division of Computer Science
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOG IN TO MyLSU    |    SEARCH LSU.EDU    |    COLLEGE OF ENGINEERING
+
+
+
+
+
+Division of
+Computer Science And Engineering
+
+
+
+
+
+
+HOME
+
+
+ABOUT  US
+
+
+General Info
+
+
+Vision and Mission
+
+
+Strategic Goals
+
+
+Handbook
+
+
+News and Events
+
+
+
+
+Faculty Recruiting
+
+
+Advisory Council
+
+
+IAC Members
+
+
+IAC Meetings
+
+
+
+
+Awards and Honors
+
+
+Faculty
+
+
+Student
+
+
+
+
+History
+
+
+Contact Us
+
+
+
+
+ACADEMICS
+
+
+Undergraduate
+
+
+Major in Computer Science
+
+
+Minor in Computer Science
+
+
+Course Flowcharts
+
+
+Scholarships
+
+
+Advising
+
+
+Undergraduate News
+
+
+
+
+Graduate
+
+
+PhD in Computer Science
+
+
+MS in Computer Science
+
+
+Admission Requirements
+
+
+Financial Information
+
+
+Advising
+
+
+Graduate News
+
+
+
+
+Courses
+
+
+Course Catalog Offerings
+
+
+Course Schedule
+
+
+
+
+Apply Now
+
+
+Undergraduate
+
+
+Graduate
+
+
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Professorial Faculty
+
+
+Instructors
+
+
+Adjuncts / Emeritus
+
+
+Postdocs
+
+
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+RESEARCH
+
+
+Areas
+
+
+Theoretical Foundations
+
+
+Systems and Architecture
+
+
+Databases and Data Analytics
+
+
+Software
+
+
+Computational Science
+
+
+Digital Media
+
+
+
+
+Facilities
+
+
+Computing Cluster
+
+
+Database Server
+
+
+Embedded Systems
+
+
+Microsoft Surfaces
+
+
+Networking
+
+
+Robotics
+
+
+Visualization
+
+
+Software Systems
+
+
+
+
+Funding
+
+
+Publications
+
+
+Journals
+
+
+Proceedings
+
+
+Book Chapters
+
+
+PhD / MS Theses
+
+
+
+
+Seminars
+
+
+Research Talks
+
+
+Grad Student Talks
+
+
+
+
+High Performance Computing
+
+
+
+
+ALUMNI
+
+
+Alumni News
+
+
+Recent Alumni
+
+
+Giving to CSE
+
+
+LSU Foundation
+
+
+
+
+STUDENT  LIFE
+
+
+Prospective Students
+
+
+Incoming Students
+
+
+Student Organizations
+
+
+Academic Advising
+
+
+Undergraduate
+
+
+Graduate
+
+
+
+
+Important Dates
+
+
+LSU Academic Calendar
+
+
+Graduate Calendar
+
+
+
+
+Careers and Research
+
+
+Student News
+
+
+Tutoring
+
+
+
+
+CONTACT  US
+ 
+
+
+
+
+
+
+
+            	Welcome to the Division of Computer Science and Engineering            
+
+
+
+Home    /    People    /    Faculty    /    Brygg Ullmer 
+
+
+
+
+
+
+Brygg Ullmer
+Associate Professor
+
+
+
+2020 Digital Media Center
+
+
+
+Louisiana State University
+Baton Rouge, LA 70803
+
+
+
+
+Phone: 225 578 3631
+
+ullmer@csc.lsu.edu
+
+Educational Background
+Ph.D. in Media Arts and Sciences, Massachusetts Institute of Technology, 2002M.S. in Media Arts and Sciences, Massachusetts Institute of Technology, 1997
+ 
+Research Interests
+Tangible Interfaces, Visualization, Computational Genomics, Rapid Physical and Electronic Prototyping
+ 
+Teaching Responsibilities
+CSC 4700: Human-Computer Interface Design+TechnologyCSC 4103: Operating Systems
+ 
+Selected Publications
+O. Shaer, A. Mazalek, B. Ullmer, and M. Konkel. From big data to insights: opportunities and challenges for TEI in genomics, Proc. of TEI'13, 2013
+B. Ullmer. Entangling Space, Form, Light, Time, Computational STEAM, and Cultural Artifacts. interactions, 2012
+B. Ullmer, G. Ardaud, C. Dell, A. Reeser, N. Setty, R. Sankaran, C. Toole, C. Branton, and J. Allison. Employing and extending mass-market platforms as core tangibles. Proc. of TEI'12 WiP, 2012
+J. Walker, M. Konkel, B. Ullmer, C. Monceaux, O. Ryder, R. Hubley, A. Smit, and M. Batzer. Orangutan Alu quiescence reveals possible source element: support for ancient backseat drivers. Mobile DNA, 2012
+D. Locke, L. Hillier, W. Warren, et al. (including B. Ullmer, M. Konkel, and M. A. Batzer). Comparative and demographic analysis of orang-utan genomes. Nature, 469:529-533, 2011. (cover article)
+B. Ullmer, C. Dell, C. Gill, C. Toole, C. Wiley, Z. Dever, L. Rogge, R. Bradford, G. Riviere, R. Sankaran, K. Liu, C. Freeman, A. Wallace, M. DeLatin, C. Washington, A. Reeser, C. Branton, and R. Parker. Casier: Structures for composing tangibles and complementary interactors for use across diverse systems. In Proc. of Tangible, Embedded, and Embodied Interaction (TEI), 2011
+ 
+Personal Homepage
+
+
+cse News
+
+
+
+
+
+
+
+
+
+
+
+
+Sep 11, 2015
+Students, alumni form video game development company After Hours Lab LLC
+
+
+Sep 9, 2015
+Research Seminar by Dr. Jay Park, September 9
+
+
+Sep 9, 2015
+Student Organization Spotlight: WICS 
+
+
+Sep 4, 2015
+Newly Named "MS in Computer Science" Degree
+
+
+ 
+
+
+
+
+
+
+Computer Science and Engineering
+LSU School of Electrical Engineering and Computer Science
+102F Electrical Engineering Building
+Baton Rouge, LA 70803
+225-578-1495 
+
+Copyright © 2011-2015.  All Rights Reserved.
+Official Web Page of Louisiana State University.
+
+
+
+HOMEABOUT  USACADEMICSPEOPLERESEARCHALUMNIAPPLY  ONLINECONTACT  US 
+
+
+
+
+

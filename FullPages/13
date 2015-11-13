@@ -1,0 +1,580 @@
+
+
+
+David Himelrick - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fDHimelrick%2ehtm&NRNODEGUID=%7bE9F24293-833A-4BDF-BCDF-3634E6546100%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Chancellor's Office
+
+Extension
+
+Research
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+Professional Organizations
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: David HimelrickTitle: ProfessorSpecialization: Fruit CropsE-mail: Department: School of Plant, Environmental and Soil SciencesOrganization: LSU AgCenterAddress 1: 137 J. C. Miller HallAddress 2: Baton Rouge, LA 70803 - 2120Phone Number: (225) 578-2158Fax Number: 
+
+
+
+
+
+Education/TrainingB.S. Plymouth State CollegeM.S. University of New HampshirePh. D. West Virginia University
+
+Areas of Specialization/ResearchCulture and Physiology of Fruit Crops
+
+Professional ExperienceDavid G. Himelrick is an internationally recognized author, researcher, extension specialist, and teacher in the area of fruit crops. He co-edited and authored the book Small Fruit Crop Management, which has become the standard text and reference in the area of small fruit production internationally. He also is the co-editor and author of a second definitive book titled Muscadine Grapes that was published by American Society for Horticultural Science. 
+He is the author of 66 refereed journal articles and hundreds of extension bulletins and popular articles. His extension publications have won numerous Extension Division Educational Materials and Blue Ribbon Awards. He recently co-authored an extensive new LSU AgCenter publication Louisiana Home Fruit and Nut Production. 
+Until recently he wrote a feature column called “Vine Lines” and then "Berries" for the American Fruit Grower magazine for 18 years. This column had international exposure and was seen by over 55,000 commercial fruit growers, researchers, and industry personnel each month. He was instrumental in the initiation, organization and development of the refereed journal Advances in Strawberry Production published by the North American Strawberry Growers Association and served as the original co-editor of this publication for several years. He also initiated and assisted in the development of a new scientific journal titled the Journal of Small Fruit and Viticulture that was published by Haworth Press. He served as the editor-in-chief of a continuation of the Journal of Small Fruit and Viticulture when the international journal was renamed Small Fruits Review. The journal has recently expanded to include tree fruit and has been renamed International Journal of Fruit Science, for which he has served as editor-in-chief for the past 13 years. He has also served as a reviewer for many research articles submitted to HortScience, HortTechnology, Journal of the American Society for Horticultural Science, Scientia Horticulturae, Canadian Journal of Plant Science, American Journal of Enology and Viticulture, American Society for Plasticulture, Advances in Strawberry Research, and Agriculture and Food Science in Finland. 
+Additionally, he has been active in a leadership role in numerous national and Southern region ASHS working groups and committees as well as numerous national conferences and state horticultural organizations. He coordinates the Baton Rouge Spring Garden Show each spring on the LSU campus. Each semester he teaches one of the most popular natural science elective General Education courses on the LSU campus, Plants and People, and continually receives outstanding student evaluations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{E9F24293-833A-4BDF-BCDF-3634E6546100}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

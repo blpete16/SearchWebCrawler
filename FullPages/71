@@ -1,0 +1,582 @@
+
+Publications of Jerry L. Trahan
+
+
+
+
+
+
+
+Last modified: May 15, 2015
+
+
+Book
+
+
+
+R. Vaidyanathan and J. L. Trahan,
+Dynamic Reconfiguration:  Architectures and Algorithms,
+Kluwer Academic/Plenum Publishers, New York, 2004.
+Description
+
+
+
+Book Chapter
+
+
+
+R. Vaidyanathan and J. L. Trahan,
+``Dynamic Reconfiguration on the R-Mesh,''
+in Handbook of Parallel Computing,
+S. Rajasekaran, ed., 2007, pp. 14-1 to 14-28.
+
+
+Journal Articles
+
+
+G. Sharma, C. Busch, R. Vaidyanathan, S. Rai, and J. L. Trahan,
+``Efficient Transformations for Klee's Measure Problem in the Streaming Model,''
+to appear in
+Computational Geometry:  Theory and Applications, 2015.
+Abstract
+
+J. L. Trahan, M. Jin, W. Chantamas, J. W. Baker,
+``Relating the Power of the Multiple Associative Computing (MASC) Model
+to That of Reconfigurable Bus-Based Models,''
+Journal of Parallel and Distributed Computing, 
+vol. 70, no. 5, pp. 458-466, 2010.
+Abstract
+
+S. D. Webb, S. Soh, and J. L. Trahan,
+``Secure Referee Selection for Fair and Responsive Peer-to-Peer Gaming,''
+Simulation, vol. 85, no. 9, pp. 608-618, 2009.
+Abstract
+
+M. Elbidweihy and J. L. Trahan,
+``Maximal Strips Data Structure to Represent Free Space on
+Partially Reconfigurable FPGAs,''
+International Journal of Parallel, Emergent and Distributed Systems
+(IJPEDS), special issue on APDCM'08,
+vol. 24, no. 4, pp. 349-366, 2009.
+Abstract
+
+K. Roy, R. Vaidyanathan, and J. L. Trahan,
+``Routing Multiple Width Communications on the Circuit Switched Tree,''
+International Journal of Foundations of Computer Science, 
+vol. 17, no. 2, pp. 271-285, 2006.
+Abstract
+
+
+A. G. Bourgeois and J. L. Trahan,
+``Fault Tolerant Algorithms for a Linear Array with a Reconfigurable Pipelined 
+Bus System,''
+Parallel Algorithms and Applications, 
+vol. 18, no. 3, pp. 139-153, 2003.
+Abstract
+
+
+R. Vaidyanathan, J. L. Trahan, and C.-m. Lu,
+``Degree of Scalability:  Scalable Reconfigurable Mesh Algorithms
+for Multiple Addition and Matrix-Vector Multiplication,''
+Parallel Computing,
+vol. 29, no. 1, pp. 95-109, 2003.
+Abstract
+
+
+J. A. Fernandez-Zepeda, R. Vaidyanathan, and
+J. L. Trahan,
+``Using Bus Linearization to Scale the Reconfigurable Mesh''
+Journal on Parallel and Distributed Computing,
+vol. 62, no. 4, pp. 495-516, 2002.
+Abstract
+
+
+J. L. Trahan and R. Vaidyanathan,
+``Scaling Multiple Addition and Prefix Sums on the
+Reconfigurable Mesh,''
+Information Processing Letters,
+vol. 82, no. 6, pp. 277-282, 2002.
+Abstract
+
+
+A. G. Bourgeois and J. L. Trahan,
+``Relating Two-Dimensional Reconfigurable Meshes with Optically
+Pipelined Buses,''
+International Journal of Foundations of Computer Science,
+vol. 11, no. 4, pp. 553-571, 2000.
+Abstract
+
+
+J. L. Trahan, A. G. Bourgeois, Y. Pan, and R. Vaidyanathan,
+``Optimally Scaling Permutation Routing on Reconfigurable Linear Arrays
+with Optical Buses,''
+Journal of Parallel and Distributed Computing,
+vol. 60, no. 9, pp. 1125-1136, 2000.
+Abstract
+
+
+J. L. Trahan, A. G. Bourgeois, and R. Vaidyanathan,
+`` Tighter and Broader Complexity Results for Reconfigurable Models,''
+Parallel Processing Letters
+vol. 8, no. 3, pp. 271-282, 1998.
+Abstract
+
+
+J. A. Fernandez-Zepeda, R. Vaidyanathan, and J. L. Trahan,
+``Scaling Simulation of the Fusing-Restricted Reconfigurable Mesh,''
+IEEE Transactions on Parallel & Distributed Systems,
+vol. 9, no. 9, pp. 861-871, 1998.
+Abstract
+
+
+Y. Pan, J. L. Trahan, and R. Vaidyanathan,
+``A Scalable and Efficient Algorithm for Computing the
+City Block Distance Transform on Reconfigurable Meshes,''
+The Computer Journal,
+vol. 40, no. 7, pp. 435-440, 1997.
+Abstract
+
+
+J. L. Trahan, R. Vaidyanathan, and C. P. Subbaraman,
+``Constant Time Graph Algorithms on the Reconfigurable Multiple Bus Machine
+,''
+Journal of Parallel and Distributed Computing,
+vol. 46, no. 1, pp. 1-14, 1997.
+Abstract
+
+
+J. L. Trahan, R. Vaidyanathan, and R. K. Thiruchelvan,
+``On the Power of Segmenting and Fusing Buses,''
+Journal of Parallel and Distributed Computing, vol. 34, no. 1, pp. 82-94, April 1996.
+Abstract
+
+
+S. Rai, J. L. Trahan, and T. Smailus,
+``Processor Allocation in Hypercube Multiprocessors,''
+IEEE Trans. Par. and Distr. Systems, 
+vol. 6, no. 6, pp. 606-616, 1995.
+Abstract
+
+
+J. L. Trahan, D. X. Wang, and S. Rai,
+``Dependent & Multimode Failures in Reliability Evaluation of Extra-Stage Shuffle-Exchange MINs,''
+IEEE Trans. Reliability, vol. 44, no. 1, pp. 73-86, 1995.
+Abstract
+
+
+J. L. Trahan and S. Vedantham,
+``Analysis of PRAM Instruction Sets from a Log Cost Perspective,''
+International Journal of Foundations of Computer Science, 
+vol. 5, nos. 3 & 4, pp. 231-246, 1994.
+
+
+
+J. L. Trahan and H. Bhanukumar,
+``Parallel Random Access Machines Without Boolean Operations,''
+Parallel Processing Letters, vol. 4, nos. 1 & 2, pp. 117-124, 1994.
+
+
+
+J. L. Trahan, V. Ramachandran, and M. C. Loui,
+``Parallel Random Access Machines with both Multiplication and Shifts,''
+Information and Computation, vol. 110, no. 1, pp. 96-118, 1994.
+
+
+
+S. T. Soh, S. Rai, and J. L. Trahan,
+``Improved Lower Bounds on the Reliability of Hypercube Architectures,''
+IEEE Trans. Par. and Distr. Systems, vol. 5, no. 4, pp. 364-378, 1994.
+
+
+ 
+R. Vaidyanathan and  J. L. Trahan,
+``Optimal Simulation of Multidimensional Reconfigurable Meshes by Two Dimensional Reconfigurable Meshes,''
+Information Processing Letters, vol. 47, no. 5, pp. 267-273, October 1993.
+Abstract
+
+
+J. L. Trahan and S. Rai,
+``Reliability Evaluation and Decision Problems in Extra Stage Shuffle-Exchange MINs,''
+Networks, vol. 23, no. 4, pp. 415-426, 1993.
+
+
+
+S. Rai and J. L. Trahan,
+``A Reconfiguration Technique for Fault Tolerance in a Hypercube,''
+Parallel Processing Letters, vol. 2, nos. 2 & 3, pp. 129-138, 1992.
+
+
+
+J. L. Trahan, M. C. Loui, and V. Ramachandran,
+``Multiplication, Division, and Shift Instructions in Parallel Random Access Machines,''
+Theoretical Computer Science, vol. 100, no. 1, pp. 1-44, 1992.
+
+
+
+
+
+Articles Submitted to Journals
+
+
+
+G. Sharma, S. Rai, C. Busch, J. L. Trahan, and R. Vaidyanathan,
+``Efficient Algorithms for Load Balancing in Static and Dynamic Networks,''
+submitted to
+IEEE Transactions on Parallel and Distributed Systems, 2015.
+Abstract
+
+
+
+ Conference Papers
+
+
+R. Vaidyanathan, C. Busch, J. L. Trahan, G. Sharma, and S. Rai
+``Logarithmic-Time Complete Visibility for Robots with Lights,''
+ Proc. 2015 International Parallel and Distributed Processing 
+Symposium (IPDPS), pp. 375-384, 2015.
+Abstract
+
+G. Sharma, S. Rai, C. Busch, J. L. Trahan, and R. Vaidyanathan,
+``Work-Efficient Load Balancing,'' 
+Proc. 10th International Workshop on Scheduling and Resource Management 
+for Parallel and Distributed Systems (SRMPDS), pp. 27-36, 2014.
+Abstract
+
+S. Farlow and J. L. Trahan,
+``Client-Server Assignment in Massively Multiplayer Online Games,''
+Proc. 19th International Conference on Computer Games (CGAMESUSA 2014),
+8 pp., 2014.
+Abstract
+
+G. Sharma, C. Busch, R. Vaidyanathan, S. Rai, and J. L. Trahan,
+``An Efficient Transformation for the Klee's Measure Problem in the Streaming Model,''
+Proc. 24th Canadian Conference on Computational Geometry, pp. 91-96, 2012.
+Abstract
+
+M. Elbidweihy and J. L. Trahan,
+``Scheduling Real Time Tasks on Heterogeneous Reconfigurable Devices,''
+Proc. 22nd International Conference on Parallel and Distributed
+Computing and Communication Systems (PDCCS'09), pp. 71-76, 2009.
+Abstract
+
+K. Roy, R. Vaidyanathan, and J. L. Trahan, 
+``Input-Queued Switches with Logarithmic Delay:  
+Necessary Conditions and a Reconfigurable Scheduling Algorithm,'' 
+Proc. 4th ACM/IEEE Symposium on Architectures for Networking and 
+Communications Systems (ANCS'08), pp. 121-122.
+Abstract
+
+M. Elbidweihy and J. L. Trahan, 
+``Regions Method for Online Placement of Real-Time Tasks on 
+Partially Reconfigurable FPGAs,''
+Proc. 21st International Conference on 
+Parallel and Distributed Computing and Communication Systems (PDCCS), 
+Sept. 2008.
+Abstract
+
+J. L. Trahan,
+``Reconfigurable Mesh Techniques and Applications,''
+Proc. International Conference on Engineering of Reconfigurable Systems and 
+Algorithms (ERSA'08) - (invited talk), pp. 15-28.
+Abstract
+
+
+S. D. Webb, S. Soh, and J. L. Trahan,
+``Secure Referee Selection for Fair and Responsive Peer-to-Peer Gaming,''
+Proc. 22nd ACM/IEEE/SCS Workshop on Principles of Advanced and
+Distributed Simulation  (PADS'08), pp. 63-71.
+Abstract
+
+M. Elbidweihy and J. L. Trahan,
+``Maximal Strips Data Structure to Represent Free Space on
+Partially Reconfigurable FPGAs,''
+Proc. Workshop on Advances in Parallel and Distributed
+Computational Models 
+(APDCM'08).
+Abstract
+
+S. L. Bishop, S. Rai, B. Gunturk, J. L. Trahan, and R. Vaidyanathan,
+``Reconfigurable Implementation of Wavelet Integer Lifting Transforms for 
+Image Compression,''
+Proc. 3rd International Conference on ReConFigurable Computing and FPGAs
+(ReConFig'06), 2006, pp. 208-216.
+Abstract
+
+K. Roy, R. Vaidyanathan, and J. L. Trahan,
+``Configuring the Circuit Switched Tree for Multiple Width Communications,''
+Proc. Workshop on Advances in Parallel and Distributed
+Computational Models (APDCM'05), 2005.
+Abstract
+                
+K. Roy, J. L. Trahan, and R. Vaidyanathan, 
+``Configuring the Circuit Switched Tree for Point-to-Point and
+Multicast Communication,''
+Proc. IASTED Conference on Parallel and Distributed
+Computing and Systems (PDCS 2004), 2004.
+Abstract
+
+
+H. M. El-Boghdadi, R. Vaidyanathan, J. L. Trahan, and S. Rai,
+``On Designing Implementable Algorithms for the Linear Reconfigurable Mesh,''
+Proc. Int 'l. Conf. Parallel and Distributed Processing Techniques and Applications,
+(Las Vegas, NV, June 2003), pp. 241-246.
+Abstract
+
+
+N. Srivastava, J. L. Trahan, R. Vaidyanathan, and S. Rai,
+``Adaptive Image Filtering using Run-Time Reconfiguration,''
+Proc. 2003 Reconfigurable Architectures Workshop.
+Abstract
+
+
+H. M. El-Boghdadi, R. Vaidyanathan, J. L. Trahan, and S. Rai,
+``Implementing Prefix Sums and Multiple Addition Algorithms for the
+Reconfigurable Mesh on the Reconfigurable Tree Array,''
+Proc. 2002 International Conference on Parallel and
+Distributed Processing Techniques and Applications (PDPTA'02),
+vol. 3, pp. 1068-1074.
+Abstract
+
+
+H. M. El-Boghdadi, R. Vaidyanathan, J. L. Trahan, and S. Rai,
+``On the Communication Capability of the Self-Reconfigurable
+Gate Array Architecture,''
+Proc. 2002 Reconfigurable Architectures Workshop (RAW'02).
+Abstract
+
+
+A. G. Bourgeois and J. L. Trahan,
+``Fault Tolerant Algorithms for a Linear Array with a Reconfigurable
+Pipelined Bus System,''
+Proc. 2000 Workshop on Optics in Computer Science
+(Parallel and Distributed Processing; Lect. Notes Comp. Sci. #1800),
+(IEEE, Cancun, Mexico, May 2000), pp. 1044-1052.
+Abstract
+
+
+A. G. Bourgeois and J. L. Trahan,
+``Relating Two-Dimensional Reconfigurable Meshes with Optically Pipelined
+Buses,''
+Proc. 14th Int'l. Parallel and Distributed Processing Symposium,
+2000, pp. 747-752.
+Abstract
+
+
+J. A. Fernandez-Zepeda, R. Vaidyanathan, and J. L. Trahan,
+``Improved Scaling Simulation of the General Reconfigurable Mesh,''
+Proc. 6th Reconfig. Arch. Workshop
+(Parallel and Distributed Processing; Lect. Notes Comp. Sci. #1586),
+(IEEE, San Juan, PR, April 1999), pp. 616-624.
+Abstract
+
+
+J. L. Trahan, A. G. Bourgeois, Y. Pan, and R. Vaidyanathan,
+``Optimally Scaling Permutation Routing on Reconfigurable Linear
+Arrays with Optical Buses,''
+Proc. IPPS/SPDP'99 (13th Int'l. Parallel Processing Symposium
+and 10th Symp. on Parallel and Distr. Processing),
+(IEEE, San Juan, PR, April 1999), pp. 233-237.
+Abstract
+
+
+R. Kumar, S. Rai, and J. L. Trahan,
+``Neural Network Techniques for Software Quality Evaluation,''
+Proc. 1998 Reliability and Maintainability Symp,
+pp. 155-161.
+Abstract
+
+
+Y. Pan, J. L. Trahan, and R. Vaidyanathan,
+``A Scalable and Efficient Algorithm for Computing the
+City Block Distance Transform on Reconfigurable Meshes,''
+ Proc. IASTED Int'l. Conf. Parallel and Distributed
+Computing Systems, (Washington, DC, Oct. 1997), pp. 85-90.
+Abstract
+
+
+J. L. Trahan, Y. Pan, R. Vaidyanathan, and  A.  Bourgeois,
+``Scalable Basic Algorithms on a Linear Array with
+a Reconfigurable Pipelined Bus System,''
+Proc. 10th ISCA Int'l. Conf.
+Parallel and Distributed Computing Systems,
+(Int'l. Society for Computers and Their Applications, New Orleans, LA, Oct. 1997), pp. 564-569.
+Abstract
+
+
+S. Rai and J. L. Trahan,
+``Pseudo-Boolean Approach to Solving Reliability Problems,''
+ESREL'97, European Safety and Reliability Conf., 
+(Lisbon, Portugal, July 1997).
+Abstract
+
+
+J. A. Fernandez-Zepeda, J. L. Trahan, and R. Vaidyanathan,
+
+``Scalability of the FR-Mesh under Different Concurrent Write Rules
+,''
+Proc. World Multiconference on Systemics, Cybernetics
+and Informatics, (Caracas, Venezuela, July 1997), vol. 1, pp. 437-444.
+Abstract
+
+
+J. A. Fernandez-Zepeda, R. Vaidyanathan, and J. L. Trahan,
+
+``Scalability of the Fusing-Restricted Reconfigurable Mesh
+,''
+ Proc. IASTED Int'l. Conf. Parallel and Distributed
+Computing Systems, (Chicago, IL, Oct. 1996), pp. 467-471.
+Abstract
+
+
+J. L. Trahan and R. Vaidyanathan,
+``Relative Scalability of the Reconfigurable Multiple Bus Machine,''
+Proc. 3rd Workshop on Reconfigurable Architectures and Algorithms,
+(Honolulu, HI, April 1996).
+Abstract
+
+
+J. L. Trahan, C-m. Lu, and R. Vaidyanathan,
+``Integer and Floating Point Matrix-Vector Multiplication on the 
+Reconfigurable Mesh,''
+Proc. International Parallel Processing Symposium,
+(Honolulu, HI, April 1996), pp. 702-706.
+Abstract
+
+
+J. L. Trahan, R. Vaidyanathan, and C. P. Subbaraman,
+``Constant Time Graph and Poset Algorithms on the Reconfigurable 
+Multiple Bus Machine,''
+Proc. International Conference on Parallel Processing,  
+(St. Charles, IL, August 1994), vol. III, pp. 214-217.
+Abstract
+
+
+J. L. Trahan and M. Penta,
+``Analysis of Multistage Interconnection Network Performance Under Multimode Failures,''
+Proc. ISSAT Int'l. Conf. on Reliability and Quality in Design, 
+(Seattle, WA, March 1994).
+
+
+
+R. K. Thiruchelvan, J. L. Trahan, and R. Vaidyanathan,
+``Sorting on Reconfigurable Multiple Bus Machines,''
+Proc. 36th Midwest Symposium on Circuits and Systems,
+(Detroit, MI, August 1993), pp. 554-557.
+Abstract
+
+
+C. Subbaraman, J. L. Trahan, and R. Vaidyanathan,
+``List Ranking and Graph Algorithms on the Reconfigurable Multiple Bus
+Machine,''
+Proc. International Conference on Parallel Processing, 
+(St. Charles, IL, August 1993), vol. III, pp. 24-247.
+Abstract
+
+
+S. Rai, J. L. Trahan, and T. Smailus,
+``Processor Allocation in Faulty Hypercube Multiprocessors,''
+Proc. 1993 IEEE Int'l. Symp. on Circuits and Systems, 
+(IEEE, Chicago, IL, May 1993), pp. 1995-1998.
+
+
+
+R. K. Thiruchelvan, J. L. Trahan, and R. Vaidyanathan,
+``On the Power of Segmenting and Fusing Buses,''
+Proc. 7th International Parallel Processing Symposium,
+(Newport Beach, CA, April 1993), pp. 79-83.
+Abstract
+
+
+J. L. Trahan and V. K. Narayan,
+``Reliability Evaluation of Redundant Path Multistage Networks with Node and Link Failures,''
+Proc. 31st ACM Southeast Conf., 
+(Assoc. for Computing Mach., Birmingham, AL, April 1993), pp. 21-29.
+
+
+
+J. L. Trahan and S. Rai,
+``Reliability Evaluation of Extra Stage Shuffle-Exchange MINs,''
+Proc. 1992 Int'l. Conf. on Computer Communication, 
+(International Council for Computer Communication, Genoa, Italy, Oct. 1992), pp. 183-188.
+
+
+
+J. L. Trahan, D. X. Wang, and S. Rai,
+``Incorporating Dependent and Multimode Failures into Reliability Evaluation of Extra Stage Shuffle-Exchange MINs,''
+Proc. 30th Allerton Conf. on Communication, Control, and Computing, 
+(Univ. of Illinois, Monticello, IL, Oct. 1992), pp. 884-892.
+
+
+
+S. T. Soh, S. Rai, and J. L. Trahan,
+``Improved Lower Bounds on the Reliability of Hypercube Architectures,''
+Proc. 5th ISMM Conf. on Par. and Distr. Computing and Systems, 
+(International Soc. Mini and Micro Computers, Pittsburgh, PA, Oct. 1992), pp. 182-187.
+
+
+
+S. Rai and J. L. Trahan,
+``ATARIC:  An Algebraic Technique to Analyse Reconfiguration for Fault Tolerance in a Hypercube,''
+Proc. 3rd IEEE Symp. Par. and Distr. Processing, 
+(IEEE Computer Society, Dallas, TX, Dec. 1991), pp. 548-555.
+
+
+
+A. Kulkarni and J. L. Trahan,
+``Broadcast Reliability Evaluation of Multistage Interconnection Networks,''
+Proc. Southeastcon '91, 
+(IEEE, Williamsburg, VA, March 1991), pp. 432-436.
+
+
+
+R. M. Ahmed and J. L. Trahan,
+``Two-Terminal Reliability of Hypercubes,''
+Proc. Southeastcon '91, 
+(IEEE, Williamsburg, VA, March 1991), pp. 427-431.
+
+
+
+J. L. Trahan, V. Ramachandran, and M. C. Loui,
+``The Power of Parallel Random Access Machines with Augmented Instruction Sets,''
+Proc. 4th Structure in Complexity Theory Conf., 
+(IEEE Computer Society, Eugene, OR, June 1989), pp. 97-103.
+
+
+
+S. Rai and J. Trahan,
+``Computing Network Reliability of Redundant MINs,''
+Proc. 21st Southeastern Symposium on System Theory, 
+(IEEE, Tallahassee, FL, March 1989), pp. 221-225.
+
+
+
+J. L. Trahan, M. C. Loui, and V. Ramachandran,
+``Multiplication, Division, and Shift Instructions in Parallel Random Access Machines,''
+Proc. 22nd Conf. Information Sciences and Systems, 
+(Princeton Univ., Princeton, NJ, Feb. 1988), pp. 126-130.
+
+
+
+
+
+Articles Submitted
+to Conferences
+
+
+
+
+
+
+Jerry L. Trahan 
+Chair, Division of Electrical and Computer Engineering
+Chevron Associate Professor of Electrical Engineering
+School of Electrical Engineering and Computer Science
+Louisiana State University 
+Baton Rouge, LA 70803-5901 
+
+Phone: (225) 578-5243 
+Fax: (225) 578-5200 
+E-mail: jtrahan@lsu.edu
+
+
+

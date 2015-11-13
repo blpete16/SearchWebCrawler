@@ -1,0 +1,43 @@
+
+
+
+
+Dr. Bijaya B Karki
+
+
+
+
+
+$(document).ready(function() {
+	$('div.main').eq(0).load("html/home.html");
+});
+
+
+
+
+Computer Science
+
+
+
+Home
+Classes
+Grants
+People
+Publications
+Research
+Talks
+CV
+
+
+
+
+
+
+Last Updated:
+
+2014-08-18
+
+
+
+
+

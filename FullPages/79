@@ -1,0 +1,190 @@
+
+
+
+
+Welcome
+
+
+
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'kemin1.jpg'
+theImages[1] = 'kemin2.jpg'
+
+// do not edit anything below this line
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+document.write('<img src="'+theImages[whichImage]+'">');
+}
+
+//  End -->
+
+
+<!--
+div { margin:0pt; padding:0pt; }
+
+-->
+
+
+
+
+
+
+
+Welcome
+
+
+<!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home_cmp_axis110_vbtn_p.gif"); MSFPnav1h=MSFPpreload("_derived/home_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/Courses.htm_cmp_axis110_vbtn.gif"); MSFPnav2h=MSFPpreload("_derived/Courses.htm_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/essentials.htm_cmp_axis110_vbtn.gif"); MSFPnav3h=MSFPpreload("_derived/essentials.htm_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/robust.htm_cmp_axis110_vbtn.gif"); MSFPnav4h=MSFPpreload("_derived/robust.htm_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/research.htm_cmp_axis110_vbtn.gif"); MSFPnav5h=MSFPpreload("_derived/research.htm_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/publications.htm_cmp_axis110_vbtn.gif"); MSFPnav6h=MSFPpreload("_derived/publications.htm_cmp_axis110_vbtn_a.gif"); }
+// --><!--
+
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/professional.htm_cmp_axis110_vbtn.gif"); MSFPnav7h=MSFPpreload("_derived/professional.htm_cmp_axis110_vbtn_a.gif"); }
+// -->
+
+
+
+ 
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+showImage();
+     
+
+
+Kemin Zhou, PhD
+ Mark and Carolyn C. Guidry Professor, 
+    IEEE Fellow
+Work Address
+Department of Electrical and Computer Engineering
+    Louisiana State University,
+    Baton Rouge, LA 70803--5901
+    (225) 578-5533 FAX: (225) 578-5200 
+http://www.ece.lsu.edu/kemin
+email: kemin@ece.lsu.edu 
+     
+
+
+
+ Education
+
+
+Ph.D. Control Science & Dynamical Systems
+University of Minnesota
+1988
+
+
+M.S.    Electrical Engineering
+University of Minnesota
+1986
+
+
+B.S.     Automatic Control
+Beijing Univ. of Aero. & Astro.
+1982
+
+
+ Research Interests
+Robust 
+    Control, Fault Detection and 
+    Reconfigurable Control,  Hoo Optimal 
+    Control, Probabilistic Control Theory, Multiobjective  Optimal Control, 
+    Model and Controller Approximations,  
+    and Applications of Control Theory.
+ Professional Activities:
+
+Past Associate Editors,
+  Automatica, 
+  SIAM Journal of 
+  Control and Optimization, 
+  IEEE Transaction on Automatic Control, 
+Journal of Control Theory and Applications
+ 
+Current Associate Editors,
+  Systems and Control 
+  Letters, 
+  Journal of 
+  System Science and Complexity  
+Past Guest Editors,
+  International Journal of 
+  Robust and Nonlinear Control, 
+  Journal of Control Science and Engineering 
+    
+Program Committee Member and Session Chair 
+  for Numerous International Conferences 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Home] [Courses] [Essentails of Robust Control] [Robust and Optimal Control] [Research] [Publications] [Professional Experience]
+
+[www.lsu.edu 
+] [www.ece.lsu.edu]
+
+

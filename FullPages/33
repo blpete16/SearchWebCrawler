@@ -1,0 +1,613 @@
+
+
+
+Kenneth Bondioli - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fKBondioli%2ehtm&NRNODEGUID=%7b01DC0060-76DA-4031-8364-7DE786E5C51F%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Chancellor's Office
+
+Extension
+
+Research
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+Professional Organizations
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Kenneth BondioliTitle: Associate ProfessorE-mail: Department: School of Animal SciencesOrganization: LSU AgCenterAddress 1: 205 J. B. FrancioniAddress 2: Baton Rouge, LA 70803Phone Number: (225) 578-3442Fax Number: (225) 578-3279
+
+
+
+
+
+Education/TrainingCornell University, B.S. (Animal Science), 1973Washington State University, M.S., 1979  Washington State University, Ph.D., 1982  
+
+Areas of Specialization/Research
+Epigenetic changes during early embryonic development in embryos resulting from assisted reproductive technologies such as in vitro fertilization and somatic cell nuclear transfer. 
+Characterization of somatic and induced pluripotent stem cells with an emphasis on their ability to be reprogrammed during nuclear transfer.
+Production of transgenic animal models for biomedical and agricultural applications. 
+
+Professional Experience2004-Present. Associate Professor, School of Animal Sciences, Louisiana State University, Baton Rouge, LA.1996-2003. Associate Director, Transgenic Technology, Alexion Pharmaceuticals Inc., Sherburne, NY.
+
+1993 -1996. Principal Scientist, Altra Bio Inc., Beltsville, MD.1992 – 1993. Special Consultant. American Breeders Service, Madison WI.1982 – 1992. Senior Research Scientist/Director of Research, Granada BioSciences Inc., College Station, TX.
+
+Awards/GrantsLSU BAIT grant.  "Transgenic Pigs as Models for Alzheimer's Disease."ACRES Research Advisory Board Grant.  "Isolation and Characterization of Adipose Derived Somatic Stem Cells from Bovid Species for use in Nuclear Transfer."LA Board of Regents Grant.  "Epigenetic Modifications in Somatic Cells and Cloned Embryos."NIH STTR Grant.  "Salivary Gland System for the Production of Therapeutics."
+
+Publications/Presentations/PatentsBook chapters
+
+Bondioli, K.R. and Wall, R.J. Transgenic livestock. In: Altman, A. (ed.) Biotechnology in Agriculture. Marcell Dekker, Inc. New York, NY. 1998, pp. 453-471.
+
+Bondioli, K.R., Biery, K.A., Hill, K.G., Jones, K.B. and De Mayo, F.J. Production of transgenic cattle by pronuclear injection. In: First, N. and Haseltine, F. (eds.) Transgenic Animals. Butterworth-Heinemann, Stoneham, MA. 1991, pp. 265-273.
+
+Refereed scientific articles
+
+Giraldo, A.M., D. Hylan, C.B. Ballard, M.N. Purpera, J.W. Lynn, R.A. Godke, and K.R. Bondioli. 2008. Effect of epigenetic modifications of donor cells on the subsequent chromatin remodeling of cloned bovine embryos. Biol. Reprod. 78:832-840.
+
+Williams, K.J., A. A. Picou, S. L. Kish, A.M. Giraldo, R.A. Godke and K.R. Bondioli. 2008. Isolation and characterization of porcine adipose-derived adult stem cells. Cells Tissues and Organs. 188:251-258. 
+
+Nel-Themaat, L., M.C. Gómez, C.E. Pope, M. Lopez, G. Wirtu, A. Cole, B.L. Dresser, L.A. Lyons, K.R. Bondioli, and R.A. Godke. 2008. Cloning from Semen. Part 1: In vitro proliferation of epithelial cells on embryonic fibroblasts after isolation from semen by gradient centrifugation. Cloning & Stem Cells. 10:143-159.. 
+
+
+Nel-Themaat, L., M.C. Gómez, C.E. Pope, M. Lopez, G. Wirtu, J.A. Jenkins, A. Cole, B.L. Dresser, K.R. Bondioli and R.A. Godke. 2008. Cloning from Semen. Part 2: Intergeneric nuclear transfer of semen-derived eland (Taurotragus oryx) epithelial cells into bovine oocytes. Cloning & Stem Cells. 10:161-172.
+
+Storer, W.A., D. L. Thompson Jr., K.R. Bondioli, R.A. Godke, A.S. Khan, P.A. Brown, R. Draghia-Akli. 2008. Evaluation of plasmid delivery by electroporation for GnRH production in stallions. J. Equine Vet. Science. 28:149-155. 
+
+Nel-Themaat, L., Gomez, M.C., Damiani, P. ,Wirtu, G. Dresser, B.L., Bondioli, K.R., Lyons, L.A. Pope, C.E. and Godke, R. A. 2007. Isolation, culture and characterization of somatic cells derived from semen and milk of endangered sheep and eland antelope. Reprod. Fertil. Dev. 19:576-84.
+
+Giraldo, A.M., Lynn, J.W., Purpera, M.N., Godke, R.A. and Bondioli, K.R. 2007. DNA methylation and histone acetylation patterns in cultured bovine fibroblasts for nuclear transfer. Mol. Reprod. Dev. 74:1514-24. 
+
+Giraldo, A.M., Lynn, J.W., Godke, R.A. and Bondioli, K.R. 2006. Proliferative characteristics and chromosomal stability of bovine donor cells for nuclear transfer. Mol. Reprod. Dev. 73:1230-8.
+
+Murakami, M., Ferguson, C.E., Perez, O., Boediono, A., Paccamonti, D., Bondioli, K.R. and Godke, R.A. 2006. Transfer of inner cell mass cells derived from bovine in vitro produced embryos. Cloning & Stem Cells. 8:51-60.
+
+Ramsoondar, J.J., Machaty, Z., Costa, C., Williams, B., Fodor, W. and Bondioli, K.R.. 2003. Production of α1,3-Galactosyltransferase-knockout pigs expressing human α1,2-Fucosylosyltransferase. Biol. Reprod. 69:437-45.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{01DC0060-76DA-4031-8364-7DE786E5C51F}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

@@ -1,0 +1,494 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	function moreNewsActive() {
+		$('img.moreNewsActive').css('visibility','visible');
+		$('img.moreNewsInactive').css('visibility','hidden');
+	}
+	function moreNewsInactive() {
+		$('img.moreNewsActive').css('visibility','hidden');
+		$('img.moreNewsInactive').css('visibility','visible');
+	}
+
+
+
+	$(function() {
+		$('.lightbox a').lightBox();
+	});
+
+
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25412218-12']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+
+EECS Division of Computer Science
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOG IN TO MyLSU    |    SEARCH LSU.EDU    |    COLLEGE OF ENGINEERING
+
+
+
+
+
+Division of
+Computer Science And Engineering
+
+
+
+
+
+
+HOME
+
+
+ABOUT  US
+
+
+General Info
+
+
+Vision and Mission
+
+
+Strategic Goals
+
+
+Handbook
+
+
+News and Events
+
+
+
+
+Faculty Recruiting
+
+
+Advisory Council
+
+
+IAC Members
+
+
+IAC Meetings
+
+
+
+
+Awards and Honors
+
+
+Faculty
+
+
+Student
+
+
+
+
+History
+
+
+Contact Us
+
+
+
+
+ACADEMICS
+
+
+Undergraduate
+
+
+Major in Computer Science
+
+
+Minor in Computer Science
+
+
+Course Flowcharts
+
+
+Scholarships
+
+
+Advising
+
+
+Undergraduate News
+
+
+
+
+Graduate
+
+
+PhD in Computer Science
+
+
+MS in Computer Science
+
+
+Admission Requirements
+
+
+Financial Information
+
+
+Advising
+
+
+Graduate News
+
+
+
+
+Courses
+
+
+Course Catalog Offerings
+
+
+Course Schedule
+
+
+
+
+Apply Now
+
+
+Undergraduate
+
+
+Graduate
+
+
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Professorial Faculty
+
+
+Instructors
+
+
+Adjuncts / Emeritus
+
+
+Postdocs
+
+
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+RESEARCH
+
+
+Areas
+
+
+Theoretical Foundations
+
+
+Systems and Architecture
+
+
+Databases and Data Analytics
+
+
+Software
+
+
+Computational Science
+
+
+Digital Media
+
+
+
+
+Facilities
+
+
+Computing Cluster
+
+
+Database Server
+
+
+Embedded Systems
+
+
+Microsoft Surfaces
+
+
+Networking
+
+
+Robotics
+
+
+Visualization
+
+
+Software Systems
+
+
+
+
+Funding
+
+
+Publications
+
+
+Journals
+
+
+Proceedings
+
+
+Book Chapters
+
+
+PhD / MS Theses
+
+
+
+
+Seminars
+
+
+Research Talks
+
+
+Grad Student Talks
+
+
+
+
+High Performance Computing
+
+
+
+
+ALUMNI
+
+
+Alumni News
+
+
+Recent Alumni
+
+
+Giving to CSE
+
+
+LSU Foundation
+
+
+
+
+STUDENT  LIFE
+
+
+Prospective Students
+
+
+Incoming Students
+
+
+Student Organizations
+
+
+Academic Advising
+
+
+Undergraduate
+
+
+Graduate
+
+
+
+
+Important Dates
+
+
+LSU Academic Calendar
+
+
+Graduate Calendar
+
+
+
+
+Careers and Research
+
+
+Student News
+
+
+Tutoring
+
+
+
+
+CONTACT  US
+ 
+
+
+
+
+
+
+
+            	Welcome to the Division of Computer Science and Engineering            
+
+
+
+Home    /    People    /    Faculty    /    Kisung Lee 
+
+
+
+
+
+
+Kisung Lee
+Assistant Professor
+
+
+
+317 Electrical Engineering Building
+
+
+
+Louisiana State University
+Baton Rouge, LA 70803
+
+
+
+
+Phone: 225 578 2876
+
+lee@csc.lsu.edu
+
+Educational Background
+Ph.D. in Computer Science, Georgia Institute of Technology, Atlanta, Georgia Expected May 2015
+M.S. in Computer Science, KAIST, Daejeon, Korea Feb. 2007
+Research Interests
+Scaling big data analytics, cloud computing, distributed computing systems, mobile computing and spatial data management, distributed data intensive systems, and social network analytics.
+Selected Publications
+Kisung Lee and Ling Liu. "Scaling Queries over Big RDF Graphs with Semantic Hash Partitioning," Proceedings of the VLDB Endowment, 6(14) and 40th International Conference on Very Large Data Bases (VLDB), research track paper, 2014.
+Kisung Lee, Raghu K. Ganti, Mudhakar Srivatsa, and Ling Liu. "When Twitter meets Foursquare: Tweet Location Prediction using Foursquare," Proceedings of the 11th International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (Mobiquitous), 2014. (Best Paper Award)
+Kisung Lee, Raghu K. Ganti, Mudhakar Srivatsa, and Ling Liu. "Efficient Spatial Query Processing for Big Data," Proceedings of the 22nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS), short paper, 2014.
+Pingpeng Yuan, Wenya Zhang, Changfeng Xie, Hai Jin, Ling Liu and Kisung Lee. "Fast Iterative Graph Computation: A Path Centric Approach," Proceedings of the IEEE/ACM International Conference for High Performance Computing, Networking, Storage and Analysis (SC14), 2014.
+Yuzhe Tang, Ling Liu, Arun Iyengar, Kisung Lee and Qi Zhang. "e-PPI: Locator Service in Information Networks with Personalized Privacy Preservation," Proceedings of the IEEE 34th International Conference on Distributed Computing Systems (ICDCS), 2014.
+Qi Zhang, Ling Liu, Aameek Singh, Nagapramod Mandagere, Sandeep Gopisetty, Gabriel Alatorre, Kisung Lee and Yang Zhou. "Improving Hadoop Service Provisioning in A Geographically Distributed Cloud," Proceedings of the IEEE 7th International Conference on Cloud Computing (CLOUD), 2014.
+Personal Homepage
+
+
+cse News
+
+
+
+
+
+
+
+
+
+
+
+
+Sep 11, 2015
+Students, alumni form video game development company After Hours Lab LLC
+
+
+Sep 9, 2015
+Research Seminar by Dr. Jay Park, September 9
+
+
+Sep 9, 2015
+Student Organization Spotlight: WICS 
+
+
+Sep 4, 2015
+Newly Named "MS in Computer Science" Degree
+
+
+ 
+
+
+
+
+
+
+Computer Science and Engineering
+LSU School of Electrical Engineering and Computer Science
+102F Electrical Engineering Building
+Baton Rouge, LA 70803
+225-578-1495 
+
+Copyright © 2011-2015.  All Rights Reserved.
+Official Web Page of Louisiana State University.
+
+
+
+HOMEABOUT  USACADEMICSPEOPLERESEARCHALUMNIAPPLY  ONLINECONTACT  US 
+
+
+
+
+

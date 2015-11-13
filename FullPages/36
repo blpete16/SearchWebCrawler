@@ -1,0 +1,603 @@
+
+
+
+Robert Godke - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fRGodke%2ehtm&NRNODEGUID=%7b0F04588E-B90C-4C6B-BEDE-5D20435D96F5%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Chancellor's Office
+
+Extension
+
+Research
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+Professional Organizations
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Robert GodkeTitle: Boyd ProfessorE-mail: Department: School of Animal SciencesOrganization: LSU AgCenterAddress 1: 203 J. B. FrancioniAddress 2: Baton Rouge, LA 70803 - 4210Phone Number: (225) 578-3444Fax Number: (225) 578-3279
+
+
+
+
+
+Education/TrainingB.S. in Animal Science and M.S. Animal Physiology from Southern Illinois University Ph.D. in Reproductive Experience Physiology from the University of Missouri, 1974Visiting Professorships (one year) - Cambridge University, Cambridge, England, 1982, and the University of Stellenbosch, Stellenbosch, South Africa, 1993
+
+Areas of Specialization/Research- Synchronization of estrus and AI in farm and exotic animals. - The physiological effect of nutrition/stress on reproductive function (cattle, sheep and swine).- Embryonic mortality studies (cattle, sheep, horses and swine).- Induction of parturition in cattle, sheep, swine and horses.- Uterine-ovarian relationships in farm animals and ovary transplantation in cattle and swine.- Effects of prostaglandins and growth factors on spermatozoa - Fetal growth factors on early embryo development in farm animals.- Embryo transfer and freezing studies in cattle, sheep, goats, swine, horses and exotic animals- Using feeder cell embryo co-culture systems to develop farm animal embryos in vitro.- Micromanipulation and gene insertion in farm animal embryos.- In vitro fertilization and nuclear transfer in cattle, swine, goats and horses.
+
+Awards/Grants-Outstanding Teacher in the College of Agriculture-1979 and 1982. LSU Gamma Sigma Delta "Outstanding Teacher"-1980. "Outstanding Lecturer of the Year" LSU-SVM-1981.
+-Selected as the 1985 NACTA AVI-Tressler "Outstanding Teacher-Researcher for Agriculture in North America". State of Louisiana "Professor of the Year"-1988.
+-President of Phi Kappa Phi (LSU)-1984. Elected President of the International Embryo Transfer Society (IETS)-1986, President of Gamma Sigma Delta (LSU) - 1993. President of the IETS Foundation in 2005.
+-IETS Board of Directors, 1985-88, and Past Presidents Board; IETS Foundation Vice President, 2002-2004
+-Outstanding Researcher of the Year in the College of Agriculture-1979.
+-Selected as the Gamma Sigma Delta "Outstanding Research of the Year Award"-1987.
+-Phi Delta Kappa Outstanding Research/Teaching Award-1989. National Gamma Sigma Delta International Service Award-1989. LSU Phi Kappa Phi Scholar-1989, 1996, and 2006.
+-Outstanding Leader of the Year - Kiwanis (Baton Rouge)-1989. Rotary Harris Fellow - 2005
+-Recipient of the 1990 Distinguished Research Master and the University Medal for Research at Louisiana State University. Nominated for the Japanese Prize for Research - 1991.
+-National "Points of Light Award" recipient from USDA - 1991 and the USDA "Distinguished Research Award" in Washington, D.C. - 1992-1993 J. Sedberry and the 1993 Millard Perkins Awards for Outstanding Graduate Teaching (LSU), the USDA "Outstanding University Teacher Award” in 1994 and the LSU University Medal for Research, Teaching and Service -1995. Presented the university’s highest honor - awarded the title of Boyd Professor -1996.
+
+Publications/Presentations/PatentsMurakami, M., C.E. Ferguson, O. Perez, A. Boediono, D. Paccamonti, K. Bondioli and R. A. Godke. 2006. Transfer of inner cell mass cells derived from bovine nuclear transfer embryos into the trophoblast of bovine in vitro-produced embryos. Cloning & Stem Cells 8(1):52-60
+
+Sansinena, M. J., S.A. Taylor, P.J. Taylor, E.E. Schmidt, R.S. Denniston and R.A. Godke. 2007. In vitro production of llama (Lama glama) embryos by intracytoplasmic sperm injection: Effect of chemical activation treatments and culture conditions. Anim. Reprod. Sci. 99:342-353.
+
+Giraldo, A.M., D.A. Hylan, C.B. Ballard, M.N. Purpera, T.G. Vaught, J.W. Lynn, R.A. Godke and K.R. Bondioli. 2008. Effect of epigenetic modifications of donor cells on subsequent chromatin remolding of cloned embryos. Biol. Reprod. 78:832-840.
+
+Nel-Themaat, L., M. Gomez, C.E. Pope, M. Lopez, G. Wirtu, A. Cole, B.L. Dresser, L.A. Lyons, K. R. Bondioli and R.A. Godke. 2008. Cloning from semen. Part 1: In vitro proliferation of epithelial cells on embryonic fibroblasts after isolation from semen by gradient centrifugation. Cloning & Stem Cells 10:143-160.
+
+Nel-Themaat, L., M. Gomez, C.E. Pope, M. Lopez, G. Wirtu, J.L. Jenkins, A. Cole, B.L. Dresser, K. R. Bondioli and R.A. Godke.2008. Cloning from semen. Part 2: Intergeneric nuclear transfer of semen-derived eland (Taurotragus oryx) epithelial cells into bovine oocytes. Cloning & Stem Cells 10:161-172
+
+Owiny, O.D., D.M. Barry, M. Agaba and R.A. Godke. 2009. In vitro production of cattle x buffalo hybrid embryos using cattle oocytes and African buffalo (Syncerus caffer caffer) epididymal sperm. Theriogenology 71:884-894.
+
+Giraldo, A.M., M.N. Purpera, T.D. Vaught, D.L. Ayares, J W. Lynn, R. A. Godke and K R. Bondioli. 2009. Inhibition of DNA methyltransferase 1 expression in bovine fibroblast cells used for nuclear transfer. Reprod. Fertil. Develop. 21:785-795. 
+
+Alapathi, R., M. Stout, J. Saenz, G. T. Gentry Jr., R.A. Godke and R.V. Devireddy. 2009. Ejaculated and epidydimal bovine sperm exhibit equivalent freezing response. Cryobiology 59:164-170. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{0F04588E-B90C-4C6B-BEDE-5D20435D96F5}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

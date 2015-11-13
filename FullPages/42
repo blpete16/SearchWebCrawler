@@ -1,0 +1,568 @@
+
+
+
+Jerome La Peyre - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fJLapeyre%2ehtm&NRNODEGUID=%7b3F92D6C4-2A4B-4304-8745-5E4E7011AB5A%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Chancellor's Office
+
+Extension
+
+Research
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+Professional Organizations
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Jerome La PeyreTitle: Associate ProfessorSpecialization: Oyster diseasesE-mail: Department: School of Animal SciencesOrganization: LSU AgCenterAddress 1: 111 Dalrymple Building - LSUAddress 2: Baton Rouge, LA 70803 - 4210Phone Number: (225) 578-3241Fax Number: (225) 578-3279
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{3F92D6C4-2A4B-4304-8745-5E4E7011AB5A}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

@@ -1,0 +1,627 @@
+
+
+
+Magdi Selim - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fMSelim%2ehtm&NRNODEGUID=%7bAA21B99B-AD6A-47D7-AE5C-09678501C24B%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Vice President and Dean's Office
+
+Extension
+
+Research
+
+College of Agriculture
+Professional Organizations
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+College of Agriculture
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+Livestock Multimedia
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Magdi SelimTitle: ProfessorSpecialization: Soil Physics, Watershed Hydrology, Water QualityE-mail: Department: School of Plant, Environmental and Soil SciencesOrganization: LSU AgCenterAddress 1: 305 M. B. SturgisAddress 2: Baton Rouge, LA 70803Phone Number: (225) 578-1332Fax Number: 
+
+
+
+
+
+Education/TrainingPh.D., Soil Physics, Iowa State University; 1971 M.S., Soil Physics, Iowa State University; 1969 B.S., Soil Science, Alexandria University; 1964
+
+Areas of Specialization/ResearchResearch accomplishments have been in the areas of solute and water flow in unsaturated and saturated soils, water management of irrigation and drainage systems, spatial and temporal variability of soil physical properties, and chemical an physical processes governing the interactions and transport of solutes in the root zone. My recent research emphasizes the role of slow heavy metals release and processes governing mechanism of heavy metals in the vadose zone. I am the original developer of the two-site (kinetic-equilibrium) model for retention of dissolved chemicals in soils and natural materials and subsequent multi-step/multi-reaction kinetic models which have been successfully used for the description of heavy metals, radio-nuclides, explosive contaminants, phosphorus, and pesticides in soils and subsurface media. Other research interests include; best management practices BMPs) of applied chemicals to soil: runoff and subsurface water losses; and total maximum daily load (TMDL): implementation and monitoring of management approaches to identify sources of pollutants at the watershed scale. 
+
+Professional ExperienceAcademic Experience
+Louisiana State University, Professor, Baton Rouge, Louisiana,1984-present Louisiana State University, Associate Professor, Baton Rouge, Louisiana, 1980-1984 Louisiana State University, Assistant Professor, Baton Rouge, Louisiana, 1977-1980
+Teaching
+AGRO 4077 (EMS 4077) - Environmental Soil Physics (3 Credits). AGRO 7057 (EMS 7057) - Advanced Soil Physics (4 Credits)Since my appointment at LSU in 1977, I have taught a variety of courses (listed below) but my main responsibility has been with AGRONOMY 7057. When given the responsibility to teach AGRON 7057 I completely redesigned the course to focus my teaching on fundamentals of soil physical processes. The fundamentals were then integrated with field applications from various disciplines. One can measure the success of this course based on the broad disciplines from which the students are drawn (e.g., Civil, Chemical, and Agricultural engineering, Botany, Forestry, Environmental studies). Moreover, I volunteered to teach a special topics course for engineering students (AGRON 8092) and more recently undergraduate Soil Science (AGRON 2051). Developed a new course Agro 4077 (Environmental Soil Physics) since there was no similar undergraduate course is currently offered by the Agronomy Department or other departments on campus. The course was approved in December and was offered for the first time in the Spring 2004.
+
+Awards/GrantsHonors and Awards (selected)
+
+Justus von Liebeg International Soil Science Award (to be presented June 2014) 
+Soil Science Research Award, SSSA (2012) 
+Sedberry Foundation Graduate Teaching Award (1999) 
+Fellow of the American Society of Agronomy (1996) 
+Fellow of the Soil Science Society of America (1996) 
+Doyle Chambers Research Achievements Award (1996) 
+Service to ASA-SSSA-CSSA
+
+SSSA Memorial Lecture Series (2013-2015) 
+JEQ Technical Editor, 2006-2011 (J. Environ. Qual. Editorial Board). 
+Nominations Committee for Div. S-1 Officers, Member, 2004. 
+Special Awards Committee, Past Chair, Div. S-1, 2002. 
+SSSA Board of Directors, Past Chair, Div. S-1, 2002. 
+Elected S-1 Soil Physics Division Chair, Div. S-1, 2002. 
+Service to the Department of Energy 
+
+Savannah River Ecology Lab – Ongoing research on remediation and mobility of uranium using phosphates. 
+Oak Ridge National Lab – Consultant and cooperative research on mobility of uranium and potential contamination to aquifers. 
+BNL – Pacific Northwest National Laboratory consultation on tritium tracer flow in fractured soils. 
+DOE – Panel Member, Program Review Team for the Department of Energy's "Co-contaminants Transport Program,” Washington, D.C. (1994). 
+DOE – Panel Member, Program Review Team for the Department of Energy's "Co-contaminants Transport Program,” Washington, D.C. (1994). 
+DOE – Panel Chair – Department of Energy's "Subsurface Environmental Initiative,” Washington, D.C. (1988). 
+Service to the Department of Defense 
+Consultant to the Army Corps of Engineers – Cold Regions Research and Engineering Lab (CRREL ) from 1978-1999 with major responsibility of developing research with fellow scientists on environmental issues, which included treatment of wastewater, fate and potential mobility of contaminants such as military explosives (TNT, RDX, HMX, among others) and heavy metals in the soil and groundwater. Published scientific papers, government bulletins and monographs, which documented original research findings and modeling the fate of nitrogen in soils and adsorption and release of explosives in soils. 
+Service to the USDA ARS and NRCS 
+
+Water Quality Coordination Workshop, December 2012. 
+USDA-CSREES-NRI – Panel Reviewer , Washington, D.C. (2002, 2003). 
+USDA-CSREES-NRI – Panel Reviewer (Water Resources and Watersheds), D.C. (1999). 
+Panel reviewer, CSRS - USDA, "Water Quality Program,” FY 1990, Washington, D.C. 
+Hosted the National Review and Evaluation of "The President's Initiative on Enhancing Water Quality,” CSRS and ARS-USDA funded research projects, Baton Rouge, La. (1992). Over 70 scientists from the Southern region participated in the review. 
+
+Publications/Presentations/PatentsBooks Selim, H. M. 2013. Chemical Retention and Transport in Soils: Principles and Applications. CRC/Taylor and Francis, Boca Raton, FL (in press). Selim, H. M. 2012. Competitive Sorption and Transport of Trace Elements in Soils and Geological Media.CRC/Taylor and Francis, Boca Raton, FL (425 p). Selim, H. M. 2011. Dynamics and Bioavailability of heavy metals in the rootzone.CRC/Taylor and Francis, Boca Raton, FL (315 p). Journal Articles 2009 Liao, L., and H.M. Selim 2009. Competitive Sorption of nickel and cadmium in different soils. Soil Sci. 174:549-555. Liao, L., R. D. Delaune and H.M. Selim 2009. Mercury Adsorption-Desorption and Transport in Soils. J. Environ. Qual. 38:1608-1616 Liao, L., A. Roy, G. Merchan and H. M. Selim. 2009. Competitive sorption of Ni and Cd in different soils: Evidence from EXAFS. International conference on the biogeochemistry of trace element. Chihuahua, Chih., Mexico, July 13-16, 2009. Selim, H. M., K. Zhao, and L. Liao. 2009. Adsorption/Desorption Kinetics of Zn in Soils: Influence of Phosphate. Proceedings of the conference on Molecular Environmental Soil Science at Interfaces in Earth's Critical Zone, Hangzhou, China, Oct. 9-12, 2009. Springer. pp 88-90. Johnson, S., D. Weindorf, M. Selim, N. Bakr, and Y. Zhu. 2009. The influence of swales on the spatial variability of soil properties in southern Louisiana. Geographia Technica 2:31-40. Zhu, H. and H. M. Selim. 2009. Transport of Atrazine in Residue-Amended soils: Effect of Kinetics. Soil Sci. 174:67-72. 2010 Jeong, C.Y. and H. M. Selim. 2010. Modeling adsorption-desorption Kinetics of Imidacloprid in Soils. Soil Sci 175: 214-222. Zhao, K. and H. M. Selim. 2010. Adsorption-Desorption Kinetics of Zn in soils: Influence of phosphate. Soil Sci 2010:175: 145-153. Zhao, Keli, Xingmei Liu, Jianming Xu, and H.M. Selim. 2010. Heavy metal contaminations in a soil–rice system: Identification of spatial dependence in relation to soil properties of paddy fields. Journal of Hazardous Materials 181: 778–787. Liao, Lixia and H. M. Selim. 2010. Reactivity of nickel in soils: Evidence of retention kinetics. J. Environ. Qual. 39:1290–1297. Selim, H. M., Chang Yoo Jeong, and Tamer A. Elbana. 2010.Transport of imidacloprid in soils: Miscible displacement experiments. Soil Sci. 175: 375-381. Liao, Lixia and H. M. Selim. 2010. Transport of nickel in different soils: Column experiments and kinetic modeling. Soil Science Society of America Journal 74: 1945-1955. Elbana, Tamer A and H. M. Selim. 2010. Cadmium Transport in alkaline acidic soils: Miscible displacement experiments. Soil Science Society of America Journal 74: 1956–1966. 2011 Zhang, H. and H M. Selim. 2011. Second-order modeling of arsenite transport in soils. Journal of Contaminant Hydrology 126:121–129. Selim, H. M. and B. J. Naquin. 2011. Retention of Metribuzin by Sugarcane Residue: Adsorption-Desorption and Miscible Displacement Experiments. Soil Science 176:508-517. Elbana, T. A. and H M. Selim. 2011. Copper Mobility in Acidic and Alkaline Soils: Miscible Displacement Experiments. Soil Science Society of America Journal.75:2101–2110 Jeong, C. J. and H. M. Selim. 2011. Adsorption-Desorption Kinetics of Imidacloprid in Soils: Influence of Phosphate. Soil Science 176:582-588 Delaune, R. D. and H. M. Selim. 2011. Environmental Applications of Nanoscale and Microscale Reactive Metal Particles. Book Review. Journal of Environmental Quality 43:1683. Selim, H. M., K. Zhao, Eric Ferguson, Tamer A. Elbana. 2011. Miscible Displacement of Zn in Soil Transport Columns: Influence of Phosphate. Proceedings of the 11th International Conference on Biogechemistry of Trace Elements Biogeochemistry, Florence, Italy, July 4-7, 2011, pp. 1-2. Bengtson, R.L. and H.M. Selim. 2011. Impact of sugarcane residue management strategies on water quality and crop yield. ASABE Paper No. 11-10530. St. Joseph, MI. ASABE. Selim, H. M. 2011. Layered Soils, Water and Solute Transport. Chapter in Encyclopedia of Agrophysics, Springer (pp 414-421). Delaune, R. D. and H. M. Selim. 2011. Environmental Applications of Nanoscale and Microscale Reactive Metal Particles. Book Review. Journal of Environmental Quality 43:1683. Selim, H. M. and B. J Naquin. 2011. Retention of Metribuzin by Sugarcane Residue: Adsorption-Desorption and Miscible Displacement Experiments. Soil Science 176:508-517. Jeong, C. J. and H. M. Selim. 2011. Adsorption-Desorption Kinetics of Imidacloprid in Soils: Influence of Phosphate. Soil Science 176:582-588 Selim, H. M., Chang Yoon Jeong, Allen E. Arceneaux and Richard L. Bengtson. 2011. Watershed Water Quality: Effect of Best Management Strategies. LA Agric. 54:22-23. Weindorf, D., Noura Bakr, Allen E. Arceneaux, Yuanda Zhu and H. Magdi Selim. 2011.Using Composted Mulch for Highway Embankment Erosion Control. LA Agric. 54:24-25. Selim, H. M. 2011. Layered Soils, Water and Solute Transport. Chapter in Encyclopedia of Agrophysics, Springer (pp 414-421). Selim, H. M., K. Zhao, Eric Ferguson, Tamer A. Elbana. 2011. Miscible Displacement of Zn in Soil Transport Columns: Influence of Phosphate. Proceedings of the 11th International Conference on Biogechemistry of Trace Elements Biogeochemistry, Florence, Italy, July 4-7, 2011, pp. 1-2 Bengtson, R.L. and H.M. Selim. 2011. Impact of sugarcane residue management strategies on water quality and crop yield. ASABE Paper No. 11-10530. St. Joseph, MI. ASABE Zhang, H. and H M. Selim. 2011. Second-order modeling of arsenite transport in soils. Journal of Contaminant Hydrology 126:121–129. Selim, H. M. 2011. Nonlinear Behavior of Heavy Metals in Soils: Mobility and Bioavailability. In Dynamics and Bioavailability of heavy metals in the rootzone. Selim, H. M. Ed. CRC Press, Boca Raton, FL, P. 1-36. Publication Type: Book Chapter Elbana, T. A. and H M. Selim. 2011. Copper Mobility in Acidic and Alkaline Soils: Miscible Displacement Experiments. Soil Science Society of America Journal 75:2101–2110. 2012 Selim, H. M. 2012. Atrazine Retention by Sugarcane Residue and Soils. Soil Science 117: 315-328. Zhang, H. and H M. Selim. 2012. Equilibrium and Kinetic Modeling of Competitive Heavy Metal Sorption and Transport in Soils. In Selim, H. M. (ed), Competitive Sorption and Transport of Trace Elements in Soils and Geological Media.CRC/Taylor ad Francis, Boca Raton, FL (42-74). Lindsey, M. R and H. M. Selim. 2012. A Field Study on the influence of M1A1 Abrams Tank Traffic on Soil Compaction. Soil Science 117:210-217. Tamer, E. and H. M. Selim. 2012. Copper Transport in Calcareous Soils: Miscible Displacement Experiments and Second-Order Modeling. Vadose Zone Journal 11:212-231. Lindsey, M. R. and H. M. Selim. 2012. Soil Compaction Thresholds for the M1A1 Abrams Tank: Field Study at Camp Minden, Louisiana. LAES Bulletin 891 (16p). Arceneaux, A. E. and H. M. Selim. 2012. Mulch Management Strategies and Sugarcane Yield. Journal American Society of Sugar Cane Technologists. 32: 28-37. Bakr, N., D. C. Weindorf , Y. Zhu, A. E. Arceneaux, H.M. Selim. 2012. Evaluation of compost/mulch as highway embankment erosion control in Louisiana at the plot-scale. J Hydrology 468–469: 257–267. 2013 Selim, H. M. 2013. Transport and Retention of Heavy Metal in Soils: Competitive Sorption. Advances in Agronomy. 119: 275-308. Selim, H. M., and H. Zhang. 2013. Modeling Approaches of Competitive Sorption and Transport of Trace Metals and Metalloids in Soils: J Environ. Qual. 42:640-653 Selim, H. M., T. A. Elbana, K. Zhao, J. Xu and E. L. Fergusson. 2013.Miscible Displacement of Zinc in Soil Columns: Linear and Nonlinear Modeling. Soil Sci. Soc. Am. J. 77:391-402. Selim, H. M. 2013. Bioavailability of micronutrients in Louisiana soils. Louisiana Agric. 56-2:31. Selim, H. M and A. Arceneaux. 2013. Impact of residue management on sugarcane yield. Louisiana Agric. 56-2: 32. Liao, L, A. Roy, K. G. Scheckel, G. Merchan, and H. M. Selim. 2013. Retention of Nickel in Soils: Sorption-Desorption and Extended X-ray Absorption Fine Structure Experiments. 178: 215–221. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{AA21B99B-AD6A-47D7-AE5C-09678501C24B}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					LSU AgCenter
+					101 J. Norman Efferson Hall
+					110 LSU Union Square
+					Baton Rouge, Louisiana 70803-0106225-578-4161
+				
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

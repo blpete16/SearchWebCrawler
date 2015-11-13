@@ -1,0 +1,945 @@
+
+J.
+ (Ram) Ramanujam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+J. (Ram) Ramanujam
+Director, Center for Computation and Technology
+Floating Point Systems Endowed Chair in Computational Methods
+John E. and Beatrice L. Ritter Distinguished Professor (ECE) 
+
+
+
+
+
+Center for Computation and Technology
+2027E Digital Media Center
+CCT Office:
+    +1 225-578-7877 
+	   (Fax: +1-225-578-5362)
+
+
+
+
+Louisiana State University,
+    Baton Rouge,
+    LA 70803, USA   
+E-mail:
+    
+	r a m {@} cct.lsu.edu
+
+
+
+
+ECE Division
+School of Electrical Engineering 
+and Computer Science
+ECE Div. EECS:
+    +1 
+	225-578-5241   
+
+
+
+
+
+
+
+
+
+ 
+
+
+Quick Links 
+
+
+
+
+
+
+ 
+WOLFHPC: Workshop on 
+Domain-Specific Languages and High-Level Frameworks for 
+High-Performance Computing (at SC15), 
+Austin, TX, November 16, 2015.
+
+
+
+
+
+Course Offerings: Louisiana State University (LSU)
+
+
+
+
+
+
+
+Journal of Parallel and Distributed Computing -- Special Issue on
+Domain-Specific Languages and High-Level Frameworks for High-Performance Computing (Volume 74/Issue 12, 2014)
+
+
+
+ 
+29th IEEE International Parallel &
+Distributed Processing Symposium (IPDPS 2015),
+Hyderabad, India, May 25-29, 2015.
+ 
+Compilers for Parallel Computing (CPC'15),
+Imperial College, London, UK, January 7-9, 2015. 
+
+
+
+
+
+ 
+
+
+
+
+Research
+
+ 
+
+
+Research 
+Interests
+
+
+
+
+ 
+Compiler optimizations for high performance computers: GPUs, multicore, 
+accelerators.
+  
+
+
+ 
+Embedded systems: compilers, design, processors
+  
+
+
+ 
+Parallel computing: architecture, algorithms, software
+  
+
+
+ 
+Computer architecture
+
+
+
+ 
+Compilers, operating systems and architectures for low power
+  
+
+
+ 
+Hardware synthesis and optimization: behavioral-level, logic-level
+  
+
+
+
+
+
+
+Software
+
+
+
+
+PLUTO - An 
+automatic parallelizer and locality optimizer for multicores
+ 
+Download PLUTO
+
+
+
+
+CUDA version of PLUTO: 
+ 
+Download Pluto 0.6.2-CUDA (BETA)
+
+
+
+PTile
+ -- A parallel parametric tiling software for imperfectly nested loops  
+
+PTile website  (See download details there in)
+
+
+PrimeTile
+ -- A parametric multi-level tiler for imperfect loop nests  
+
+
+
+TCE - Tensor Contraction 
+Engine
+
+
+
+
+
+Publications
+
+h-index:   43.    
+ i10-index:   109.    
+ g-index:   71.
+
+Google Scholar Citations (J. Ramanujam)
+Libra (J. Ramanujam)
+Recent
+ Publications (most in pdf)
+ 
+
+Full List of 
+Publications (some pdf included)
+ 
+
+Publications (from Google Scholar)
+
+
+Recent Articles (from Google Scholar)
+
+
+Publications (from DBLP)
+
+
+Publications (another link to DBLP)
+
+Selected Recent Publications
+
+
+ 
+	M. Ravishankar, R. Dathatri, V. Elango, L.-N. Pouchet, 
+        J. Ramanujam, A. Rountev, and P. Sadayappan,
+        “Distributed Memory Code Generation for Mixed 
+        Irregular/Regular Computations,” 
+        in Proc. 20th ACM SIGPLAN Symposium on Principles and 
+        Practice of Parallel Programming (PPoPP 2015),
+        San Francisco, CA, February 2015.
+
+         
+	F. Luporini, A.L. Varbanescu, F. Rathgeber, G.-T. Bercea, J. Ramanujam,
+        D.A. Ham, and P.H.J. Kelly, 
+        “Cross-Loop Optimization of Arithmetic Intensity for Finite 
+        Element Local Assembly,” 
+        ACM Transactions on Architecture and Code Optimization 2015;
+        also to appear in HiPEAC 2015, Amsterdam, The Netherlands, 
+        January 2015.
+
+         
+	V. Elango, N. Sedhagati, F. Rastello, L.-N. Pouchet, 
+        J. Ramanujam, R. Teodorescu, and P. Sadayappan,
+        “On Using the Roofline Model with Lower Bounds 
+        on Data Movement,” 
+        ACM Transactions on Architecture and Code Optimization 2015;
+        also to appear in HiPEAC 2015, Amsterdam, The Netherlands, 
+        January 2015.
+
+         
+        V. Elango, F. Rastello, L.-N. Pouchet, 
+        J. Ramanujam, and P. Sadayappan,
+       “On Characterizing the Data Access Complexity of Programs,”
+       in Proc. 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2015),
+       Mumbai, India, January 2015.
+ 
+        V. Elango, F. Rastello, L.-N. Pouchet, 
+        J. Ramanujam, and P. Sadayappan,
+       “On Characterizing the Data Movement Complexity 
+       of Computational DAGs for Parallel Execution,”
+       in Proc. 26th ACM Symposium on Parallelism in Algorithms
+       and Architectures (SPAA 2014),
+       Prague, Czech Republic, June 2014.
+ 
+M. Ravishankar, J. Eisenlohr, L.-N. Pouchet, J. Ramanujam, A. Rountev, and P. Sadayappan,
+"Automatic Parallelization of a Class of Irregular Loops for Distributed Memory Systems," in 
+ACM Transactions on Parallel Computing, 2014.
+
+  
+        K. Stock, M. Kong, L.-N. Pouchet, F. Rastello, 
+        J. Ramanujam, and P. Sadayappan, 
+       “A Framework for Enhancing Data Reuse via Associative
+       Reordering,”
+       in Proc. 35th ACM SIGPLAN Conference on Programming Language 
+       Design and Implementation (PLDI 2014),
+       Edinburgh, U.K., June 2014.
+  
+        M.M. Strout, F. Luporini, C.D. Krieger, C. Bertolli, 
+        G.-T. Bercea, C. Olschanowsky, J. Ramanujam, and P.H.J. Kelly, 
+       “Generalizing Run-time Tiling with the Loop 
+       Chain Abstraction,”
+       in Proc. 28th IEEE International Parallel and Distributed Processing Symposium (IPDPS 2014),
+       Phoenix, AZ, May 2014.
+ 
+Y. Fang, S. Feng, K.-M. Tam, Z. Yun, J. Moreno, J. Ramanujam, 
+and M. Jarrell, "Parallel Tempering Simulation of the 
+three-dimensional Edwards-Anderson Model with Compact
+Asynchronous Multispin Coding on GPU," 
+Computer Physics Communications, 2014;
+also available as 
+arXiv:1403.4560. 
+
+ 
+Z. Yun, Z. Lei, G. Allen, D. Katz, and J. Ramanujam, 
+"DA-TC: A Novel Application Execution Model
+in Multi-Cluster Systems," Cluster Computing, 
+vol. 17, no. 2, pp. 371-387, June 2014.
+
+  
+        N. Fauzia, V. Elango, M. Ravishankar, L.-N. Pouchet, 
+        J. Ramanujam, F. Rastello, A. Rountev, and P. Sadayappan, 
+       “A Framework for Enhancing Data Reuse via Associative
+       Reordering,”
+       ACM Transactions on Architecture and Code Optimization (TACO),
+       vol. 10, no. 4, pages 53:1-53:29, December 2013. Also in 
+       HiPEAC 2014,
+       Vienna, Austria, January 2014.
+  
+        S. Tavarageri, J. Ramanujam, and P. Sadayappan,
+        “Adaptive Parallel Tiled Code Generation and Accelerated 
+        Auto-tuning,”
+        International Journal of High Performance Computing
+          Applications,
+        vol. 27, no. 4, pages 412-425, November 2013.
+  
+       A. Konstantinidis, P. Kelly, P. Sadayappan and J. Ramanujam,
+       “Parametric GPU Code Generation for Static Control 
+       Programs,”
+       in Proc. 26th International Workshop on Languages and              
+       Compilers for Parallel Computing (LCPC 2013),
+       San Jose, CA, September 2013.
+  
+       T. Henretty, J. Holewinski, R. Veras, F. Franchetti, L.N. Pouchet,
+       J. Ramanujam, A. Rountev and P. Sadayappan, 
+       “ A Domain-Specific Language and Compiler for Stencil
+       Computations on Short-Vector SIMD and GPU Architectures,”
+       in Proc. 17th Workshop on Compilers for Parallel                   
+       Computing (CPC 2013),
+       Lyon, France, July 2013.
+  
+       T. Henretty, R. Veras, F. Franchetti, L.N. Pouchet,
+       J. Ramanujam and P. Sadayappan, 
+       “A Stencil Compiler for Short-Vector SIMD Architectures,”
+       in Proc. 27th ACM International Conference on Supercomputing,
+       Eugene, OR, June 2013.
+  
+        A. Cohen, T. Grosser, P. Kelly, J. Ramanujam, P. Sadayappan, and S. Verdoolaege, “Tiling for GPUs: Automatic Parallelization Using Trapezoidal Tiles to Reconcile Parallelism and Locality, Avoiding Divergence and Load Imbalance,” in Proc. 6th Workshop on General Purpose Processing Using GPUs (GPGPU-6), 
+	Houston, TX, held with ASPLOS-13, March 2013.
+  
+        Z. Yun, Z. Lei, G. Allen, D. Katz, and J. Ramanujam, 
+        “DA-TC: A Novel Application Execution Model in Multi-Cluster Systems,” 
+        in Cluster Computing, 2013. 
+   
+K.-M. Tam, H. Fotso, S.-X. Yang, T.-W. Lee, J. Moreno, J. Ramanujam and M. Jarrell,
+"Solving the Parquet Equations for the Hubbard Model beyond Weak Coupling,"
+Physical Review E, 2013; 
+also available as 
+arXiv:1108.4926. 
+
+
+	   M. 
+	Ravishankar, J. Eisenlohr, L.-N. Pouchet, J. Ramanujam, A. Rountev and P. Sadayappan, “Code 
+	Generation for Parallel Execution of a Class of Irregular Loops on 
+	Distributed Memory Systems,” in Proc. ACM/IEEE Conference on High Performance Computing SC12, 
+	Salt Lake City, UT, November 2012.
+  J. Shirako, K. Sharma, N. Fauzia, L.-N. Pouchet, J. Ramanujam, P. Sadayappan and V. Sarkar,
+"Analytical Bounds for Optimal Tile Size Selection," 
+in CC 2012 - International Conference on Compiler Construction,
+(M. O'Boyle Ed.), Lecture Notes in Computer Science, 
+Springer-Verlag, 2012.
+ H. Salamy and J. Ramanujam,
+"An Effective Solution to Task Scheduling and Memory Partitioning for Multi-Processor System-on-Chip,"
+       in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,
+       2012.
+
+ H. Salamy and J. Ramanujam, "An ILP Solution to Address Code Generation for Embedded 
+	Applications on Digital Signal Processors," in ACM Transactions on Design Automation of Electronic Systems, 2012. 
+	 H. Salamy and J. Ramanujam,
+"Storage Optimization through Offset Assignment with Variable Coalescing,"
+       in ACM Transactions on Embedded Computing Systems,
+       2012.
+
+ H. Salamy and J. Ramanujam,
+"Code Size Reduction for Array Intensive Applications on Digital Signal Processors,"
+       in Journal of Circuits, Systems, and Computers,
+       2012.
+
+ Q. Lu, X. Gao, S. Krishnamoorthy, G. Baumgartner, J. Ramanujam and P. Sadayappan,
+"Empirical Performance Model-Driven Data Layout Optimization and 
+Library Call Selection for Tensor Contraction Expressions,"
+       in Journal of Parallel and Distributed Computing,
+       72(3):338-352, March 2012.
+
+
+
+
+ 
+T. Henretty, K. Stock, L.-N. Pouchet, F. Franchetti, 
+J. Ramanujam and P. Sadayappan,
+"Data Layout Transformation for Stencil Computations on 
+Short-Vector SIMD Architectures," 
+in International Conference on Compiler Construction (CC'2011),
+Saarbrucken, Germany, March 2011.
+
+
+ 
+L.-N. Pouchet, U. Bondhugula, C. Bastoul,
+A. Cohen, J. Ramanujam, P. Sadayappan and N. Vasilache,
+"Loop Transformations: Convexity, Pruning and Optimization," 
+in Proc. Symposium on Principles of Programming Languages (POPL 11), 
+Austin, TX, January 2011.
+
+
+
+
+
+L.-N. Pouchet, U. Bondhugula, C. Bastoul,
+A. Cohen, J. Ramanujam and P. Sadayappan,
+"Combined Iterative and Model-driven Optimization 
+in an Automatic Parallelization Framework," 
+in Proc. ACM/IEEE Conference on High Performance Computing SC10, 
+New Orleans, LA, November 2010.
+
+
+
+
+M. Baskaran, A. Hartono, S. Tavarageri, T. 
+Henretty, J. Ramanujam, and P. Sadayappan,
+"Parameterized Tiling Revisited," International Symposium on Code 
+Generation and Optimization (CGO), Toronto, Canada, April 2010.
+
+
+
+
+M. Baskaran, J. Ramanujam, and P. 
+Sadayappan,
+"Automatic C-to-CUDA Code Generation for Affine Programs," International
+ Conference on Compiler Construction (CC), Paphos, Cyprus, March
+ 2010.
+Q. Lu, C. Alias, U. Bondhugula, T. 
+Henretty, S. Krishnamoorthy, J. Ramanujam, A. Rountev,
+P. Sadayappan, Y. Chen, H. Lin, T. Ngai,
+"Data Layout Transformation for Enhancing Data Locality on NUCA Chip 
+Multiprocessors," Proc. Intl. Conf. on Parallel Architectures and Compilation 
+Techniques
+(PACT), Raleigh, NC, September 2009.
+
+A. Hartono, M. Baskaran, C. Bastoul, A. 
+Cohen, S. Krishnamoorthy, B. Norris, J. Ramanujam,
+and P. Sadayappan,
+"Parametric multi-level tiling of imperfectly nested loops," ACM International Conference on Supercomputing (ICS), New York, NY, 
+June 2009.
+	
+M. Baskaran, N. Vydhyanathan, U. 
+Bondhugula, J. Ramanujam,
+       A. Rountev, and P. Sadayappan,
+        "Compiler-Assisted Dynamic Scheduling for Effective
+        Parallelization of Loop Nests on Multicore Processors,"
+       in Proc. 14th ACM SIGPLAN Symposium on Principles
+       and Practice of Parallel Programming (PPoPP 2009),
+       Raleigh, NC, February 2009.
+
+A. Hartono, Q. Lu, T. Henretty, S. 
+Krishnamoorthy, H. Zhang, G. Baumgartner, D.  E. Bernholdt, M. Nooijen, 
+R. Pitzer, J. Ramanujam, and P. Sadayappan,
+"Performance Optimization of Tensor Contraction Expressions for 
+Many-Body Methods in Quantum Chemistry," The Journal of Physical Chemistry A, 
+	Vol. 113 (45), pp. 
+12715-12723, 2009.
+	
+Hassan Salamy and J. Ramanujam,
+       "A Framework for Task Scheduling and Memory Partitioning for
+       Multi-Processor System-on-Chip,"
+       in Proc. 4th International Conference on High Performance
+       and Embedded Architectures and Compilers (HiPEAC 2009),
+       Paphos, Cyprus, January 2009.
+M. Baskaran, U. Bondhugula, J. Ramanujam, A. 
+Rountev, and
+P. Sadayappan,
+"A compiler framework for optimization of affine loop nests for GPGPUs,"
+ 	ACM International Conference on Supercomputing (ICS), 
+June 2008.
+	
+U. Bondhugula, A. Hartono, J. Ramanujam,
+and P. Sadayappan,  
+"PLUTO: A Practical and Fully Automatic Polyhedral Program 
+Optimization System," Proc. ACM SIGPLAN 2008 Conference
+on Programming Language Design and Implementation (PLDI 08),
+Tucson, AZ, June 2008.
+
+U. Bondhugula, M. Baskaran, S. 
+Krishnamoorthy, J. Ramanujam,
+A. Rountev, and P. Sadayappan,  
+"Automatic Transformations for Communication-Minimized
+Parallelization and Locality Optimization in the
+Polyhedral Model," 
+in Proc. CC 2008 - International Conference on
+Compiler Construction, March-April 2008.
+
+M. Baskaran, U. Bondhugula, S. 
+Krishnamoorthy, J. Ramanujam,
+A. Rountev and P. Sadayappan, "Automatic Data Movement and Computation
+Mapping for Multi-level Parallel Architectures with Explicitly Managed
+Memories," in Proc. 13th ACM SIGPLAN Symposium on Principles and
+Practice of Parallel Programming, (PPoPP 2008), Salt Lake City, 
+UT, 
+February 2008.
+
+
+J. Hong and J. Ramanujam, "Scheduling DAGs for 
+	Fixed-point DSP Processors by Using Worm Partitions," in Proc. 2008 
+	International Conference on Embedded Systems and Software (ICESS-08), 
+	pp. 567–574, Chengdu, China, July 2008.
+S. Krishnamoorthy, M. Baskaran, U. 
+Bondhugula, J. Ramanujam,
+A. Rountev and P. Sadayappan, "Effective Automatic Parallelization
+of Stencil Computations," in Proc. ACM SIGPLAN 2007 Conference
+on Programming Language Design and Implementation (PLDI 07),
+San Diego, CA, June 2007.
+
+U. Bondhugula, J.  Ramanujam, and P. 
+Sadayappan, "Automatic
+Mapping of Nested Loops to FPGAs," in Proc. ACM SIGPLAN 2007
+Symposium on Principles and Practice of Parallel Programming
+(PPoPP 07), San Jose, CA, March 2007.
+
+J. Ramanujam, J. Hong, M. Kandemir, A. Narayan, 
+and A. Agarwal,
+"Estimating and Reducing the Memory Requirements of Signal
+Processing Codes for Embedded Processor Systems," IEEE
+Transactions on Signal Processing, vol. 54, no. 1, pp. 286--294,
+January 2006.
+G. Baumgartner, A. Auer, 
+D. Bernholdt, A. Bibireata,
+       V. Choppella, D. Cociorva, X. Gao, 
+R. Harrison, S. Hirata,
+       S. Krishnamoorthy, S. Krishnan, C. Lam, 
+Q. Lu, M. Nooijen, R. Pitzer,
+       J. Ramanujam, P. Sadayappan, and A. Sibiryakov,
+       "Synthesis of High-Performance Parallel Programs for a Class of 
+ab 
+       initio Quantum Chemistry Models," Proceedings of the 
+IEEE, vol. 93, no. 2, pp. 276-292, February 2005.
+X. Gao, S. Sahoo, Q. Lu, G. Baumgartner,
+ C. Lam, J. Ramanujam, and
+P.  Sadayappan, "Performance Modeling and Optimization of
+Parallel Out-of-Core Tensor Contractions," in Proc. ACM
+SIGPLAN 2005 Symposium on Principles and Practice of Parallel
+Programming, Chicago, IL, June 2005. 
+
+S.  Krishnan, S. Krishnamoorthy, G. 
+Baumgartner, C. Lam,
+J. Ramanujam, P. Sadayappan, and V. Choppella, "Efficient Synthesis of
+Out-of-Core Algorithms Using a Nonlinear Optimization Solver," Journal
+ of Parallel and Distributed Computing, 
+	vol. 66, no. 5,
+pp. 659-673, May 2006.
+An ealier version appears as: S. Krishnan, S. Krishnamoorthy, G. 
+Baumgartner, C.-C. Lam, J. Ramanujam, and
+P. Sadayappan,
+"Efficient Synthesis of Out-of-core Algorithms Using a
+Nonlinear Optimization Solver,"
+In Proceedings of the 18th International
+Parallel and Distributed Processing Symposium (2004 IPDPS
+Conference), April 2004. (Best Paper
+Award)  
+
+
+
+
+
+ 
+
+
+
+
+Research Links
+
+LSU 
+Council on Research
+ 
+
+
+Selected Awards
+
+
+
+
+
+Ritter Distinguished Professor of Electrical Engineering, 2005-present. 
+ 
+
+Floating Point Systems Endowed Chair in Computational Methods,
+2014-present. 
+
+LSU Rainmaker, 2008; 2009. 
+
+
+Best Paper Award (Applications Track) for 
+"Efficient Synthesis of 
+  Out-of-core Algorithms Using a Nonlinear Optimization Solver," 
+(authors: S. 
+  Krishnan, S. Krishnamoorthy, G. Baumgartner, C. Lam, J. Ramanujam, and
+ P. 
+  Sadayappan) at the 18th International Parallel and Distributed 
+Processing 
+  Symposium (2004 IPDPS Conference), Santa Fe, April 2004. Best
+ Paper Award (Systems) for "Data Locality Optimization for 
+  Synthesis of Efficient Out-of-Core Algorithms," (authors: S. Krishnan,
+ S. 
+  Krishnamoorthy, G. Baumgartner, D. Cociorva, C. Lam, P. Sadayappan, J.
+ 
+  Ramanujam, D. Bernholdt, and V. Choppella) at the International 
+Conference 
+  on High Performance Computing (HiPC 03), December 2003. 
+
+
+ 
+
+Distinguished Visitor, IEEE Computer Society, 
+2001-2003.
+ 
+
+NSF Young Investigator Award, 1994.
+
+
+
+
+
+Recent graduates
+
+
+
+Current students
+
+
+
+  Sameer AbuAsal
+
+   Ye Fang
+
+ Sahar Navaz 
+ Mohammad Rastegar Tohid 
+
+
+
+
+
+WOLFHPC: Workshop on 
+Domain-Specific Languages and High-Level Frameworks for 
+High-Performance Computing (at SC14), 
+Full-Day Workshop at SC14, New Orleans, LA,
+November 17, 2014
+
+
+
+WOLFHPC: Workshop on 
+Domain-Specific Languages and High-Level Frameworks for 
+High-Performance Computing (at SC13), 
+Full-Day Workshop at SC13, Denver, CO,
+November 2013
+
+
+
+WOLFHPC: Workshop on 
+Domain-Specific Languages and High-Level Frameworks for 
+High-Performance Computing (at SC12), 
+Workshop at SC12, Salt Lake City, 
+UT, November 16, 2012;  Program
+
+
+
+PPoPP 2012: 17th ACM SIGPLAN Symposium on Principles and Practice 
+of Parallel Programming,
+February 25-29, 2012, New Orleans, LA, USA 
+(co-located with HPCA-18).
+Submissions site: 
+
+https://www.softconf.com/c/ppopp2012/
+
+
+
+
+Tutorials and Workshops:
+
+
+Programming Models 
+	and Compiler Optimizations for GPUs and Multicores,
+	(with P. Sadayappan), half-day tutorial at 
+	2014 International Symposium on Code Generation and Optimization Orlando, FL, February 2014.
+
+
+Programming Models 
+	and Compiler Optimizations for GPUs and Multicores,
+	(with P. Sadayappan), half-day tutorial at 
+	9th HiPEAC Conference
+         Vienna, Austria, January 2014.
+
+
+Programming Models 
+	and Compiler Optimizations for GPUs and Multicores,
+	(with P. Sadayappan), half-day tutorial at 
+	International Conference 
+        Supercomputing (ICS 2013) Eugene, Oregon, June 2013.
+
+
+Programming Models 
+	and Optimizations for GPUs and Multicores,
+	(with P. Sadayappan), half-day tutorial at 
+	The 21st International Conference on Parallel Architectures and
+	Compilation Techniques (PACT-2012), Minneapolis, MN, September 2012.
+
+
+Multicore 
+        Processors and GPUs: Programming Models 
+        and Compiler Optimizations, 
+        half-day tutorial (with P. Sadayappan) at
+	2012 International Symposium on Code Generation and Optimization (CGO), 
+        April 1, 2012 (PM session), San Jose, CA, USA.
+
+
+Multicore 
+        Processors and GPUs: Programming Models 
+        and Compiler Optimizations, 
+        half-day tutorial (with P. Sadayappan) at
+	20th International Conference on 
+	Parallel Architectures and Compilation Techniques (PACT), October 14, 2011, Galveston Island, TX, USA.
+GPUs and 
+	General-Purpose Multicores: Programming Models, Compiler Optimization and 
+	Tuning, half-day tutorial (with P. Sadayappan) at
+	25th International Conference on 
+	Supercomputing, June 4, 2011, Tucson, Arizona, USA
+WOLFHPC: 
+	Workshop on Domain-Specific Languages and High-Level Frameworks for 
+	High-Performance Computing, workshop (co-organized with Sriram 
+	Krishnamoorthy and P. Sadayappan) at 
+	25th International Conference on Supercomputing, May 31, 2011, Tucson, 
+	Arizona, USA
+GPU Programming 
+	Models, Optimizations and Tuning, half-day tutorial (with P. 
+	Sadayappan) at The International 
+	Symposium on Code Generation and Optimization, CGO 2011, April 2, 2011, 
+	Chamonix, France
+
+Summer Schools:
+
+
+
+
+	Beyond the PC - Application specific systems: design and implementation, 
+	Ecole Normale Supérieure de Lyon, Lyon, France, February 15-19, 2010 
+
+
+
+
+	ACACES 2009: Fifth International Summer School on Advanced Computer 
+	Architecture and Compilation for Embedded Systems, Terrassa (near 
+	Barcelona), Spain, July 12-18, 2009. 
+
+
+
+
+
+
+
+Teaching
+
+
+ 
+
+
+
+
+Recent
+      Courses
+
+
+
+
+
+Spring 2014:
+EE
+ 4702: High-Level Synthesis and Embedded Systems
+ 
+
+
+Fall 2013:
+EE
+ 7700: Program Optimization Using Polyhedral Models
+ 
+
+
+
+
+Spring 2013:
+EE
+ 7785: Parallelizing Compilers
+ 
+
+
+Fall 2012:
+EE
+ 4702: High-Level Synthesis and Embedded Systems
+
+
+
+
+
+Spring 2012:
+EE 4702:
+Software Optimizations
+
+
+Fall 2011:
+EE 7700: 
+Performance Optimization of Applications on GPUs
+(PDF) 
+
+
+
+Spring 2011:
+EE
+ 7780: Software Design Principles
+
+
+Fall 2010:
+EE 7785: Compiler Optimizations
+
+
+
+
+Spring 2010:
+EE
+ 4702: High-Level Synthesis
+
+
+Fall 2009:
+EE 7000: Software Optimizations for Multicore
+
+
+
+Spring 2009:
+EE 
+4760:  
+  Introduction to Compiler Optimizations
+
+Fall 2008:
+EE 7785:
+  Compiler Optimizations
+
+
+
+Spring 2008:
+EE 
+4702: High-Level Synthesis & Embedded Systems
+
+Fall 2007:
+EE 7785:
+ 
+  Compiler Optimizations
+
+
+
+Spring 2007:
+EE 
+4760: 
+  Introduction to Compiler Optimizations
+Fall 2006:
+EE
+ 
+7000: Embedded Systems 
+
+
+
+Spring 2006:
+EE 
+7000: High-Level Synthesis
+Fall 2005: EE 7785: 
+Compiler Optimizations
+
+
+Spring 2005: 
+  EE 
+4760: 
+  Introduction to Compiler Optimizations
+Fall 2004:
+EE 7700: 
+Architectures & Algorithms for Digital Signal Processing (DSP)
+
+
+Spring
+2004: 
+EE 7700: Energy Aware Computing Systems 
+Fall
+2003: EE 
+4702: High Level Synthesis
+
+Fall
+2003: EE
+ 7700-1: Compiler Optimizations
+
+
+
+
+Spring
+2003:
+EE 
+7700: Embedded Systems
+
+
+ 
+
+
+
+
+  
+
+
+Local Links
+
+PAWS
+Visitor Information
+
+Sights from around
+ Baton Rouge 
+(thanks to the Sociology Department)
+
+Areas of 
+Specialization from the College of Engineering Website
+ 
+Division of Electrical and Computer Engineering, School of EECS (ECE at LSU)
+
+Phone List ECE 
+Division, School of EECS (at LSU)
+College of Engineering, Louisiana State 
+University (LSU)
+ 
+Course Offerings: Louisiana State University (LSU)
+ 
+Academic Calendars: Louisiana State University (LSU)
+ 
+Final Exam Schedule: Louisiana State University (LSU)
+
+Schedule Booklets: Louisiana State University (LSU)
+Louisiana State University
+
+
+

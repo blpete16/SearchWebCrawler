@@ -1,0 +1,620 @@
+
+
+
+Cathleen Williams - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fCWilliams%2ehtm&NRNODEGUID=%7b4AD1BEBA-7C28-4AA5-A052-38B10B78AB5F%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Chancellor's Office
+
+Extension
+
+Research
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+Professional Organizations
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Cathleen WilliamsTitle: Associate ProfessorSpecialization: Dairy and Calf Nutrition and ManagementE-mail: Department: School of Animal SciencesOrganization: LSU AgCenterAddress 1: 202A Dairy Science Bldg.Address 2: Baton Rouge, LA 70803Phone Number: (225) 578-4574Fax Number: (225) 578-4008
+
+
+
+
+
+Education/TrainingB.S., Louisiana State University, Dairy Production Science
+M.S., University of Georgia, Dairy Science
+Ph.D., Auburn University, Animal Science
+
+
+Areas of Specialization/ResearchDairy Nutrition and Physiology, Calf Nutrition and ManagementAffiliate Lab Director, BioPRYN bovine pregnancy testing services    Click below to obtain forms:        Letter to Producer        Tube Labeling Instructions        Sample Submission Form        Shipping Procedures    
+
+
+Professional Experience
+1991-1994  - Research Technician, Nutrition Lab, Department of Animal and Dairy Sciences, University of Georgia
+1995  - Biological Science Technician, USDA Fish Disease and Parasites Lab, Auburn, Ala.1995-1998  - Graduate Research Assistant, Department of Animal and Dairy Sciences, Auburn University1998-2004  - Assistant Professor, Department of Dairy Science, Louisianan State University2004-Present  - Associate Professor, School of Animal Sciences, Louisiana State University2008-2010 - Rector, Agriculture Residential College, College of Agriculture, LSU
+Teaching
+
+ANSC 3010 - Applied Animal Feed Formulation
+ANSC 4054 - Dairy Farm Management
+ANSC 4092 - Animal Science Proseminar
+ANSC 4043 - Domestic Animal Endocrinology
+
+
+Awards/Grants
+Carnegie Foundation for the Advancement of Teaching Louisiana Professor of the Year, 2010
+LSU College of Agriculture Alumni Teaching Award, 2009
+Sedberry Award for Undergraduate Teaching, College of Agriculture, LSU, 2008.
+North American Teachers and Colleges of Agriculture Excellence in Teaching Award, 2006
+Gamma Sigma Delta Teaching Award, 2006
+LSU Agricultural Student Association Outstanding Club Advisor, 2005.
+Tiger Athletic Foundation Outstanding Assistant Professor, College of Agriculture, 2004.
+LSU Agricultural Student Association Outstanding Club Advisor, 2004.
+Advisor Excellence Award, Louisiana State University, 2002.
+American Dairy Science Association Outstanding Student Affiliate Division Advisor, 2001.
+Gamma Sigma Delta Teaching Merit Honor Roll, LSU, April, 2001, 2002, 2004- 2010
+
+
+Publications/Presentations/PatentsR. M. Doescher, C. C. Williams, C. F. Hutchison, B. F. Jenny, and A. H. Dolejsiova. 2010. Effects of different levels of cottonseed hulls on rumen development and growth in dairy calves. J. Dairy Sci. 93 E-Suppl 1:174.
+K. C. Simon, C. C. Williams*, L. R. Gentry, B. F. Jenny, R. M. Doescher, and A. H. Dolejsiova. 2010. Effects of meal timing on anabolic hormone status and energy metabolism in neonatal Holstein calves. J. Dairy Sci. 93 E-Suppl 1:636.
+Laborde, J.M., C. C. Williams, C. Leonardi, C. F. Hutchison, B. F. Jenny, B. L. Fisher, and A. H. Dolejsiova. 2009. Effect of probiotics and yeast culture on rumen development and growth of dairy calves. J. Dairy Sci. Vol. 92, E-Suppl. 1:162
+Bridges, A.J., C.C. Williams, C.F. Hutchison, J.M. Laborde, A.N. Howard, and C. Leonardi. 2008. Effect of milk replacer composition on growth and rumen development of neonatal Holstein calves. J. Dairy Sci. 91 (E-Suppl 1): 123
+Williams, C.C., D.T. Gantt, C.F. Hutchison, C.C. Stanley, and M.A. Froetschel. 2007. Effects of early intensified nutrition on growth and metabolism of neonatal dairy calves. J. Dairy Sci. 90 (Suppl 1): 112.
+Sissell, C.A., C.C. Williams, C.F. Hutchison, D.T. Gantt, L.R. Gentry, A.J. Bridges, and J.E. Chandler. 2007. Effects of protein sources on growth and hormonal status of weaned dairy calves. J. Dairy Sci. 90 (Suppl. 1): 123.
+Stanley, C.C., C.C. Williams, D.T. Gantt, J. R. Roberts, and S. R. Adams. 2006. Characterization of metabolic hormones and insulin sensitivity in transition dairy cows. J. Dairy Sci. 89 (Suppl. 1): 346
+Albers, E.A., C.C. Williams, C.F. Hutchison, D.T. Gantt, L.R. Gentry, and C.C. Stanley. 2006. Effects of milking frequency in early lactation on prolactin and growth hormone release and on milk production throughout lactation. J. Dairy Sci. 89 (Suppl. 1): 353.
+Stanley, C.C, C.C. Williams, J. Heintz, E. Rees, and D.T. Gantt. 2005. Effects of Gammulin® on performance in non-stressed neonatal dairy calves. J. Dairy Sci. 88 (Suppl. 1): 25.
+Williams, C.C., A.M. Ponson, C.C. Stanley, H.G. Bateman, II, P.T. Richardel, and D.T. Gantt. 2004. Accuracy and precision of commercially available glucometers for use in dairy cattle. J. Dairy Sci. 87 (Suppl. 1): 197.
+Richardel, P.T., C.C. Williams, H.G. Bateman, II, C.F. Hutchison, C.C. Stanley, Y.H. Chung, T.W. White, L.R. Gentry, D.L. Thompson, Jr., and D.T. Gantt. 2004. Effects of dietary protein level and fish meal on growth and hormonal status of weaned dairy calves. J. Dairy Sci. 87 (Suppl. 1): 210.
+Stanley, C.C., C.C. Williams, H.G. Bateman, II, D.T. Gantt, J.C. Roberts, P.T. Richardel, J.C. Lovejoy, and E. Ravussin. 2004. Insulin sensitivity in lactating dairy cows and neonatal calves: Comparson of the minimal model and the hyerinsulinemic euglycemic clamp. J. Dairy Sci. 87 (Suppl. 1): 130.
+Williams, C.C., B.T. Crochet, L.D. Bunting, J.M. Fernandez, and C.C. Stanley. 2004. Metabolic responses of periparturient Holstein cows and heifers supplemented with chromium picolinate. Prof. Anim. Sci. 20:312-318
+Williams, C.C., J.K. Calmes, J.M. Fernandez, C.C. Stanley, J.C. Lovejoy, H.G. Bateman, II, L.R. Gentry, D.T. Gantt, and G.D. Harding. 2004. Glucose metabolism and insulin sensitivity in Gulf Coast Native and Suffolk ewes during late gestation and early lactation. Small Rumin. Res. 54:167-171
+Stanley, C.C, C.C. Williams, B.F. Jenny, J.M. Fernandez, H.G. Bateman, II, W.A. Nipper, J.C. Lovejoy, D.T. Gantt, and G.E. Goodier. 2002. Effects of feeding milk replacer once versus twice daily on glucose metabolism in Holstein and Jersey Calves. J. Dairy Sci. 85:2335-2343.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{4AD1BEBA-7C28-4AA5-A052-38B10B78AB5F}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

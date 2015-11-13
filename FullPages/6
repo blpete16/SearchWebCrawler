@@ -1,0 +1,675 @@
+
+
+
+Lisa Fultz - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fLFultz%2ehtm&NRNODEGUID=%7b2AD9CF26-4758-4FD5-8395-27FB778B92CD%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Vice President and Dean's Office
+
+Extension
+
+Research
+
+College of Agriculture
+Professional Organizations
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+College of Agriculture
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Disease Management
+Pasture & Forage
+
+Forestry
+
+Integrated Pest Management
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Ag Disaster: Loss & Recovery
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Urban Extension
+
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Pinterest
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Lisa FultzTitle: Assistant ProfessorSpecialization: Soil Microbiology of Cropping SystemsE-mail: Department: School of Plant, Environmental and Soil SciencesOrganization: LSU AgCenterAddress 1: 310 Sturgis HallAddress 2: Baton Rouge, LA 70803Phone Number: (225) 578-1344Mobile: (225) 366-8863Fax Number: (225) 578-1403
+
+
+
+
+
+Education/Training
+Ph.D. Soil Science, Soil Biogeochemistry and Microbial Ecology, Texas Tech University, 2012
+M.Sc. Soil Science, Soil Chemistry, Oklahoma State University, 2009
+B.Sc. Environmental Science, Natural Resources & Soil Science, Oklahoma State University, 2004
+
+Areas of Specialization/Research
+Soil microbial ecology, biogeochemistry, and water quality of agricultural systems
+Microbial community and structure and activity in agroecosystems
+
+Impacts on soil microbial community following prescribed fire in cropping systems
+Relationship between cover crops and microbial communities
+Microbial community structure and functions in grassland and grazed agroecosystems
+Impacts of climate change on soil microbial communities and biogeochemical cycles
+Distinct microbial communities in long-term sugarcane production vs. newly converted caneland
+ 
+
+Professional Experience
+2014 - present Assistant Professor Soil Microbiology of Cropping Systems Louisiana State University (65% Research / 35% Teaching)
+2012 - 2014 Postdoctoral Research Associate, Soil & Environmental Microbiology, Texas Tech University
+2009 - 2012 Research Assistant, Texas Tech University
+2007 - 2009 Research Specialist, Soil Chemistry, Oklahoma State University
+2005 - 2009 Teaching/Research Assistant, Soil and Animal Waste Management, Oklahoma State University
+Professional Membership
+
+Soil Science Society of America (2005 - present)
+American Society of Agronomy (2014 - present)
+American Geophysical Union (2011 - present)
+Ecological Society of America (2011 - present)
+Teaching Responsibilities
+
+Soil conservation (Fa)
+Journal Review and Discussion (Fa)
+Soil Bioremediation and Biodegradation (TBA)
+Microbial ecology and nutrient cycling in soils (Sp)
+Advanced soil microbiology/microbial processes (Sp)
+Graduate Students
+
+Ina Sanchez - MS Spring 2016 
+
+Integration of cover crops in Louisiana Production
+Adam Bigott - MS Spring 2016
+
+Examining microbial community structure of long-term caneland vs. newly planted caneland
+Autumn Acree - MS Spring 2017
+
+Impacts of prescribed fire in row crop production
+Kathleen Bridges - PhD Spring 2019
+
+Influences of soil microbiology in grasslands overseeded with winter annuals
+
+Awards/Grants
+LA-DEQ 2-yr grant - (PI; $135,500 total budget)Watershed water quality monitoring in Lake St. Joseph - Phase II Project
+NRCS-CIG 3-yr grant - (PI; $75,066 total budget)Winter wheat filter strip for in-field ditches to reduce nurient and sediment runoff - A new best management practice
+Louisiana Soybean and Grain Research Promotion Board - (PI; $45,500 total budget)Integration of cover crops in Louisiana production
+Louisiana Soybean and Grain Research Promotion Board - (PI)Improving management of double crop soybeans
+NRCS-CIG 3-yr grant (co-PI; $467,739 total budget)Soil heath and pasture ecosystem improvement from a diverse mixture of cool-season species overseeded on a water-season perennial grass pasture
+Helen DeVitt Jones Graduate Fellowship ($30,000 - 3 yr fellowship)
+
+Publications/Presentations/PatentsPeer-reviewed Publications
+
+
+Fultz, L. M., J.A. Hattey, and M. Kizer. 2006. Application of swine effluent through subsurface drip irrigation and changes in nutrient concentrations. In. R. Kochenower (ed.) Oklahoma Panhandle Research Extension Center, Research Highlights 2006.
+
+Girma, K., Holtz, S.L., Arnall, D.B., Tubaña, B.S., Fultz, L.M., Hanks, T.L., Lawles, K.D., Mack, C.J., Minor, B.J., Owen, K.W., Panneerseelan, L., Reed, S.D., Santillano, J., Walsh, O., White, M.J., and Raun, W.R., 2007. Grain yields and response index of winter wheat as affected by weather, fertilizer and previous year yield level. Agronomy Journal 99:1607-1614. doi: 10.2134/agronj2007.0030
+
+Davinic, M., Fultz, L.M., Acosta-Martinez, V., Calderon, F., Cox, S., Dowd, S., Allen, V., Zak, J., and Moore-Kucera, J. 2012. Pyrosequencing and mid-infrared spectroscopy techniques reveal distinct aggregate stratification of soil bacterial communities and organic matter composition. Soil Biology and Biochemistry 46:63-72. doi:10.1016/j.soilbio.2011.11.012.
+
+Penn, C.J., Will, R., Fultz, L., and Hamilton, D. 2013. Forage and tree seedling growth in soil with an encased swine sludge layer. Journal of Environmental Management 128:586-593. doi: 10.1016/j.jenvman.2013.05.045. 
+
+Fultz, L.M., Moore-Kucera, J., Zobeck, T.M., Acosta-Martinez, V., and Allen, V.G. 2013. Aggregate carbon pools after 13-years of integrated crop-livestock management in semi-arid soils. Soil Science Society of America Journal 77:1659-1666. doi: 10.2136/sssaj2012.0423.
+
+Fultz, L.M., Moore-Kucera, J., Zobeck, T.M., Acosta-Martinez, V., Wester, D.B., and Allen, V.G. 2013. Organic carbon dynamics and soil stability in five semiarid agroecosystems. Agriculture, Ecosystems, and Environment 181:231-240. doi: 10.1016/j.agee.2013.10.004.
+
+Fultz, L.M., Moore-Kucera, J., Calderon, F.C., Acosta-Martinez, V. 2014. Using Fourier-transform mid-infrared spectroscopy to distinguish between soil aggregate fractions and agricultural management. Soil Science Society of American Journal 78:1940-1948. doi: 10.2136/sssaj2014.04.0161.
+
+Fultz, L.M., Moore-Kucera, J., Dathe, J., Wester, D., Schwilk, D., Rideout-Hanzak, S. 2015.  Forest wildfire and grassland prescribed fire effects on soil biogeochemical processes and microbial communities: two case studies in the semi-arid Southwest. Accepted with revision from Applied Soil Ecology.
+
+ Lofton, J., Haggard, B., Fultz, L.M., Weindorf, D.C., Acree, A., Cole, C., 2015. Influence of residue management on double-crop soybeans (Glycine max L.) on yield and short-term soil characteristics. Accepted with revision from Agronomy Journal.
+Published Abstracts
+
+Fultz, L.M. 2006. Nutrient Concentration and Distribution from Subsurface Drip Irrigation Using Swine Effluent (Presentation). ASA-CSSA-SSSA International Meeting (November 12-16), Indianapolis, IN. 
+Fultz, L.M., Penn, C., and Fuhlendorf, S. 2008. Using fire as a management practice in grassland and cropping systems: Effects on soil nutrient availability, carbon and nitrogen contents, and physical properties (Poster). ASA-CSSA-SSSA International Meeting (October 5-9), Houston, TX. 
+Penn, C.J., Warren, J.G., and Fultz, L.M. 2008. Isothermal titration calorimetry for estimating phosphorus adsorption and desorption potential from soils (Poster). ASA-CSSA-SSSA International Meeting (October 5-9), Houston, TX.
+Blankenship, K., Fultz, L.M., and Hattey, J. 2010. Mobilization of essential plant nutrients after various applications of swine effluent through a subsurface drip irrigation (Presentation). ASA-CSSA-SSSA International Meeting (October 31–November 3), Long Beach, CA.
+Fultz, L.M., Sorenson, G., Cornejo, F., Moore-Kucera, J., Rideout-Hanzak, S., and Wester, J. 2010. Short-term effects of prescribed burn frequency on rangeland soils (Presentation). ASA-CSSA-SSSA International Meeting (October 31–November 3), Long Beach, CA. 
+Fultz, L.M., Davinic, M., Allen, V., and Moore-Kucera, J. 2011. Dynamics of soil aggregation and carbon in long-term integrated crop-livestock agroecosystems in the Southern High Plains (Poster). ASA-CSSA-SSSA International Meeting (October 16-19), San Antonio, TX.
+Fultz, L.M., Davinic, M., Allen, V., and Moore-Kucera, J. 2011. Long-term integrated crop-livestock agroecosystems and the effect on soil carbon (Presentation). ASA-CSSA-SSSA International Meeting (October 16-19) San Antonio, TX.
+Fultz, L.M., Davinic, M., Cornejo, F., Allen, V., and Moore-Kucera, J. 2011. CO2 and N20 fluxes in integrated crop-livestock systems (Poster). ASA-CSSA-SSSA Internation Meeting (October 16-19), San Antonio, TX.
+Li, C., Davinic, M., Fultz, L.M., Lee, J., Wallace, R.W., Martin, J., Cowan, J., Raley Jr., R., Miles, C., Inglis, D.A., and Moore-Kucera, J., 2011. Biodegradable mulches: short-term degradability and impacts on soil health (Poster). ASA-CSSA-SSSA International Meeting (October 16-19), San Antonio, TX. 
+Davinic, M., Fultz, L.M., Acosta-Martinez, V., Zak, J., Allen, V., and Moore-Kucera, J. 2011. Soil fungal community and functional diversity assessments of agroecosystems in the Southern High Plains (Poster). ASA-CSSA-SSSA International Meeting (October 16-19), San Antonia, TX.
+Davinic, M., Fultz, L.M., Acosta-Martinez, V., Calderon, F., Allen, V., Dowd, S.E., and Moore-Kucera, J. 2011. Aggregate stratification assessment of soil bacterial communities and organic matter composition: coupling pyrosequencing and mid-infrared spectroscopy techniques (Presentation). ASA-CSSA-SSSA International Meeting (October 16-19), San Antonio, TX. 
+Davinic, M., Fultz, L.M., Acosta-Martinez, V., Allen, V., Down, S.E., and Moore-Kucera, J. 2011. Soil microbial dynamics in alternative cropping systems to monoculture cotton in the Southern High Plains (Poster). ASA-CSSA-SSSA International Meeting (October 16-19), San Antonio, TX. 
+Fultz, L.M., Allen, V., and Moore-Kucera, J. 2011. The story of soil organic carbon in the Southern High Plains (Poster). AGU Meeting (December 5-9), San Francisco, CA. 
+Fultz, L.M., Allen, V., and Moore-Kucera. J. 2012. Increases in protected soil organic carbon found in perennial grassland vegetation as part of integrated crop-livestock systems (Poster). ESA Meeting (August 5-10), Portland, OR.
+Zilverberg, C.J., Fultz, L.M., Galyean, M., Moore-Kucera, J., and Allen, V.G. 2012. Carbon release from steers and fossil fuels in integrated crop-livestock systems (Invited Presentation). ASA-CSSA-SSSA International Meeting (October 21-24), Cincinnati, OH.
+Calderon, F., Fultz, L.M., Allen, V., Moore-Kucera, J. 2012. Soil carbon and soil organic matter quality in soil size fractions from crop and livestock systems in Texas (Invited Presentation). ASA-CSSA-SSSA International Meeting (October 21-24), Cincinnati, OH.
+Fultz, L.M., Moore-Kucera, J., Allen, V. 2012. Significant management impacts on intra-aggregate soil fractions (Invited Presentation). ASA-CSSA-SSSA International Meeting (October 21-24), Cincinnati, OH.
+Fultz, L.M., Kakarla, M., Moore-Kucera, J., Acosta-Martinez, V., Zak, J.C., Calderon, F., Horita, J. 2013. Soil C dynamics in a 26 year CRP chronosequence on an Amarillo fine sandy loam (Presentation). ASA-CSSA-SSSA International Meeting (November 3-6), Tampa, FL. 
+Kakarla, M., Fultz, L.M., Moore-Kucera, J., Acosta-Martinez, V., Zak, J.C. 2013. Fatty acid profiling of soil microbial communities across a soil chronosequence (0-26 years) in Texas High Plains region (Poster). ASA-CSSA-SSSA International Meeting (November 3-6), Tampa, FL.
+Moore-Kucera, J. Fultz, L.M., Davinc, M., Acosta-Martinez, V. 2013. Linking soil microbial ecology to ecosystem functioning in integrated crop-livestock systems (Presentation). ASA-CSSA-SSSA International Meeting (November 3-6), Tampa, FL.
+Calderon, F., Moore-Kucera, J., Fultz, L.M., Acosta-Martinez, V. 2013. Soil C quality dynamics after Conservation Reserve Program land is converted to cropland (Poster). ASA-CSSA-SSSA International Meeting (November 3-6), Tampa, FL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{2AD9CF26-4758-4FD5-8395-27FB778B92CD}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					LSU AgCenter
+					101 J. Norman Efferson Hall
+					110 LSU Union Square
+					Baton Rouge, Louisiana 70803-0106225-578-4161
+				
+© Copyright
+					2015
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

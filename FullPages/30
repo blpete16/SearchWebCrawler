@@ -1,0 +1,789 @@
+
+
+
+Kayanush Aryana - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fKAryana%2ehtm%3fwbc_purpose%3dBasic%26WBCMODE%3dPresentationUnpublished&NRNODEGUID=%7b7D96D0FD-388F-425F-B3B0-DBC157A9E803%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Vice President and Dean's Office
+
+Extension
+
+Research
+
+College of Agriculture
+Professional Organizations
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+College of Agriculture
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Disease Management
+Pasture & Forage
+
+Forestry
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Ag Disaster: Loss & Recovery
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+Urban Extension
+
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Pinterest
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: Kayanush AryanaTitle: ProfessorSpecialization: Functional Dairy FoodsE-mail: Department: School of Animal SciencesOrganization: LSU AgCenterAddress 1: 115  Dairy Science Bldg, LSU CampusAddress 2: Baton Rouge, LA 70803Phone Number: (225) 578-4380Fax Number: 
+
+
+
+
+
+Education/Training
+
+Doctor of Philosophy, August 1997. Food Science and Technology, Mississippi State University, Starkville, Mississippi. Master of Science, 1991. Cytogenetics. Mahatma Phule Agricultural University, Maharashtra, India. Bachelor of Science, Agriculture (Food production and processing), May 1987. Mahatma Phule Agricultural University. Maharashtra, India.  
+
+
+CERTIFICATIONSInternational Dairy Foods Association Hazard Analysis Critical Control Points (HACCP) Certification Program - Individual Certification. Certified to develop and implement HACCP programs for dairy and juice operations (2007).
+
+Seafood HACCP - FDA (1994).
+Red Meats HACCP - Mississippi Meat Packers Association (2001).
+
+
+
+
+Areas of Specialization/Research
+
+Enhancing probiotic characteristics
+Functional dairy foods
+Dairy foods microstructure 
+Dairy ingredient functionality
+
+
+Professional Experience
+2013 (Nov 1) - Present.  Doyle Chambers Endowed Professor in Animal Sciences, Professor of Dairy Foods Technology, School of Animal Sciences, Louisiana State University Agricultural Center, Baton Rouge, LA
+
+2013 July 1 - Oct 31.  Professor of Dairy Foods Technology, School of Animal Sciences and School of Nutrition and Food Science, Louisiana State University Agricultural Center, Baton Rouge, LA. 
+
+2007 (July 1) - 2013 (June) Associate Professor of  Dairy Foods Technology, School of Animal Sciences and Department of Food Science, Louisiana State University Agricultural Center, Baton Rouge, LA.
+
+2001 (Dec 17) – 2007 (June).  Assistant Professor of Dairy Foods Technology, School of Animal Sciences and Department of Food Science, Louisiana State University Agricultural Center, Baton Rouge, LA,
+
+1998-2001 Post Doctoral Research Assistant. Department of Food Science and Technology, Mississippi State University, Starkville, MS.
+
+1997-1998  Post Doctoral Research Assistant. Department of Food Science and Technology, Center for Food Safety and Quality Enhancement, University of Georgia, Griffin, GA.
+
+1994-1997 Research Assistant Department of Food Science and Technology Mississippi State University, Mississippi State, MS. 
+
+COURSES TAUGHT
+ANSC 2075 Milk and Dairy Foods
+ANSC / FDSC 4040 Quality Assurance in the Food Industry
+ANSC 4080 Dairy Microbiology
+ANSC 3049 Special Topics in Dairy Foods
+ANSC 8900 Research Procedure
+ANSC 8000 Thesis Research
+ANSC 9000 Dissertation Research
+
+
+
+
+Awards/Grants
+GRANTS (while at LSU): PI  / Co-PI   $ 3,000,000+
+AWARDS: 
+Recipient International Dairy Foods Association Research Award in Dairy Foods Processing by American Dairy Science Association 2014.
+Recipient, Milk Industry Foundation, Teaching Award in Dairy Manufacturing by American Dairy Science Association, 2013.
+Recipient, College of Agriculture Alumni Association Excellence in Teaching Award, LSU COA, 2015.
+Recipient, Sedberry Outstanding Undergraduate Teacher Award, LSU College of Agriculture, 2013.
+Recipient, National Association of Colleges and Teachers of Agriculture (NACTA) Teaching award, LSU COA 2012.
+Recipient, Rogers Research Excellence Award, LSU AgCenter, 2008.
+Recipient, Tipton Team Research Award, LSU AgCenter, 2008.
+Recipient, Teaching Award, Gamma Sigma Delta, LSU Chapter, 2008.
+Recipient, Research Award of Merit, Gamma Sigma Delta, LSU Chapter, 2006.
+Recipient, Tiger Athletic Foundation Award for Outstanding Teacher (Assistant Professor), LSU College of Agriculture, 2007.
+Recipient, Ruska Award for Excellence in Electron Microscopy, Southeastern Microscopic Society, 1997.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2015.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2014.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2013
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2012.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2011.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2010.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2008.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2007.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2006.
+Recipient, Gamma Sigma Delta, Teacher Merit Honor Roll Award, LSU COA, 2005. 
+Diplomate, American College of Animal Food Science, 2012.
+Professional Animal Scientist, American Registry of Professional Animal Scientists (ARPAS), 2011.
+Certified Food Scientist, Institute of Food Technologists (IFT), 2013. 
+Recognized by IFT as the Louisiana Gulf Coast Section IFT Outstanding Volunteer (2007).
+Efforts in leading Louisiana Gulf Coast IFT section in meeting IFT's baseline standards recognized by receiving IFT's Section Certificate of Merit 2007-2008. 
+SERVICE / CONTRIBUTIONS TO PROFESSION:
+ 
+American Dairy Science Association representative to the 3-A Sanitary Standards Inc.  2012-2015 and  2015- 2018. Expert Panel Reviewer, National Science Foundation, 2015.Expert Panel Reviewer, National Science Foundation, 2014.Expert Panel Reviewer, USDA, 2014 (2 different panels).Expert Panel Reviewer, USDA NIFA, 2013. 
+Expert Panel Reviewer, USDA CSREES, 2008. 
+Lead Trainer, USDA FAS, 2014 Cochran Fellows from Bosnia Dairy Foods Safety. 
+Chair, American Dairy Science Association (ADSA),  Dairy Foods Division (DFD), 2006-07.
+Chair, American Dairy Science Association, Dairy Foods Council, 2006-07.
+Vice Chair, ADSA DFD, 2005-06.
+Chair, ADSA, DFD, Graduate Paper Competition (poster presentations), 2009-10.  
+Chair, ADSA DFD, Graduate Paper Competition (oral presentation)  2008-09.
+Vice Chair, ADSA DFD, Graduate Paper Competition, 2007-08.
+Chair, Gulf Coast Section, Institute of Food Technologists, 2007-08.
+Chair-elect, Gulf Coast Section, Institute of Food Technologists, 2006-07.
+ADSA Contemporary and Emerging Issues committee member, 2013-2016.
+Planning committee member of the Educational Program of 3-A Sanitary Standards Inc. 2015 meeting, Milwaukee, WI.
+Associate Editor, Frontiers in Food Science and Technology (Nov 2014 - present)Editorial Board, Journal of Dairy Science, 2003-2009
+Editorial Board, Recent Patents on Food, Nutrition & Agriculture, 2008 - present
+Editorial Board, Advances in Microbiology. 2011 - present
+Editorial Board, International Journal of Health and Nutrition. 2010 - present.
+Editorial Board, Food and Nutrition Sciences. 2012 - present.
+Editorial Board, International Journal of Food Science, 2012 - present.
+Editorial Board, Frontiers in Food Science and Technology, July 2013 - present. 
+Editorial Board, Journal of Food Processing and Beverages, July 2013 - present. 
+Editorial Board, Advances in Microbiology Research, July 2013 - present.
+Editorial Board, International Journal of Microbiology and Advanced Immunology, July 2013 - present.
+Editorial Board, International Journal of Medical Sciences and Biotechnology, July 2013 - present.  
+Editorial Board, Journal of Agricultural Sciences and Applications, July 2013 - present.
+Editorial Board Professional Animal Scientist, July 2013 - present.
+Editorial Board, ChemXpress, 2012 - present.
+Editorial Board, Modern Public Health, 2012 - present.
+Editorial Board, Professional Animal Scientist, July 2013 - present. 
+Ad hoc reviewer of grants 2003 - present.
+Ad hoc reviewer for various journals including, Journal of Dairy Science, Journal of Food Science, International Dairy Journal etc..1994 - present.
+External Examiner of Ph.D. Dissertation from Australia, Victoria University 2013, 2012, 2007 and University of Western Sydney 2008..
+
+
+
+
+Publications/Presentations/Patents
+PRESENTATIONS (At National Scientific Meetings):  Total 95
+SUPERVISOR AND LAB HOST for 8 visiting scholars (2006 - present) including one on an one year Sabbatical (Aug 2009 - Aug 2010).
+MAJOR PROFESSOR of 3 Ph.D. and 12 M.S. students.
+Faculty advisor of 21 undergraduate students for undergraduate research grants (2002 - present). 
+PUBLICATIONS:  
+Vargas L., Olson, D. and Aryana K.J.  2015. Whey protein isolate improves acid tolerance and bile tolerances of Streptococcus thermophilus ST-M5 and Lactobacillus delbrueckii ssp. bulgaricus LB-12. Journal of Dairy Science 98 (4): 2215-2221.Moncada, M., Astete, C., Sabliov, C., Olson D., Boeneke, C. and Aryana K.J. 2015. Nano spray dried sodium chloride and its effects on the microbiological and sensory characteristics of surface salted cheese crackers. Journal of Dairy Science. In Press.O'Brien, K.V., Boeneke, C.A., Stewart, L.K., Forney, L.,  W. Prinyawiwatkul and Aryana K.J.  2015.  The effect of post-exercise consumption of a kefir beverage on performance and recovery during intensive endurance training.  Accepted.  Journal of Dairy Science. 
+Mouton E. and Aryana K.J. 2015. Influence of colostrum on the characteristics of ice cream. Food and Nutrition Sciences.  6: 480-484.Aryana Kayanush J., Greenway Frank L., Dhurandhar Nikhil V., Tulley Richard, Finley John. W., Keenan Michael.J., Martin Roy.J., Pelkman Christine, Danuta Janik, Olson Douglas and Zheng Jolene. 2015. A resistant-starch enriched yogurt: fermentability, sensory characteristics and a pilot study in children.  Accepted.  F1000Research. Song L. and Aryana K.J. 2014.Reconstituted yogurt from yogurt cultured milk powder mix has better overall characteristics than reconstituted yogurt from commercial yogurt powder.  Journal of Dairy Science  97:6007-6015.
+
+Najim N and Aryana K.J. 2013. A mild pulsed electric field condition that improves acid tolerance, growth and protease activity of Lactobacillus acidophilus LA-K and Lactobacillus delbrueckii ssp. bulgaricus LB-12. Journal of Dairy Science 96: 3424-3434.
+
+Abigail Greenbaum and K J. Aryana 2013. Effect of honey a natural sweetener with several medicinal properties on the attributes of a frozen dessert containing the probiotic Lactobacillus acidophilus. Open Journal of Medical Microbiology 3: 95-99. 
+
+Xiang, B., Sundararajan, S., Mis Solval, K., Espinoza, L., Aryana, K.J., and S Sathivel. 2013. Effects of pulsed electric fields on physicochemical properties and microbial inactivation of carrot juice. J. Food Process. & Preserve. DOI: 10.1111/jfpp.12115
+
+Cueva O, and Aryana K.J. 2012. Influence of certain pulsed electric field conditions on the growth of Lactobacillus acidophilus LA-K.   Journal of Microbial and Biochemical Technology 4(7): 137-140
+
+Olson D,W. and K.J. Aryana 2012. Effect of Prebiotics on Lactobacillus acidophilus growth and resulting pH changes in skim milk and a model peptone system.  Journal of Microbial and Biochemical Technology 4(5) : 121-125. 
+
+B. Brignac and K.J. Aryana. 2012. Influence of various antioxidants on the characteristics of plain yogurt. Food and Nutrition Sciences. 3, 1277-1280.
+
+M. Moncada and K. J. Aryana, C.Boeneke. 2012. Effect of mild sonication conditions on the attributes of Lactobacillus delbrueckii ssp. bulgaricus LB-12. Advances in Microbiology. 2: 104-111. 
+
+B. Mena and K. J. Aryana, 2012. Influence of ethanol on probiotic and culture bacteria Lactobacillus bulgaricus and Streptococcus thermophilus within a therapeutic product. Open Journal of Medical Microbiology. 2, 70-76. 
+
+E. Noland and K. J. Aryana. 2012. Influence of micro-encapsulated probiotic Lactobacillus acidophilus R0052 on the characteristics of plain yogurt. Advances in Microbiology. 2, 364-367.
+
+M. Sánchez-Vega, K. J. Aryana. 2012. Influence of medicinal spices on the acid tolerance of a health beneficial bacterium Streptococcus thermophilus ST-M5 Open Journal of Medical Microbiology. 2, 91-94.
+
+Olga Cueva and K J. Aryana 2012. Bile tolerance of Lactobacillus acidophilus LA-K as influenced by various pulsed electric field conditions. Advances in Bioscience and Biotechnology. 3, 620-625.
+
+M. Moncada, K. J. Aryana, Zhimin Xu and C Boeneke (2012). Comparative study of microbial counts and some volatile compounds of whole milk processed by Sonication and High Temperature Short Time (HTST) pasteurization. Milk Science International. 67(4) 432-436.
+
+O. Cueva and K.J. Aryana. 2012. Acid tolerance of Lactobacillus acidophilus LA-K as influenced by various pulsed electric field conditions. Advances in Microbiology. 2, 358-363.
+
+M. Moncada and K. J. Aryana, 2012. "Influence of “Mild” Sonication Conditions on the Characteristics of Streptococcus thermophilus ST-M5," Advances in Microbiology, 2: 8-16.
+
+Rouse, M., Boeneke, C.A., O'Brien, K.J., Aryana, K. 2012 : Effect of oil based and microencapsulated omega-3 fatty acids on physical and chemical properties of processed cheese. Milk Science International. Volume 67 Number 3 pp 267-269.
+Muramalla and K.J. Aryana.2011.Some low homogenization pressures improve certain probiotic characteristics of yogurt culture bacteria and Lactobacillus acidophilus LA-K. Journal of Dairy Science.94: 3725-3738. 
+Boeneke, C. A., Pastorek A. and Aryana, K.J. 2009.Effect of high pressure homogenization on milk.Milk Science International 64(1): 40-42.
+Aryana, K.J. Albers, E and Cueva O., 2008.Colostrum fortified probiotic fat free yogurt.Milk Science International. 63(1): 64-68.
+Aryana, K.J.,D. Olson, A. Greenbaum and C. Boeneke.2008.Quality characteristics of a weight loss ice cream.Milk Science International. 63(2): 182-185.
+Boeneke C. A., K.J. Aryana, D.W. Olson and J.L. Vargas. 2008.Various quality aspects of pasteurized and ultra –pasteurized fluid milk during storage.Milk Science International. 63(4): 394-397.
+Olson D. W. and K. J. Aryana.2008.An excessively high Lactobacillus acidophilus inoculation level in yogurt lowers product quality during storage.LWT, Food Science and Technology.41: 911-918.
+Boeneke C.A. and Aryana, K.J. 2008.Effect of folic acid fortification on the characteristics of lemon yogurt.LWT, Food Science and Technology.41: 1335-1343.
+Cueva O., and Aryana, K.J. 2008.Quality attributes of a heart healthy yogurt.LWT, Food Science and Technology.41: 537-544. 
+Achanta, K., C. A. Boeneke, and Aryana, K.J. 2007. Characteristics of reduced fat milks as influenced by the incorporation of folic acid. Journal of Dairy Science 90:90-98. 
+Aryana K.J., S. Plauche, R.M Rao, P. McGrew and N.P. Shah. 2007. Fat Free Plain Yogurt Manufactured with Inulins of Various Chain Lengths and Lactobacillus acidophilus. Journal of Food Science 72(Nr. 3): M79-84. 
+Achanta, K., Aryana, K.J. and Boeneke, C. A. 2007. Fat free plain set yogurts fortified with various minerals. LWT, Food Science and Technology. 40: 424-429. 
+Aryana K.J., and P. McGrew. 2007. Quality attributes of yogurt with Lactobacillus casei and various prebiotics. LWT Food Science and Technology 40: 1808-1814. 
+Boeneke, C, John U. M., Aryana, K.J. 2007. A dairy-based espresso beverage manufactured using three different coffee bean roasts. Journal of Food Processing and Preservation 31: 1-12. 
+Aryana, K.J. and Beck, M.C. 2007. Properties of low fat Cheddar cheese manufactured with chitosan. Milk Science International. 62(1): 39-43. 
+Aryana, K.J. 2007. Cheddar cheese manufactured with oil high in omega-3-fatty acids. Milk Science International. 62(2):167-170. 
+Aryana, K.J. S. Plauche and Nia T. 2007. Prebiotic and probiotic fat free yoghurt. Milk Science International. 62(3)295-298. 
+Cueva O and Aryana, K.J. 2007. Properties of fat free yoghurt containing immune enhancer. Milk Science International. 62(3): 299-302. 
+Boeneke, C.A. and K. J. Aryana. 2007. Effect of folic acid fortification on characteristics of strawberry yogurt. Journal of Food Technology 5(4): 274-278. 
+Haque Z.U., Kucukoner E and Aryana K J, 2007. Influence of Fat-Replacing Ingredients on Process and Age Induced Soluble Nitrogen Content and Ultrastructure of Lowfat Cheddar Cheese. Food Sci. Technol. Res., 13(4) 338-344. 
+Aryana, K.J. 2007. “Quality characteristics of low fat cheddar cheese manufactured with margarine containing plant stanol ester” Milk Science International. 62(4): 418-421. 
+Aryana K.J., Barnes, H., Emmick T., McGrew P and Moser B. 2006. Lutein is Stable in Strawberry Yogurt and does not affect its characteristics. Journal of Food Science 71(6):S467-S472. 
+Boeneke, C and Aryana, K.J. 2006. Effect of folic acid fortification on the characteristics of yogurt. 2007. Milk Science International. 62(2): 192-195. 
+Aryana, K.J. and Summers, M. 2006. Probiotic, fat free, no sugar added ice-cream. Milk Science International 61(2): 184-187. 
+Boeneke, C, John U. M., Aryana, K.J. 2006. The effect of sweetener on the acceptability of dairy based espresso beverages. International Journal of Dairy Technology, 59 (1): 12-17. 
+Aryana, K.J. 2006. Probiotic, fiber fortified, fat free plain set yoghurt. Milk Science International. 61(3):312-315. 
+Jones, S.T., Aryana, K.J. and Losso, J.N. 2005. Storage stability of lutein during ripening of Cheddar cheese. Journal of Dairy Science 88(5): 1661-1670. 
+Aryana, K.J. and Haque, Z.U. 2005. Texture and microflora of vallagret cheese during maturation. International Journal of Dairy Technology, 58(1): 47-51. 
+Aryana, K.J. and M.C. Henk. 2004. Rapid method of cheese processing for microflora and microstructural studies by electron microscopy. Journal of Rapid Methods and Automation in Microbiology 12 (3): 199-206. 
+Aryana, K.J., C. Boeneke and R. Gough. 2004. Making dairy foods healthier. Louisiana Agriculture, 47(3): 15-17. 
+Aryana K.J. 2004. Microstructure of fat free plain set yogurt containing folic acid. J. Food Sci. Ani. Resour. 24(3): 273-276. 
+Aryana, K.J., A.V.A. Resurreccion, M.S. Chinnan and L.R. Beuchat. 2003. Functionality of palm oil as a stabilizer in peanut butter. Journal of Food Science 68(4): 1301-1307. 
+Aryana, K.J. 2003. Folic acid fortified fat-free plain set yoghurt. International Journal of Dairy Technology, 56(4):219-222. 
+Aryana, K.J., Z.U. Haque and P. Gerard. 2002. Influence of whey protein concentrate on the functionality of egg white and bovine serum albumin. International Journal of Food Science and Technology, 37, 643-652. 
+Aryana, K.J. and Z.U. Haque. 2002. Microstructure and some functional properties of spray dried Cheddar Whey concentrated by ultrafiltration or combination of ultrafiltration and vacuum evaporation. Food Science and Technology research 8(1): 17-20. 
+Haque, Z.U. and Aryana, K.J. 2002. Volatiles in lowfat Cheddar cheese containing commercial fat replacers. Food Science and Technology Research 8(2):188-190. 
+Haque, Z.Z. and Aryana, K.J. 2002. Effect of sweeteners on the microstructure of yogurt. Food Science and Technology Research 8(1): 21-23. 
+Haque, Z.U. and Aryana, K.J. 2002. Effect of copper, iron, zinc and magnesium ions on bovine serum albumin gelation. Food Science and Technology research 8(1): 1-3. 
+Aryana, K.J. and Z.U. Haque. 2001. Effect of commercial fat replacers on the microstructure of low-fat Cheddar cheese. International Journal of Food Science and Technology, 36:169-177. 
+Aryana, K.J. and Z.U. Haque. 2001. Microstructure of Jarlesburg-type and Edam cheeses as influenced by maturation. Journal of Food Quality, 24: 337-350. 
+Aryana, K.J., A.V.A. Resurreccion, M.S. Chinnan and L.R.Beuchat. 2000. Microstructure of peanut butter stabilized with palm oil. Journal of Food Processing and Preservation. 24: 229-41. 
+Kucukoner, E., K. Aryana and Z.U. Haque. 1998. Rheology and microstructure of lowfat (5%) Cheddar cheese containing a fat-like perception enhancer and fat replacers. Food Science and Technology Research 4(3):178-183. 
+Haque, Z.U. E. Kucukoner and K.J. Aryana. 1997. Aging-induced changes in population of Lactococci, Lactobacilli and aerobic microorganisms in low-fat and full-fat Cheddar cheese. Journal of Food Protection, 60(9):1095-1098. 
+Aryana, K.J. and Z.U. Haque. 1997. Effect of maturation on the microstructure of Vallegret cheese. Proceedings of the Annual meeting of the southeastern microscopic society. 19: 26-27. 
+
+Refereed Book Chapters 
+Olson, D.W and Aryana, K.J.2008.Ingredients in Dairy Products. Chapter 8In. Dairy Processing and Quality Assurance. Ed. R. C. Chandan. Global Technologies Inc. MN. 
+Aryana, K.J. 2007.Flavored milks.Chapter 66.In. Handbook of Food Products Manufacturing. Ed. Y. Hui.John Wiley and Sons, NY. 
+
+Other publications (Magazines and Trade Journals) 
+
+T. Muramalla and Aryana, K.J. Enhancing the Probiotic Characteristics of Dairy Culture Bacteria.Louisiana Agriculture, Fall 2013.Pg 28-29. 
+Aryana, K.J. 2011.Probiotic dairy foods.Pages 3-8, Louisiana Dairy Report.Ed. Bruce Jenny, Louisiana State University Agricultural Center. 
+Keenan, M.J. Aryana, K.J. Janes, M.E, Hou, A. Martin, R.J. Tulley, R.T, Greenway F.L. Dhurandhar, N.V. and Zhou J.2008.Gut microflora and our health.Louisiana Agriculture 51(4): 20-21. 
+Aryana, K.J. and Jenny B. 2006.Emerging technologies in fluid milk processing.Louisiana Dairy Report.Ed. Bruce Jenny, Louisiana State University Agricultural Center. 
+Aryana, K.J, Boeneke, C and Gough, R. 2004. Making Dairy Foods Healthier.Louisiana Agriculture.47(3): 15-17. 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{7D96D0FD-388F-425F-B3B0-DBC157A9E803}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					LSU AgCenter
+					101 J. Norman Efferson Hall
+					110 LSU Union Square
+					Baton Rouge, Louisiana 70803-0106225-578-4161
+				
+© Copyright
+					2015
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+

@@ -1,0 +1,262 @@
+
+
+Welcome to Feng Chen's Academic Page
+
+
+
+
+
+
+
+
+
+Feng Chen
+			Assistant Professor
+			Department of Computer Science and Engineering
+                        LSU, School of Electrical Engineering and Computer Science
+			360 Hatcher Hall
+			Baton Rouge, LA 70803
+
+			Email: fchen@csc  
+			Phone: (225) 578-0737  
+			Fax:     (225) 578-1465 
+
+
+
+
+
+
+
+About me
+
+I am an Assistant Professor at Department of Computer Science and Engineering, Louisiana State University. I received my Ph.D. and M.S. degrees at the Department of Computer Science and Engineering, The Ohio State University in 2010 and 2009. I received my M.E. and B.E. degrees at Department of Computer Science and Engineering, Zhejiang University in 2003 and 2000. Before joining Louisiana State University, I was a research scientist with Circuits and Systems Research, Intel Labs. I am a recipient of NSF CAREER Award in 2015.
+Note: I am looking for Ph.D. students with a strong interest in systems research. If you are interested in working with me, please send me email with your recent CV and transcripts.
+
+Awards
+
+Faculty Early Career Development Award (CAREER), NSF, 2015.
+Division Recognition Award, Circuits and Systems Research, Intel Labs, 2013.
+Best Paper Award, ACM 2011 International Conference on Supercomputing, 2011.
+Mike Liu CSE Graduate Research Fellowship Award, Ohio State University, 2010.
+
+
+Teaching
+
+CSC 7103: Advanced Operating Systems (Fall 2015)
+CSC 4103: Operating Systems (Spring 2014, Fall 2014, Spring 2015)
+
+
+Research Interests
+
+Operating systems
+Storage systems (Flash SSDs, Persistent Memory, Cloud Storage)
+Data management in cloud and large-scale distributed storage systems
+
+
+Selected Publications (Full list, Google Scholar Page)
+
+
+
+      Zhonghong Ou, Zhen-Huan Hwang, Antti Ylä-Jääaski, Feng Chen, Ren Wang,
+      "Is Cloud Storage Ready? A Comprehensive Study of IP-based Storage Systems", 
+      to appear in Proceedings of the 8th IEEE/ACM International Conference on Utility and Cloud Computing (UCC'15), Limassol, Cyprus, December 7-10, 2015.
+  
+
+
+Feng Chen,
+      "Integrating Semiconductor Storage into the I/O Stack: A Tale of Three Approaches", 
+      Special issue on Non-volatile Memory Systems for Communications of the Korean Institute of Information Scientists and Engineers, Vol. 33 No. 2, pp. 60-72, February, 2015. [Invited paper]
+  
+
+
+Feng Chen, Michael Mesnier, and Scott Hahn, 
+      "A Protected Block Device for Persistent Memory", 
+      Proceedings of the 30th International Conference on Massive Storage Systems and Technology 
+      (MSST'14), Santa Clara, CA, June 2-6, 2014 (Acceptance Rate 18.5%, 23/124). [Software: PMBD source code]
+  
+
+
+Feng Chen, Michael Mesnier, and Scott Hahn, 
+      "Client-aware Cloud Storage", 
+      Proceedings of the 30th International Conference on Massive Storage Systems and Technology 
+      (MSST'14), Santa Clara, CA, June 2-6, 2014 (Acceptance Rate 18.5%, 23/124).
+  
+
+
+      Tian Luo, Rubao Lee, Michael Mesnier, Feng Chen, and Xiaodong Zhang, 
+      "hStorage-DB: Heterogeneity-aware Data Management to Exploit the Full Capability of Hybrid Storage Systems", 
+      Proceedings of the 38th ACM International Conference on Very Large Databases 
+      (VLDB'12), Istanbul, Turkey, August 27-31, 2012.
+  
+
+
+      Michael Mesnier, Jason Akers, Feng Chen, and Tian Luo, 
+      "Differentiated Storage Services", 
+      Proceedings of the 23rd ACM Symposium on Operating System Principles 
+      (SOSP'11), Cascais, Portugal, October 23-26, 2011.
+  
+
+
+Feng Chen, David Koufaty, and Xiaodong Zhang, 
+      "Hystor: Making the Best Use of Solid State Drives in High Performance Storage Systems", 
+      Proceedings of the 25th ACM International Conference on Supercomputing 
+      (ICS'11), Tucson, Arizona, May 31-June 4, 2011. Awarded Best Paper.
+  
+
+
+Feng Chen, Tian Luo, and Xiaodong Zhang, 
+      "CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives", 
+      Proceedings of the 9th USENIX Conference on File and Storage Technologies 
+      (FAST'11), San Jose, CA, February 15-17, 2011. 
+  
+
+
+Feng Chen, Rubao Lee, and Xiaodong Zhang, 
+      "Essential Roles of Exploiting Internal Parallelism of Flash Memory based Solid State Drives in High-Speed Data Processing", 
+      Proceedings of the 17th International Symposium on High Performance Computer Architecture 
+      (HPCA'11), San Antonio, Texas, February 12-16, 2011.
+  
+
+
+      Rubao Lee, Xiaoning Ding, Feng Chen, Qingda Lu, and Xiaodong Zhang, 
+      "MCC-DB: Minimizing Cache Conflicts in Multi-core Processors for Databases", 
+      Proceedings of the 35th International Conference on Very Large Data Bases 
+      (VLDB'09), Lyon, France, August 24-28, 2009.
+  
+
+
+Feng Chen, David Koufaty, and Xiaodong Zhang, 
+      "Understanding Intrinsic Characteristics and System Implications of Flash Memory based Solid State Drives",  
+      Proceedings of 2009 ACM SIGMETRICS Conference on Measurement and Modeling of Computer Systems 
+      (SIGMETRICS/Performance'09), Seattle, WA, June 15-19, 2009.
+  
+
+
+      Xiaoning Ding, Song Jiang, Feng Chen, Kei Davis, and Xiaodong Zhang, 
+      "DiskSeen: Exploiting Disk Layout and Access History to Enhance I/O Prefetch",
+      Proceedings of 2007 USENIX Annual Technical Conference 
+      (USENIX'07), Santa Clara, CA, June 17-22, 2007.
+  
+
+
+      Song Jiang, Xiaoning Ding, Feng Chen, Enhua Tan, and Xiaodong Zhang, 
+      "DULO: An Effective Buffer Cache Management Scheme to Exploit Both Temporal and Spatial Localities",
+      Proceedings of the 4th USENIX Conference on Files and Storage Technologies 
+      (FAST'05), San Francisco, CA, December 14-16, 2005, pp.101-114.
+  
+
+
+      Song Jiang, Feng Chen, and Xiaodong Zhang, 
+      "CLOCK-Pro: An Effective Improvement of the CLOCK Replacement", 
+      Proceedings of 2005 USENIX Annual Technical Conference
+      (USENIX'05), Anaheim, CA, April 10-15, 2005, pp.323-336. 
+  
+
+
+ Patents
+
+
+Feng Chen and Michael Mesnier,
+	"Write Mechanism for Storage Class Memory", Filed Dec. 30, 2011, Published July 4, 2013.
+  
+
+
+
+      Michael Mesnier, Tian Luo, and Feng Chen,
+	"System and Method for Providing Differentiated Storage Service in a Database", Filed Dec. 29, 2011, Published July 4, 2013.
+  
+
+
+ Software Tools
+
+Persistent memory block driver is now open to the public! 
+
+Download the source code here.
+Here is the PMBD paper and a related talk from Red Hat mentioning PMBD.
+
+
+
+ Research Influence
+
+
+ CLOCK-Pro (USENIX'05) has been adopted in OS and data management systems (See 
+source code in NetBSD, 
+a LinuxMM article, 
+and more details). 
+  
+
+
+
+Hystor (ICS'11) has influenced commercial hybrid storage products, including Apple's Fusion Drive (See a CCC report, and more details). 
+  
+
+
+ Professional Activities
+
+ Program Committee member
+
+ NVMSA'16, MobiMedia'16,  MSST'15, IEEE CLOUD'15, NVMSA'15, SDDCS'15, ICPP'15, IEEE NAS'14, IEEE RTCSA'13.
+ Publicity co-chair of NVMSA'16, NVMSA'15.
+ Session chair of NVMSA'15, MSST'15. 
+
+ Invited researcher to the prestigious Intel Science Talent Search (2012).
+ Member of Association for Computing Machinery (ACM) and IEEE Computer Society.
+ Conference webmaster of ICDCS'08, WWW'08, ICDCS'09.
+
+
+ Peer Review and Referee
+
+Conferences
+
+NVMSA'16, MobiMedia'16, MSST'15, CLOUD'15, NVMSA'15, ICPP'15, SDDCS'15, HPCA'14, FAST'14, SIGMETRICS'14, PACT'14, NAS'14, RTCSA'13, PPoPP'12, ICS'12, NVMW'12, ICDCS'12, ICC'12 NGNI, SC'11, ICC'11 NGNI, IPDPS'11,
+WWW'10, SC'10, Cluster'10, ISCC'10, INFOCOM'09, SC'09, ICDCS'09, SIGMETRICS'08,
+SC'08, INFOCOM'07, ICDCS'07, ICPP'06, ICPADS'06, PLDI'05, ICDCS'05, MSP'05
+
+Journals
+
+ACM Transactions on Storage (TOS), Frontiers of Computer Science (FCS), Journal
+of Low Power Electronics (JOLPE), Journal of System and Software (JSS), Journal
+of System Architecture (JSA), Journal of Computer Science and Technology (JCST),
+Journal of Information Science and Engineering (JISE), Electronics and
+Telecommunications Research Institute Journal (ETRI), IEEE Embedded Systems
+Letters (ESL), IEEE Transactions on Computers (TC), IEEE Transactions on
+Multimedia (MM), IEEE Transactions on Parallel & Distributed Systems (TPDS),
+IEEE Transactions on CAD of Integrated Circuits and Systems (TCAD), 
+IEEE Computer Architecture Letters (CAL),
+ACM Transactions on Embedded Computing Systems (TECS),
+Parallel Computing (PARCO).
+
+
+
+
+ Research Guide
+
+How to be a Winner?
+Writing Technical Articles 
+Collected Advice on Research and Writing
+How to Have a Bad Career in Research/Academia?
+How to Get Your Systems Paper Accepted?   
+
+
+
+Useful Links
+
+The Saurus
+Collins Cobuild
+How to use LaTEX
+C Function Library Reference
+Greatest Papers in Computer Science   
+GDB Cheat Sheet
+
+
+
+var sc_project=1224789; 
+var sc_invisible=1; 
+var sc_partition=10; 
+var sc_security="76693428"; 
+var sc_text=2; 
+
+ 
+
+
+

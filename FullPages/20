@@ -1,0 +1,596 @@
+
+
+
+James Oard - LSU AgCenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-543369-1']);
+				_gaq.push(['_setDomainName', 'lsuagcenter.com']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+   var __CMS_PostbackForm = document.content_aspx;
+   var __CMS_CurrentUrl = "/MCMS/content.aspx?NRMODE=Published&NRORIGINALURL=%2fen%2fcommunications%2fauthors%2fJOard%2ehtm%3fwbc_purpose%3dBasic%26WBCMODE%3dPresentationUnpublished&NRNODEGUID=%7bE8EF7EF7-D8B1-4DCD-BAB5-2EEEE5E16885%7d&NRCACHEHINT=NoModifyLoggedIn";
+   __CMS_PostbackForm.action = __CMS_CurrentUrl;
+// -->
+
+
+
+
+
+<!--
+
+
+   function encodeSideHtml(val) {
+	 var encodedHtml;
+     encodedHtml = escape(val);
+     encodedHtml = encodedHtml.replace(/\//g,"%2F");
+     encodedHtml = encodedHtml.replace(/\?/g,"%3F");
+     encodedHtml = encodedHtml.replace(/=/g,"%3D");
+     encodedHtml = encodedHtml.replace(/&/g,"%26");
+     encodedHtml = encodedHtml.replace(/@/g,"%40");
+     return encodedHtml;
+   } 
+
+
+
+	function invokeSearch() {
+		var selectList = document.content_aspx.searchtype;
+		window.location='/mcms/webtools/search.aspx?q=' + encodeSideHtml(document.content_aspx.txtSearch.value);
+	}	
+function clickclear(thisfield, defaulttext) {
+	Field = thisfield;
+	if (Field.value == defaulttext) {
+		Field.value = "";
+	}
+}
+function clickrecall(thisfield, defaulttext) {
+Field = thisfield;
+	if (Field.value == "") {
+		Field.value = defaulttext;
+	}
+}
+
+//-->
+
+ 
+
+
+
+text version
+
+
+
+
+
+
+
+
+
+
+
+
+Topics
+
+Lawn & Garden
+
+Family & Home
+
+Crops
+
+Livestock
+
+Money & Business
+
+Community
+
+Food & Health
+
+Environment & Natural Resources
+
+Kids, Teens & 4-H
+
+
+
+
+News
+
+Headline News
+Get It Growing
+
+News You Can Use
+Radio
+TV
+News Archive
+
+
+
+
+Publications
+
+Catalog
+
+Louisiana Agriculture Magazine
+
+Management Guides
+Newsletters
+
+Publications for Sale
+What's New
+
+
+
+
+Online Store
+
+Shop
+Store Help
+Your Account
+Your Cart
+
+
+
+Calendar
+
+
+About Us
+
+Vice President and Dean's Office
+
+Extension
+
+Research
+
+College of Agriculture
+Professional Organizations
+
+AgCenter Leads
+
+Job Opportunities
+
+Human Resource Management
+
+
+
+
+Our Offices
+
+Parishes
+
+Research Stations
+
+Departments
+
+College of Agriculture
+Directory
+Regions
+
+
+
+
+ 
+qm_create(1,false,50,50,false,false,false,false,false);
+
+qm_create(1,false,0,500,false,false,false,false,false);
+
+
+
+
+
+
+
+
+
+
+
+LSU AgCenter A-Z
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+TOPICS
+
+
+Lawn & Garden
+
+Commercial Horticulture
+
+Home Gardening
+
+Master Gardener
+
+Multimedia
+
+School Gardens
+
+
+
+Family & Home
+
+Hazards and Threats
+
+Family
+
+Personal Finance
+
+Home
+
+
+
+Crops
+
+Variety Trials & Production Guidelines
+Bioenergy
+
+Citrus
+
+Corn
+
+Cotton
+
+Data & Statistics
+
+Disease Management
+Pasture & Forage
+
+Integrated Pest Management
+
+Irrigation
+
+Nursery Crops
+Master Farmer
+
+Pecans
+
+Precision Agriculture
+Rice
+
+Sorghum
+
+Soybeans
+
+Strawberries
+
+Sugarcane
+
+Sweet Potatoes
+
+Value-Added
+Vegetables
+
+Wheat & Oat
+
+Spray Technology
+Crops Multimedia
+Management Guides
+Weed Management
+Sustainable Agriculture
+Blueberries
+
+Prescribed Burning
+
+
+Livestock
+
+Animal Health
+
+Aquaculture
+
+Beef Cattle
+
+Dairy
+
+Horses
+
+Livestock Show Office
+Pasture & Forage
+
+Poultry
+
+Sheep/Goats
+
+Swine
+
+Data & Statistics
+
+Animal Industry News Update
+Livestock and Horse Shows
+
+
+Money & Business
+
+Farm and Business
+
+Personal Finance
+
+Community Rural Development
+
+Data & Statistics
+
+Ag Disaster: Loss & Recovery
+Multimedia
+
+
+
+Community
+
+Leadership
+
+Disaster Resilient Communities
+Recovery & Assistance
+
+Community Rural Development
+
+Pest Management
+
+Community Gardens
+
+
+Food & Health
+
+Food
+
+Nutrition
+
+Health
+
+Education Resources
+
+Multimedia
+
+
+
+Environment & Natural Resources
+
+Conservation
+
+Fisheries
+
+Forestry
+
+Insects and Relatives
+
+Water Issues
+
+Wildlife
+
+Recovery & Assistance
+
+Louisiana Institute For Biofuels & Bioprocessing
+
+Multimedia
+
+
+
+Kids, Teens & 4-H
+
+4-H Foundation
+
+About 4-H
+
+Calendar
+News
+
+Adults
+
+Camp
+
+Kids
+
+Photos
+Teens
+
+
+
+
+qm_create(2,true,50,50,false,false,false,false,false);
+
+
+
+ServicesApps
+Facebook
+Twitter
+Blogs
+RSS
+Labs
+Calendar
+Facilities
+Weather
+Video
+Audio
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+																					Authors
+
+
+
+
+
+ Home>Communications>Authors>
+
+
+
+	function RedirSearch(id,cn,guid,src,dn,p) {
+		window.location='/MCMS/WebTools/directory/contact_emp.aspx?encid=' + id + '&cn=' + cn + '&guid=' + guid + '&dn=' + dn + '&src=' + src + '&show=' + p;
+	}
+
+
+
+
+
+
+
+
+
+Name: James OardTitle: ProfessorE-mail: Department: Rice Research StationOrganization: LSU AgCenterAddress 1: 1373 Caffey RoadAddress 2: Rayne, LA 70578Phone Number: (337) 788-7531Fax Number: (337) 788-7553
+
+
+
+
+
+Education/TrainingB.S. in Agronomy, Oregon State University, 1975M.S. in Plant Breeding, North Dakota State University, 1978Ph.D. in Plant Pathology, Iowa State University, 1982
+
+Areas of Specialization/ResearchDevelopment of hybrid rice germplasm and varieties for the Louisiana Rice IndustryDevelopment of sheath blight resistant germplasm and parental lines for disease resistance breedingDevelopment and application of DNA molecular markers for selection of elite germplasm and varieties
+
+Professional Experience
+Professor, Louisiana State University 7/02 - presentAssociate Professor, Louisiana State University 7/97 – 6/02Assistant Professor Louisiana State University 7/91 - 6/97Asst. Research Geneticist University of California-Davis 6/89 - 6/91Postdoctoral Researcher University of California- Davis 6/85 - 5/89Postdoctoral Researcher Cornell University 5/83 - 5/85AGRO 1001 Introductory Plant Science (Team taught)AGRO 3013 Summer Crop Production LaboratoryAGRO 7001 Graduate SeminarAGRO 7071 Advanced Plant GeneticsPlant Molecular Biology Journal Club
+Leadership Highlights:
+LSU AgCenter Rice ACE Group Chairman:2006-presentRice Technical Working Group: Panel Moderator -1994, 2004, 2014; Rice Germplasm Committee - 1994-present; Local Arrangement Committee - 2014
+
+Awards/Grants
+American Cyanamid Professorship for Excellence in Plant Biotechnology, Molecular Biology, and Crop Pest Management, 2005-2015
+NSF Postdoctoral Fellowship in Plant Molecular Biology, 1983-1985.
+Co-PI, USDA RiceCAP Grant entitled “A coordinated research, education, and extension project for the application of genomic discoveries to improve rice in the United States”, 2004-208
+
+Publications/Presentations/PatentsJames H. Oard, Dustin L. Harrell, Donald E. Groth, Karen F. Bearb, Lawrence M. White III, and Steven D. Linscombe. 2014. Registration of CL152 rice. J. Plant Registrations (in press). Sha, X.Y., S.D. Linscombe, D.E. Groth, J.H. Oard, D.L. Harrell, L.M. White, C.C. Grimm, S.J. Theunissen and B.J. Henry. 2013. Registration of ‘Jazzman-2’ aromatic long-grain rice. J. of Plant Registrations. 7: 1: 26-30. doi:10.3198/jpr2012.02.0102crc. Liu, G., Jia, Y., McClung, A., Oard, J. H., Lee, F. N., and Correll, J. C. 2013. Confirming QTLs and finding additional loci responsible for resistance to rice sheath blight disease. Plant Dis. 97:113-117. Jia, Y., G. Liu, F. J. Correa-Victoria, A. M. McClung, J. H. Oard, R. J. Bryant, M.H. Jia, J. C. Correll. 2012. Registration of four rice germplasm lines with improved resistance to sheath blight and blast diseases. Journal of Plant Registrations. 6:95-100. Nelson JC, Oard JH, Groth D, Utomo, HS, Jia Y, Liu G, Moldenhauer KAK, Correa-Victoria FJ, Fjellstrom RG, Scheffler B, Prado GA (2012) Sheath-blight resistance QTLs in Japonica rice germplasm. Euphytica 184:23–34. Silva, J., B. Scheffler, Y. Sanabria, C. DeGuzman, D. Galam, A. Farmer, J. Woodward, G. May, J. Oard. 2012. Identification of candidate genes in rice for resistance to sheath blight disease by whole genome sequencing. Theor Appl Genet 124:63-74. Sha, X.Y., S. D. Linscombe, F. Jodari, Q. R. Chu, D. E. Groth, S. B. Blanche, D. L. Harrell, L. M. White, J. H. Oard, M. H. Chen, S. J. Theunissen and B. J. Henry. 2011. Registration of Jazzman rice. J. of Plant Registrations 5: 3: 304-308. Silva, J., Groth, D.E., Moldenhauer, K.A., Oard, J.H. 2011. GGE biplot exploration of resistance to sheath blight disease in doubled-haploid lines of rice. Crop Science. 51:1028–1035. Nelson JC, McClung AM, Fjellstrom RG, Moldenhauer KA, Boza E, Jodari F, Oard JH, Linscombe S, Scheffler BE, Yeater KM. 2011. Mapping QTL main and interaction influences on milling quality in elite US rice germplasm. Theor Appl Genet 122: 291-309. Ordonez, S.A., Silva, J., Oard, J.H. 2010. Association mapping of grain quality and flowering time in elite japonica rice germplasm. J. Cereal Science. 51:337-343. Oard, J.A. Moldenhauer, K., Fjellstrom, B., Nelson, J.C., Scheffler, B., Linscombe, S., Correll, J., Silva, J., May, G.D. 2010. Registration of the MY2 Cypress/LaGrue Rice Recombinant Inbred Line Mapping Population. Journal of Plant Registrations 4: 1-5. Pinson, S.R., Oard, J.H., Groth, D., Miller, R., Jia, M.H., Jia, Y., Fjellstrom, R.G., Mackill, D., Li, Z. 2008. Registration of TIL:455, TIL:514, and TIL:642, three rice germplasm lines containing introgressed sheath blight resistance alleles. Journal of Plant Registrations. 2(3):251-254. Kadaru S, Zhang W, Yadav A, Oard JH. 2008. Development and application of allele-specific PCR assays for imazethapyr resistance in rice (Oryza sativa). Euphytica 160:431–438. Zhang W, Linscombe SD, Oard JH. 2008. Genetic and agronomic analyses of red rice-Clearfield hybrids and their progeny produced from natural and controlled crosses. Euphytica 164: 659-668 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var auid = '{E8EF7EF7-D8B1-4DCD-BAB5-2EEEE5E16885}';
+recent postings
+  Loading...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					LSU AgCenter
+					101 J. Norman Efferson Hall
+					110 LSU Union Square
+					Baton Rouge, Louisiana 70803-0106225-578-4161
+				
+© Copyright
+					2013
+					LSU AgCenter All Rights Reserved
+					
+Privacy
+					| Disclaimer
+					| 
+						EEO | Search | 
+						LSU | Contact Us | 
+
+							Site Map
+
+
+
+
+
+
+LSU AgCenter Bookmark
+
+
+
+
+
