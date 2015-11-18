@@ -48,14 +48,18 @@ def sanitize(text):
     return output
 
 def addterm(aterm, c, url_id, freq):
-    c.execute('INSERT OR IGNORE INTO terms(_term, docs) VALUES("'+aterm+'",0)')
-    c.execute('INSERT INTO term_index(_term, url_id, freq) VALUES("'+aterm+'",'+str(url_id)+ ',' + str(freq) + ')') 
-    c.execute('SELECT docs FROM terms WHERE _term = "' + aterm + '"')
+    c.execute('SELECT id, docs FROM terms WHERE _term = "' + aterm + '"')
     fetched = c.fetchone()
-    val = int(fetched[0])
-    val = val + 1
-    dbgprint (aterm + " SET TO " + str(val))
-    c.execute('UPDATE terms SET docs=' + str(val) + ' WHERE _term = "' + aterm + '"')
+    anid = ""
+    if(fetched is None):
+        c.execute('INSERT INTO terms(_term, docs) VALUES("'+aterm+'",1)')
+        anid = c.lastrowid
+    else:
+        anid = str(fetched[0])
+        dval = str(int(fetched[1]) + 1)
+        c.execute('UPDATE terms SET docs =' + dval + ' WHERE id = '+ anid)
+    c.execute('INSERT INTO term_index(_term_id, url_id, freq) VALUES(' + str(anid) + ','+str(url_id)+','+str(freq)+')')
+
     
     if(DEBUG):
         c.execute('SELECT docs FROM terms WHERE _term = "peterson"')
@@ -78,7 +82,8 @@ def pullTerms(textvals, url_id):
     textlist = map(sanitize, textlist)
     textlist = map(stem, textlist)
     singletextlist = list(set(textlist))
-    singletextlist = filter(len, singletextlist)
+    goodsize = lambda s : len(s) > 0 and len(s) < 40
+    singletextlist = filter(goodsize, singletextlist)
     for term in singletextlist:
         freq = textlist.count(term)
         addterm(term, c, url_id, freq)
@@ -105,9 +110,9 @@ def Clean():
     conn.commit()
     c = conn.cursor()
     c.execute('''CREATE TABLE terms
-                      (_term text primary key, docs integer, idf float)''')
+                      (id integer primary key, _term text, docs integer, idf float)''')
     c.execute('''CREATE TABLE term_index
-                      (_term text, url_id integer, freq integer, FOREIGN KEY(_term) REFERENCES terms(_term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+                      (_term_id integer, url_id integer, freq integer, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
     conn.commit()
     conn.close()
     
@@ -120,16 +125,16 @@ def CrawlPage(url, url_id):
     deferred.addErrback(log.err)
     
 def Setup():
+    conn = makeconn()
+    c = conn.cursor()
     if(not os.path.isfile(DATABASEFILE)):
         dbgprint("SETTING UP!!")
-        conn = makeconn()
-        c = conn.cursor()
         c.execute('''CREATE TABLE urls 
                       (id integer primary key, url text not null, author text, visited bit )''')
         c.execute('''CREATE TABLE terms
-                      (_term text primary key, docs integer, idf float)''')
+                      (id integer primary key, _term text, docs integer, idf float)''')
         c.execute('''CREATE TABLE term_index
-                      (_term text, url_id integer, freq integer, FOREIGN KEY(_term) REFERENCES terms(_term), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+                      (_term_id integer, url_id integer, freq integer, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
         filebase = BaseFileContainer()
         while True:
             tup = filebase.read()
@@ -137,8 +142,22 @@ def Setup():
                 break
             c.execute('INSERT INTO urls (url, author, visited) VALUES ("' + tup[0] + '","' + tup[1] + '", 0)')
     
-        conn.commit()
-        conn.close()
+    else:
+        filebase = BaseFileContainer()
+        while True:
+            vals = filebase.read()
+            if(vals is None):
+                break
+            c.execute('SELECT ID FROM urls WHERE url ="' + vals[0] + '"');
+            fetched = c.fetchone()
+            if( fetched is None):
+                c.execute('INSERT INTO urls (url, author, visited, email) VALUES ("' + vals[0] + '","' + vals[1] + '",0,"'+vals[2]+'")')
+            else:
+                anid = str(fetched[0])
+                c.execute('UPDATE urls SET email = "' + vals[2] + '" WHERE ID = ' + anid)
+
+    conn.commit()
+    conn.close()
 
 def PrimeDeferreds():
     conn = makeconn()
@@ -153,8 +172,9 @@ def PrimeDeferreds():
         urlvalascii = urlval.encode('ascii','ignore')
         dbgprint("Before crawlpage: " + urlvalascii)
         if(not os.path.isfile(PGFOLDER+str(idval))):
-            CrawlPage(urlvalascii, idval)
-            dbgprint("SHOULD NOT BE HERE!")
+            raise Exception('unfound file')
+            #CrawlPage(urlvalascii, idval)
+            #dbgprint("SHOULD NOT BE HERE!")
         else:
             wholefile = ""
             with open(PGFOLDER+str(idval), 'r') as afile:
@@ -182,7 +202,7 @@ if __name__ == "__main__":
     Setup()
     Clean()
     PrimeDeferreds()
-    reactor.callLater(5*60, reactor.stop)
+    reactor.callLater(10*60, reactor.stop)
     reactor.run()
     calcIDF()
     print "Got here"

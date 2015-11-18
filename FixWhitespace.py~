@@ -1,0 +1,23 @@
+import sqlite3
+
+PGFOLDER = '/home/brian/Desktop/gradschool/InfoRetrieval/DataStore/FullPages/'
+DATABASEFILE = '/home/brian/Desktop/gradschool/InfoRetrieval/DataStore/index.db'
+
+conn = sqlite3.connect(DATABASEFILE)
+c = conn.cursor()
+
+c.execute("UPDATE urls SET url = replace(url, '\n', '')")
+c.execute("UPDATE urls SET email = replace(url, '\n', '')")
+
+c.execute("SELECT DISTINCT author FROM urls")
+rows = c.fetchall()
+
+for row in rows:
+    author = row[0]
+    c.execute('SELECT id FROM urls WHERE author = "' + author + '"')
+    copyrows = c.fetchall()
+    if(len(copyrows) > 1):
+        for cval in xrange(1, len(copyrows)):
+            badid = cval[0]
+            fname = PGFOLDER + badid
+            
