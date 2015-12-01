@@ -1,6 +1,6 @@
 
 
-PGFOLDER = '/home/brian/Desktop/gradschool/InfoRetrieval/DataStore/FullPagesTwo/'
+PGFOLDER = '/home/brian/Desktop/gradschool/InfoRetrieval/DataStore/FullPages/'
 DATABASEFILE = '/home/brian/Desktop/gradschool/InfoRetrieval/DataStore/indextwo.db'
 
 DEBUG = True

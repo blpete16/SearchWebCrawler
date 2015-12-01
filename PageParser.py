@@ -47,7 +47,7 @@ def sanitize(text):
             output = output + letter
     return output
 
-def addterm(aterm, c, url_id, freq):
+def addterm(aterm, c, url_id, freq, RImod):
     c.execute('SELECT id, docs FROM terms WHERE _term = "' + aterm + '"')
     fetched = c.fetchone()
     anid = ""
@@ -58,7 +58,7 @@ def addterm(aterm, c, url_id, freq):
         anid = str(fetched[0])
         dval = str(int(fetched[1]) + 1)
         c.execute('UPDATE terms SET docs =' + dval + ' WHERE id = '+ anid)
-    c.execute('INSERT INTO term_index(_term_id, url_id, freq) VALUES(' + str(anid) + ','+str(url_id)+','+str(freq)+')')
+    c.execute('INSERT INTO term_index(_term_id, url_id, freq, RImod) VALUES(' + str(anid) + ','+str(url_id)+','+str(freq)+','+str(RImod)+')')
 
     
     if(DEBUG):
@@ -75,9 +75,32 @@ def dropToFile(url_id, text):
     with open(PGFOLDER + str(url_id), 'w') as outfile:
         outfile.write(text.encode('utf8'))
 
+def findAllInds(toSearch, term):
+	start = 0
+	Rlist=[]
+	while True:
+
+		start = toSearch.find(term, start)
+		if start == -1: 
+			return Rlist
+		Rlist.append(start)
+		start += len(term) 
+
+
+
+def findBestIndex(listOfInds, nearAndAfter):
+	for i in listOfInds:
+		if (i>nearAndAfter):
+			return i
+	return -1
+	
+
 def pullTerms(textvals, url_id):
     conn = makeconn()
     c = conn.cursor()
+    Ind=textvals.find('Research Interest')
+	
+
     textlist = textvals.split()
     textlist = map(sanitize, textlist)
     textlist = map(stem, textlist)
@@ -85,8 +108,19 @@ def pullTerms(textvals, url_id):
     goodsize = lambda s : len(s) > 0 and len(s) < 40
     singletextlist = filter(goodsize, singletextlist)
     for term in singletextlist:
+	
+        RImod=0	
+        if (Ind != -1):
+	    lInd = findAllInds(textvals, term)
+	    oneInd = findBestIndex(lInd, Ind)
+	    v= oneInd-Ind
+            if (v>700 or v<0):	
+		RImod=0
+	    else:
+		RImod=(700.0-v)/700.0
+
         freq = textlist.count(term)
-        addterm(term, c, url_id, freq)
+        addterm(term, c, url_id, freq, RImod)
 
     c.execute("UPDATE urls SET visited = 1 WHERE id = " + str(url_id))
     conn.commit()
@@ -112,7 +146,7 @@ def Clean():
     c.execute('''CREATE TABLE terms
                       (id integer primary key, _term text, docs integer, idf float)''')
     c.execute('''CREATE TABLE term_index
-                      (_term_id integer, url_id integer, freq integer, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+                      (_term_id integer, url_id integer, freq integer, RImod float, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
     conn.commit()
     conn.close()
     
@@ -125,16 +159,18 @@ def CrawlPage(url, url_id):
     deferred.addErrback(log.err)
     
 def Setup():
-    conn = makeconn()
-    c = conn.cursor()
+    conn = None
     if(not os.path.isfile(DATABASEFILE)):
+
+        conn = makeconn()
+        c = conn.cursor()
         dbgprint("SETTING UP!!")
         c.execute('''CREATE TABLE urls 
-                      (id integer primary key, url text not null, author text, visited bit )''')
+                      (id integer primary key, url text not null, author text, email text, visited bit )''')
         c.execute('''CREATE TABLE terms
                       (id integer primary key, _term text, docs integer, idf float)''')
         c.execute('''CREATE TABLE term_index
-                      (_term_id integer, url_id integer, freq integer, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
+                      (_term_id integer, url_id integer, freq integer, RImod float, FOREIGN KEY(_term_id) REFERENCES terms(id), FOREIGN KEY(url_id) REFERENCES urls(id))''')
         filebase = BaseFileContainer()
         while True:
             tup = filebase.read()
@@ -143,6 +179,9 @@ def Setup():
             c.execute('INSERT INTO urls (url, author, visited) VALUES ("' + tup[0] + '","' + tup[1] + '", 0)')
     
     else:
+
+        conn = makeconn()
+        c = conn.cursor()
         filebase = BaseFileContainer()
         while True:
             vals = filebase.read()
@@ -172,8 +211,8 @@ def PrimeDeferreds():
         urlvalascii = urlval.encode('ascii','ignore')
         dbgprint("Before crawlpage: " + urlvalascii)
         if(not os.path.isfile(PGFOLDER+str(idval))):
-            raise Exception('unfound file')
-            #CrawlPage(urlvalascii, idval)
+            #raise Exception('unfound file')
+            CrawlPage(urlvalascii, idval)
             #dbgprint("SHOULD NOT BE HERE!")
         else:
             wholefile = ""
